@@ -1,0 +1,41 @@
+body {
+  background-color: yellow;
+  overflow: hidden;
+  height: 100vh;
+}
+
+* {
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  background-color: salmon;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_container {
+  background-color: greenyellow;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.card_container {
+  background-color: rgba(0, 255, 255, 0.418);
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  background-color: orange;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}/*# sourceMappingURL=index.css.map */
