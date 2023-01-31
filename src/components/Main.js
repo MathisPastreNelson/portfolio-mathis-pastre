@@ -23,20 +23,28 @@ export default function Main() {
                             <h2>Des prestations adaptées à vos besoins</h2>
                         </div>
                         <div className="article">
-                            <h3>Intégration web</h3>
-                            <p>Des intégrations HTML / CSS
-                                respectueuses des standards du Web.</p>
-                            <h3>Dynamisme des pages</h3>
-                            <p>Des animations de contenu non intrusives pour embellir votre projet.</p>
-                            <h3>Référencement naturel</h3>
-                            <p>Affichage sémantique des informations,
-                                des pages propres pour un référencement optimal.</p>
-                            <h3>
-                                Responsive design
-                            </h3>
-                            <p>
-                                Compatible tous supports, tablette & application mobile.
-                            </p>
+                            <div>
+                                <h3>Intégration web</h3>
+                                <p>Des intégrations HTML / CSS
+                                    respectueuses des standards du Web.</p>
+                            </div>
+                            <div>
+                                <h3>Dynamisme des pages</h3>
+                                <p>Des animations de contenu non intrusives pour embellir votre projet.</p>
+                            </div>
+                            <div>
+                                <h3>Référencement naturel</h3>
+                                <p>Affichage sémantique des informations,
+                                    des pages propres pour un référencement optimal.</p>
+                            </div>
+                            <div>
+                                <h3>
+                                    Responsive design
+                                </h3>
+                                <p>
+                                    Compatible tous supports, tablette & application mobile.
+                                </p>
+                            </div>
                         </div>
                     </section>
                 </div>
@@ -58,6 +66,6 @@ export default function Main() {
                     <h3>6</h3>
                 </div>
             </Slider >
-        </div>
+        </div >
     );
 }
