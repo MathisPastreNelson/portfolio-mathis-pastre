@@ -2,8 +2,10 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faEnvelope, faWonSign } from '@fortawesome/free-solid-svg-icons'
 
-export default function Mains() {
+export default function Main() {
     let settings = {
         infinite: true,
         speed: 500,
@@ -15,8 +17,31 @@ export default function Mains() {
         <div className='main_container'>
             <Slider {...settings}>
                 <div className='card_container'>
-                    <h3>1</h3>
+                    <section className="present">
+                        <div className="title">
+                            <h2> Mes services ?</h2>
+                            <h2>Des prestations adaptées à vos besoins</h2>
+                        </div>
+                        <div className="article">
+                            <h3>Intégration web</h3>
+                            <p>Des intégrations HTML / CSS
+                                respectueuses des standards du Web.</p>
+                            <h3>Dynamisme des pages</h3>
+                            <p>Des animations de contenu non intrusives pour embellir votre projet.</p>
+                            <h3>Référencement naturel</h3>
+                            <p>Affichage sémantique des informations,
+                                des pages propres pour un référencement optimal.</p>
+                            <h3>
+                                Responsive design
+                            </h3>
+                            <p>
+                                Compatible tous supports, tablette & application mobile.
+                            </p>
+                        </div>
+                    </section>
                 </div>
+
+
                 <div className='card_container'>
                     <h3>2</h3>
                 </div>

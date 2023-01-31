@@ -1,16 +1,17 @@
 body {
-  background-color: yellow;
   overflow: hidden;
   height: 100vh;
+  background: #1f1f1f;
 }
 
 * {
   text-align: center;
   margin: 0;
+  font-family: "Days One", sans-serif;
 }
 
 header {
-  background-color: salmon;
+  background-color: rgb(250, 128, 114);
   height: 10vh;
   display: flex;
   justify-content: center;
@@ -18,24 +19,95 @@ header {
 }
 
 .main_container {
-  background-color: greenyellow;
   height: 80vh;
   overflow: hidden;
 }
 
 .card_container {
-  background-color: rgba(0, 255, 255, 0.418);
   height: 80vh;
+  vertical-align: middle;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+}
+
+.present {
+  width: 95vw;
+  margin: 5vh auto;
+  height: 70vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border: solid 2px black;
+}
+
+.title {
+  background-image: radial-gradient(circle farthest-side, rgba(252, 234, 187, 0.8901960784), rgba(248, 182, 0, 0.8901960784));
+  border: solid 1px rgba(0, 0, 0, 0.678);
+  border-radius: 20px;
+  box-shadow: 0px 10px rgba(0, 0, 0, 0.15);
+  width: 80%;
+}
+
+.article {
+  border: solid 1px rgba(0, 0, 0, 0.678);
+  border-radius: 20px;
+  background: linear-gradient(-45deg, #ee7752, #975af8, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 15s ease infinite;
+          animation: gradient 15s ease infinite;
+  box-shadow: 0px 10px rgba(0, 0, 0, 0.15);
+  width: 80%;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.present {
+  position: relative;
+  background: rgba(15, 3, 3, 0.705);
+  border-radius: 0% 0% 0% 0%/0% 0% 0% 0%;
+  color: rgb(0, 0, 0);
+  box-shadow: 20px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.4s ease;
+}
+
+.present:hover {
+  border-radius: 0% 0% 50% 50%/0% 0% 5% 5%;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.present > div {
+  padding: 1rem;
 }
 
 footer {
-  background-color: orange;
+  background-color: rgb(250, 128, 114);
   height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+  flex-direction: column;
 }/*# sourceMappingURL=index.css.map */
