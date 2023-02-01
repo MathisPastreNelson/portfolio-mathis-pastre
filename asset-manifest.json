@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/portefolio-mathis-pastre/static/css/main.625fd6e8.css",
-    "main.js": "/portefolio-mathis-pastre/static/js/main.58385ffc.js",
+    "main.css": "/portefolio-mathis-pastre/static/css/main.de559349.css",
+    "main.js": "/portefolio-mathis-pastre/static/js/main.998d2b07.js",
     "static/js/787.8f6cd68f.chunk.js": "/portefolio-mathis-pastre/static/js/787.8f6cd68f.chunk.js",
+    "static/media/bg-computer2.png": "/portefolio-mathis-pastre/static/media/bg-computer2.ccc78a15814050ddc2e7.png",
     "static/media/slick.svg": "/portefolio-mathis-pastre/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/portefolio-mathis-pastre/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/portefolio-mathis-pastre/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portefolio-mathis-pastre/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portefolio-mathis-pastre/index.html",
-    "main.625fd6e8.css.map": "/portefolio-mathis-pastre/static/css/main.625fd6e8.css.map",
-    "main.58385ffc.js.map": "/portefolio-mathis-pastre/static/js/main.58385ffc.js.map",
+    "main.de559349.css.map": "/portefolio-mathis-pastre/static/css/main.de559349.css.map",
+    "main.998d2b07.js.map": "/portefolio-mathis-pastre/static/js/main.998d2b07.js.map",
     "787.8f6cd68f.chunk.js.map": "/portefolio-mathis-pastre/static/js/787.8f6cd68f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.625fd6e8.css",
-    "static/js/main.58385ffc.js"
+    "static/css/main.de559349.css",
+    "static/js/main.998d2b07.js"
   ]
 }
