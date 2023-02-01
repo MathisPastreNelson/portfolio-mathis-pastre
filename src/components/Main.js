@@ -5,6 +5,8 @@ import "slick-carousel/slick/slick-theme.css";
 import { Carousel } from 'antd';
 import { MobileOutlined, RiseOutlined, LoadingOutlined, DropboxOutlined } from '@ant-design/icons';
 
+import bgimage from "../assets/bg-computer2.png"
+
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faEnvelope, faWonSign } from '@fortawesome/free-solid-svg-icons'
 
@@ -18,6 +20,11 @@ export default function Main() {
                         <div className="title">
                             <h2> Mes services ?</h2>
                             <h2>Des prestations adaptées à vos besoins</h2>
+                            {window.innerWidth > 668 ?
+                                <div className="container-img">
+                                    <img className='photoPresent' src={bgimage} alt="Logo" />
+                                </div>
+                                : ""}
                         </div>
                         <div className="article">
                             <div>
