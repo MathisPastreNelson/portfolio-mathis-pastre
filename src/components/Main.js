@@ -73,19 +73,22 @@ export default function Main() {
                             </div>
                         </div>
 
-                        <div className="article">
+                        <div className="article bgBackground2">
                             <div className='icons_container'>
                                 <div>
-                                    <Html5Outlined className="skillIcons" />
-                                    <FaCss3Alt className="skillIcons" />
-                                    <FaJs className="skillIcons" />
-                                    <FaPhp className="skillIcons" />
+                                    <Html5Outlined className="skillIcons htmlIcon bgIcon" />
+                                    <FaCss3Alt className="skillIcons cssIcon bgIcon" />
+                                    <FaJs className="skillIcons jsIcon bgIcon" />
+                                    <FaPhp className="skillIcons phpIcon bgIcon" />
                                 </div>
                                 <div>
-                                    <FaReact className="skillIcons" />
-                                    <FaSass className="skillIcons" />
-                                    <FaBootstrap className="skillIcons" />
-                                    <FaWordpress className="skillIcons" />
+                                    <FaReact className="skillIcons reactIcon bgIcon" />
+                                </div>
+                                <div>
+                                    <FaAngular className="skillIcons angularIcon bgIcon" />
+                                    <FaSass className="skillIcons sassIcon bgIcon" />
+                                    <FaBootstrap className="skillIcons bsIcon bgIcon" />
+                                    <FaWordpress className="skillIcons wpIcon bgIcon" />
                                 </div>
                             </div>
                         </div>
