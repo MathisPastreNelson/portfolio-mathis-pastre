@@ -3,7 +3,8 @@ import { useState } from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Carousel } from 'antd';
-import { MobileOutlined, RiseOutlined, LoadingOutlined, DropboxOutlined, CodeOutlined } from '@ant-design/icons';
+import { FloatButton } from 'antd';
+import { MobileOutlined, RiseOutlined, LoadingOutlined, DropboxOutlined, CodeOutlined, CaretRightOutlined, PauseOutlined } from '@ant-design/icons';
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faEnvelope, faWonSign } from '@fortawesome/free-solid-svg-icons'
@@ -70,11 +71,13 @@ export default function Main() {
                 <div>
                     <h1 style={{ color: "white", lineHeight: "300px" }}>Slide 4</h1>
                 </div>
-
             </Carousel >
-            <button className='buttonPlay' onClick={() => setAutoplay(!autoplay)}>
-                Défilement automatique  {autoplay ? "Off" : "On"}
-            </button>
+            {
+                autoplay === true ?
+                    <FloatButton icon={<PauseOutlined />} type="primary" onClick={() => setAutoplay(!autoplay)} /> :
+                    <FloatButton icon={<CaretRightOutlined />} type="primary" onClick={() => setAutoplay(!autoplay)} />
+            }
+
         </div>
     )
 
