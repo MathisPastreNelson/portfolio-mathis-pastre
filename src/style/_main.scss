@@ -23,39 +23,48 @@
 }
 
 .title {
-    background: linear-gradient(-45deg, #e9c9bfa1, #975af8a2, #23a5d59c, #23d5ab98);
-    background-size: 400% 400%;
-    animation: gradient 2s ease infinite;
+    background: linear-gradient(rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.329)),
+        url("../assets/bg-computer2.png");
+    background-size: cover;
     border: solid 1px rgba(0, 0, 0, 0.822);
     border-radius: 10px;
-    box-shadow: 0px 10px rgba(0, 0, 0, .15);
+    box-shadow: 0px 10px rgba(0, 0, 0, 0.055);
     width: 80%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: ease-in-out 300ms;
+    overflow: hidden;
 }
+
+
+.title>div {
+    background-color: rgba(255, 255, 255, 0.438);
+    border: solid 1px rgba(0, 0, 0, 0.822);
+    width: 50%;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: 300ms ease-in-out;
+}
+
+.title:hover>div {
+    transform: scale(1.05);
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px rgb(0, 0, 0);
+}
+
+
 
 h2 {
     font-size: 18px;
-    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.418),
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.171),
         0px -5px 35px rgba(255, 255, 255, 0.3);
 }
 
-.container-img {
-    display: block;
-    overflow: hidden;
-    border: solid 1px rgba(0, 0, 0, 0.822);
-    width: 100%;
-    border-radius: 5px;
-}
 
-.container-img img {
-    width: 100%;
-    height: 100%;
-    transition: ease-in-out 300ms;
-}
-
-.container-img:hover img {
-    transform: rotate(5deg) scale(1.4);
-    filter: blur(10px);
-}
 
 
 
@@ -71,9 +80,9 @@ div>p {
 .article {
     border: solid 1px rgba(0, 0, 0, 0.822);
     border-radius: 10px;
-    background: linear-gradient(-45deg, #e9c9bfa1, #975af8a2, #23a5d59c, #23d5ab98);
-    background-size: 400% 400%;
-    animation: gradient 2s ease infinite;
+    background: linear-gradient(rgba(255, 255, 255, 0.418), rgba(255, 255, 255, 0.329)),
+        url("../assets/bg-general.jpg");
+    background-size: cover;
     box-shadow: 0px 10px rgba(0, 0, 0, .15);
     width: 80%;
     display: flex;
@@ -84,49 +93,23 @@ div>p {
 
 .article>div {
     margin: 3px;
-    background: linear-gradient(-45deg, salmon, #f09abb, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 5s ease infinite;
-    width: 100%;
+    background-color: rgba(255, 255, 255, 0.774);
+    width: 95%;
     border-radius: 10px;
     border: solid 1px rgba(0, 0, 0, 0.822);
     transition: 300ms;
     cursor: not-allowed;
 }
 
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
-}
 
 .article>div:hover {
-    background-image: radial-gradient(circle farthest-side, #fceabbbd, #e8f800b4);
-    transform: scale(1, 1.05);
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px rgb(0, 0, 0);
 }
 
 
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
 
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
-}
 
 .buttonPlay {
     background-image: radial-gradient(circle farthest-side, #fceabbbd, #f4ff5e);
@@ -138,21 +121,20 @@ div>p {
     animation-iteration-count: infinite;
     animation-fill-mode: none;
     animation-play-state: running;
+    cursor: pointer;
 }
 
 @keyframes stretch {
     0% {
         transform: scale(1);
-        background-color: red;
     }
 
     50% {
-        background-color: orange;
+        transform: scale(1.010, 1);
     }
 
     100% {
-        transform: scale(1.05, 1);
-        background-color: yellow;
+        transform: scale(1.020, 1);
     }
 }
 
@@ -184,5 +166,10 @@ div>p {
 
     .title {
         width: 90%;
+        height: 11vh;
+    }
+
+    .title>div {
+        width: 85%;
     }
 }

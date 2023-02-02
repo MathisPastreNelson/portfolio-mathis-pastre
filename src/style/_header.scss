@@ -3,7 +3,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    background: rgb(9, 0, 15);
+    background: linear-gradient(90deg, rgba(9, 0, 15, 1) 0%, rgba(0, 0, 0, 0.7903536414565826) 100%);
     color: white;
 }
 

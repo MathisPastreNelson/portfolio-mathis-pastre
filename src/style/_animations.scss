@@ -1,9 +1,9 @@
 .present {
     position: relative;
-    background: rgba(15, 3, 3, 0.705);
-    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
+    background: rgba(15, 3, 3, 0.774);
+    border-radius: 0% 0% 25% 25% / 0% 0% 5% 5%;
     color: rgb(0, 0, 0);
-    box-shadow: 10px 10px rgba(0, 0, 0, .15);
+    box-shadow: 15px 15px rgba(0, 0, 0, 0.267);
     transition: all .4s ease;
 
 }
@@ -19,7 +19,7 @@
 
 @media (max-width: 576px) {
     .present:hover {
-        border-radius: 0% 0% 25% 25% / 0% 0% 5% 5%;
+        border-radius: 0% 0% 15% 15% / 0% 0% 1% 1%;
         box-shadow: 5px 5px rgba(0, 0, 0, .25);
     }
 }

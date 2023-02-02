@@ -3,9 +3,7 @@ import { useState } from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Carousel } from 'antd';
-import { MobileOutlined, RiseOutlined, LoadingOutlined, DropboxOutlined } from '@ant-design/icons';
-
-import bgimage from "../assets/bg-computer2.png"
+import { MobileOutlined, RiseOutlined, LoadingOutlined, DropboxOutlined, CodeOutlined } from '@ant-design/icons';
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faEnvelope, faWonSign } from '@fortawesome/free-solid-svg-icons'
@@ -18,21 +16,26 @@ export default function Main() {
                 <div>
                     <section className="present">
                         <div className="title">
-                            <h2> Mes services ?</h2>
-                            <h2>Des prestations adaptées à vos besoins</h2>
-                            {window.innerWidth > 668 ?
-                                <div className="container-img">
-                                    <img className='photoPresent' src={bgimage} alt="Logo" />
-                                </div>
-                                : ""}
+                            <div>
+                                <h2> Mes services ?</h2>
+                                <h2>Des prestations adaptées à vos besoins</h2>
+                            </div>
                         </div>
+
                         <div className="article">
                             <div>
                                 <h3>
                                     <DropboxOutlined /> Intégration web
                                 </h3>
-                                <p>Des intégrations HTML / CSS
+                                <p>Des intégrations HTML / CSS / JAVASCRIPT
                                     respectueuses des standards du Web.</p>
+                            </div>
+                            <div>
+                                <h3>
+                                    <CodeOutlined /> Développement sur mesure </h3>
+                                <p>
+                                    Des sites web développés sur mesure pour répondre aux besoins spécifiques de chaque client.
+                                </p>
                             </div>
                             <div>
                                 <h3>
@@ -50,14 +53,6 @@ export default function Main() {
                             <div>
                                 <h3>
                                     <MobileOutlined /> Responsive design
-                                </h3>
-                                <p>
-                                    Compatible tous supports, tablette & application mobile.
-                                </p>
-                            </div>
-                            <div>
-                                <h3>
-                                    <MobileOutlined /> Développement récent
                                 </h3>
                                 <p>
                                     Compatible tous supports, tablette & application mobile.
