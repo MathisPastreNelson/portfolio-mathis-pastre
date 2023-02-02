@@ -22,9 +22,17 @@
     border: solid 1px rgba(0, 0, 0, 0.822);
 }
 
-.title {
+.bgBanner1 {
     background: linear-gradient(rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.329)),
         url("../assets/bg-computer2.png");
+}
+
+.bgBanner2 {
+    background: linear-gradient(rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.329)),
+        url("../assets/bg_computer.png");
+}
+
+.title {
     background-size: cover;
     border: solid 1px rgba(0, 0, 0, 0.822);
     border-radius: 10px;
@@ -77,12 +85,18 @@ div>p {
     font-size: 12px;
 }
 
-.article {
-    border: solid 1px rgba(0, 0, 0, 0.822);
-    border-radius: 10px;
+.services_bg {
     background: linear-gradient(rgba(255, 255, 255, 0.418), rgba(255, 255, 255, 0.329)),
         url("../assets/bg-general.jpg");
     background-size: cover;
+    cursor: not-allowed;
+}
+
+
+
+.article {
+    border: solid 1px rgba(0, 0, 0, 0.822);
+    border-radius: 10px;
     box-shadow: 0px 10px rgba(0, 0, 0, .15);
     width: 80%;
     display: flex;
@@ -98,11 +112,10 @@ div>p {
     border-radius: 10px;
     border: solid 1px rgba(0, 0, 0, 0.822);
     transition: 300ms;
-    cursor: not-allowed;
 }
 
 
-.article>div:hover {
+.article>.titleArticle:hover {
     background-color: black;
     color: white;
     box-shadow: 0px 0px rgb(0, 0, 0);
@@ -110,33 +123,6 @@ div>p {
 
 
 
-
-.buttonPlay {
-    background-image: radial-gradient(circle farthest-side, #fceabbbd, #f4ff5e);
-    animation-name: stretch;
-    animation-duration: 400ms;
-    animation-timing-function: ease-out;
-    animation-delay: 0;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    cursor: pointer;
-}
-
-@keyframes stretch {
-    0% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(1.010, 1);
-    }
-
-    100% {
-        transform: scale(1.020, 1);
-    }
-}
 
 @media (max-width: 576px) {
     .present {
@@ -171,5 +157,35 @@ div>p {
 
     .title>div {
         width: 85%;
+    }
+}
+
+// Mes compétences
+
+.skillIcons {
+    font-size: 100px;
+}
+
+.icons_container {
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons_container>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons_container>div>* {
+    margin: 2% 2vh;
+}
+
+@media (max-width: 576px) {
+    .skillIcons {
+        font-size: 40px;
     }
 }

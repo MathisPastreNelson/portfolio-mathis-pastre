@@ -4,7 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Carousel } from 'antd';
 import { FloatButton } from 'antd';
-import { MobileOutlined, RiseOutlined, LoadingOutlined, DropboxOutlined, CodeOutlined, CaretRightOutlined, PauseOutlined } from '@ant-design/icons';
+import { FaJs, FaPhp, FaCss3Alt, FaReact, FaSass, FaBootstrap, FaWordpress, FaAngular } from 'react-icons/fa';
+import { MobileOutlined, RiseOutlined, LoadingOutlined, DropboxOutlined, CodeOutlined, CaretRightOutlined, PauseOutlined, Html5Outlined } from '@ant-design/icons';
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faEnvelope, faWonSign } from '@fortawesome/free-solid-svg-icons'
@@ -16,42 +17,42 @@ export default function Main() {
             <Carousel autoplay={autoplay}>
                 <div>
                     <section className="present">
-                        <div className="title">
+                        <div className="title bgBanner1">
                             <div>
                                 <h2> Mes services ?</h2>
                                 <h2>Des prestations adaptées à vos besoins</h2>
                             </div>
                         </div>
 
-                        <div className="article">
-                            <div>
+                        <div className="article services_bg">
+                            <div className="titleArticle">
                                 <h3>
                                     <DropboxOutlined /> Intégration web
                                 </h3>
                                 <p>Des intégrations HTML / CSS / JAVASCRIPT
                                     respectueuses des standards du Web.</p>
                             </div>
-                            <div>
+                            <div className="titleArticle">
                                 <h3>
                                     <CodeOutlined /> Développement sur mesure </h3>
                                 <p>
                                     Des sites web développés sur mesure pour répondre aux besoins spécifiques de chaque client.
                                 </p>
                             </div>
-                            <div>
+                            <div className="titleArticle">
                                 <h3>
                                     <LoadingOutlined /> Dynamisme des pages
                                 </h3>
                                 <p>Des animations de contenu non intrusives pour embellir votre projet.</p>
                             </div>
-                            <div>
+                            <div className="titleArticle">
                                 <h3>
                                     <RiseOutlined /> Référencement naturel
                                 </h3>
                                 <p>Affichage sémantique des informations,
                                     des pages propres pour un référencement optimal.</p>
                             </div>
-                            <div>
+                            <div className="titleArticle">
                                 <h3>
                                     <MobileOutlined /> Responsive design
                                 </h3>
@@ -62,15 +63,35 @@ export default function Main() {
                         </div>
                     </section>
                 </div>
+                {/* Slide 2 */}
                 <div>
-                    <h1 style={{ color: "white", lineHeight: "300px" }}>Slide 2</h1>
+                    <section className="present">
+                        <div className="title bgBanner2">
+                            <div>
+                                <h2>Mes compétences</h2>
+                                <h2>Mes connaissances et acquis professionnels</h2>
+                            </div>
+                        </div>
+
+                        <div className="article">
+                            <div className='icons_container'>
+                                <div>
+                                    <Html5Outlined className="skillIcons" />
+                                    <FaCss3Alt className="skillIcons" />
+                                    <FaJs className="skillIcons" />
+                                    <FaPhp className="skillIcons" />
+                                </div>
+                                <div>
+                                    <FaReact className="skillIcons" />
+                                    <FaSass className="skillIcons" />
+                                    <FaBootstrap className="skillIcons" />
+                                    <FaWordpress className="skillIcons" />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
-                <div>
-                    <h1 style={{ color: "white", lineHeight: "300px" }}>Slide 3</h1>
-                </div>
-                <div>
-                    <h1 style={{ color: "white", lineHeight: "300px" }}>Slide 4</h1>
-                </div>
+
             </Carousel >
             {
                 autoplay === true ?
