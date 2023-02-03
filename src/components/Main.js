@@ -4,8 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Carousel } from 'antd';
 import { FloatButton } from 'antd';
-import { FaJs, FaPhp, FaCss3Alt, FaReact, FaSass, FaBootstrap, FaWordpress, FaAngular } from 'react-icons/fa';
-import { MobileOutlined, RiseOutlined, LoadingOutlined, DropboxOutlined, CodeOutlined, CaretRightOutlined, PauseOutlined, Html5Outlined } from '@ant-design/icons';
+import { FaJs, FaPhp, FaCss3Alt, FaReact, FaSass, FaBootstrap, FaWordpress, FaHtml5, FaNetworkWired } from 'react-icons/fa';
+import { MobileOutlined, RiseOutlined, LoadingOutlined, DropboxOutlined, CodeOutlined, CaretRightOutlined, PauseOutlined } from '@ant-design/icons';
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faEnvelope, faWonSign } from '@fortawesome/free-solid-svg-icons'
@@ -24,7 +24,7 @@ export default function Main() {
                             </div>
                         </div>
 
-                        <div className="article services_bg">
+                        <div className="article services_bg flexCenter">
                             <div className="titleArticle">
                                 <h3>
                                     <DropboxOutlined /> Intégration web
@@ -75,20 +75,52 @@ export default function Main() {
 
                         <div className="article bgBackground2">
                             <div className='icons_container'>
+
                                 <div>
-                                    <Html5Outlined className="skillIcons htmlIcon bgIcon" />
-                                    <FaCss3Alt className="skillIcons cssIcon bgIcon" />
-                                    <FaJs className="skillIcons jsIcon bgIcon" />
-                                    <FaPhp className="skillIcons phpIcon bgIcon" />
+
+                                    <div className="iconAnimation">
+                                        <FaHtml5 className="skillIcons htmlIcon bgIcon" />
+                                        <div className="tooltip">HTML</div>
+                                    </div>
+                                    <div className="iconAnimation">
+                                        <FaCss3Alt className="skillIcons cssIcon bgIcon" />
+                                        <div className="tooltip">CSS</div>
+                                    </div>
+                                    <div className="iconAnimation">
+                                        <FaJs className="skillIcons jsIcon bgIcon" />
+                                        <div className="tooltip">JS</div>
+                                    </div>
                                 </div>
                                 <div>
-                                    <FaReact className="skillIcons reactIcon bgIcon" />
+
+                                    <div className="iconAnimation">
+                                        <FaPhp className="skillIcons phpIcon bgIcon" />
+                                        <div className="tooltip">PHP</div>
+                                    </div>
+
+                                    <div className="iconAnimation">
+                                        <FaReact className="skillIcons reactIcon bgIcon" />
+                                        <div className="tooltip">React</div>
+                                    </div>
+                                    <div className="iconAnimation">
+                                        <FaSass className="skillIcons sassIcon bgIcon" />
+                                        <div className="tooltip">Sass</div>
+                                    </div>
                                 </div>
                                 <div>
-                                    <FaAngular className="skillIcons angularIcon bgIcon" />
-                                    <FaSass className="skillIcons sassIcon bgIcon" />
-                                    <FaBootstrap className="skillIcons bsIcon bgIcon" />
-                                    <FaWordpress className="skillIcons wpIcon bgIcon" />
+
+                                    <div className="iconAnimation">
+                                        <FaBootstrap className="skillIcons bsIcon bgIcon" />
+                                        <div className="tooltip">Bootstrap</div>
+                                    </div>
+                                    <div className="iconAnimation">
+                                        <FaWordpress className="skillIcons wpIcon bgIcon" />
+                                        <div className="tooltip">WordPress</div>
+                                    </div>
+                                    <div className="iconAnimation">
+                                        <FaNetworkWired className="apiIcon wpIcon bgIcon" />
+                                        <div className="tooltip">API</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +134,7 @@ export default function Main() {
                     <FloatButton icon={<CaretRightOutlined />} type="primary" onClick={() => setAutoplay(!autoplay)} />
             }
 
-        </div>
+        </div >
     )
 
 }

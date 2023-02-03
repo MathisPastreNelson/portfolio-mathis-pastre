@@ -110,11 +110,14 @@ div>p {
     border-radius: 10px;
     box-shadow: 0px 10px rgba(0, 0, 0, .15);
     width: 80%;
+    height: 40vh;
+}
+
+.flexCenter {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    height: 40vh;
 }
 
 .article>.titleArticle {
