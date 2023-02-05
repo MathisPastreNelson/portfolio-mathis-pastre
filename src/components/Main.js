@@ -6,6 +6,7 @@ import { Carousel } from 'antd';
 import { FloatButton } from 'antd';
 import { FaJs, FaPhp, FaCss3Alt, FaReact, FaSass, FaBootstrap, FaWordpress, FaHtml5, FaNetworkWired } from 'react-icons/fa';
 import { MobileOutlined, RiseOutlined, LoadingOutlined, DropboxOutlined, CodeOutlined, CaretRightOutlined, PauseOutlined } from '@ant-design/icons';
+import bookio from "../assets/bookio.png"
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faEnvelope, faWonSign } from '@fortawesome/free-solid-svg-icons'
@@ -78,9 +79,75 @@ export default function Main() {
 
                                 <div>
 
-                                    <div className="iconAnimation">
+                                    <div className="iconAnimation iconBloc">
                                         <FaHtml5 className="skillIcons htmlIcon bgIcon" />
                                         <div className="tooltip">HTML</div>
+                                    </div>
+                                    <div className="iconAnimation iconBloc">
+                                        <FaCss3Alt className="skillIcons cssIcon bgIcon" />
+                                        <div className="tooltip">CSS</div>
+                                    </div>
+                                    <div className="iconAnimation iconBloc">
+                                        <FaJs className="skillIcons jsIcon bgIcon" />
+                                        <div className="tooltip">JS</div>
+                                    </div>
+                                </div>
+                                <div>
+
+                                    <div className="iconAnimation iconBloc">
+                                        <FaPhp className="skillIcons phpIcon bgIcon" />
+                                        <div className="tooltip">PHP</div>
+                                    </div>
+
+                                    <div className="iconAnimation iconBloc">
+                                        <FaReact className="skillIcons reactIcon bgIcon" />
+                                        <div className="tooltip">React</div>
+                                    </div>
+                                    <div className="iconAnimation iconBloc">
+                                        <FaSass className="skillIcons sassIcon bgIcon" />
+                                        <div className="tooltip">Sass</div>
+                                    </div>
+                                </div>
+                                <div>
+
+                                    <div className="iconAnimation iconBloc">
+                                        <FaBootstrap className="skillIcons bsIcon bgIcon" />
+                                        <div className="tooltip">Bootstrap</div>
+                                    </div>
+                                    <div className="iconAnimation iconBloc">
+                                        <FaWordpress className="skillIcons wpIcon bgIcon" />
+                                        <div className="tooltip">WordPress</div>
+                                    </div>
+                                    <div className="iconAnimation iconBloc">
+                                        <FaNetworkWired className="apiIcon wpIcon bgIcon" />
+                                        <div className="tooltip">API</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                {/* Slide 3 */}
+                <div>
+                    <section className="present">
+                        <div className="title bgBanner2">
+                            <div>
+                                <h2>Mes projets</h2>
+                                <h2>Une partie des projets sur lesquels j'ai travaillé</h2>
+                            </div>
+                        </div>
+
+                        <div className="article bgBackground2">
+                            <div className='icons_container'>
+
+                                <div>
+
+                                    <div className="iconAnimation">
+                                        <h3>Bookio</h3>
+                                        <div className="tooltip">
+                                            <p>Création d'un site web d'hébergement pour vacance.</p>
+                                            <img className='img_project' src={bookio} alt="" srcset="" />
+                                        </div>
                                     </div>
                                     <div className="iconAnimation">
                                         <FaCss3Alt className="skillIcons cssIcon bgIcon" />

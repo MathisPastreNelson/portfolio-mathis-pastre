@@ -252,10 +252,12 @@ div > p {
 }
 
 /* Icone individuel */
+.iconBloc {
+  width: 90px;
+}
+
 .bgIcon {
   background-color: rgba(0, 0, 0, 0.87);
-  width: 50px;
-  height: 50px;
   border: solid rgba(255, 255, 255, 0.575) 2px;
   border-radius: 10%;
   font-size: 48px;
@@ -270,7 +272,6 @@ div > p {
   flex-direction: column;
   border: 1px solid rgba(0, 0, 0, 0.651);
   border-radius: 10px;
-  width: 90px;
 }
 
 .iconAnimation:hover {
@@ -324,6 +325,11 @@ div > p {
 
 .tooltip {
   display: none;
+}
+
+.img_project {
+  width: 90%;
+  margin: auto;
 }
 
 footer {
