@@ -136,61 +136,18 @@ export default function Main() {
                                 <h2>Une partie des projets sur lesquels j'ai travaillé</h2>
                             </div>
                         </div>
+                        <div className="article bgBackground3 flexCenter">
+                            <div className="titleArticle">
 
-                        <div className="article bgBackground2">
-                            <div className='icons_container'>
-
-                                <div>
-
-                                    <div className="iconAnimation">
-                                        <h3>Bookio</h3>
-                                        <div className="tooltip">
-                                            <p>Création d'un site web d'hébergement pour vacance.</p>
-                                            <img className='img_project' src={bookio} alt="" srcset="" />
-                                        </div>
-                                    </div>
-                                    <div className="iconAnimation">
-                                        <FaCss3Alt className="skillIcons cssIcon bgIcon" />
-                                        <div className="tooltip">CSS</div>
-                                    </div>
-                                    <div className="iconAnimation">
-                                        <FaJs className="skillIcons jsIcon bgIcon" />
-                                        <div className="tooltip">JS</div>
-                                    </div>
-                                </div>
-                                <div>
-
-                                    <div className="iconAnimation">
-                                        <FaPhp className="skillIcons phpIcon bgIcon" />
-                                        <div className="tooltip">PHP</div>
-                                    </div>
-
-                                    <div className="iconAnimation">
-                                        <FaReact className="skillIcons reactIcon bgIcon" />
-                                        <div className="tooltip">React</div>
-                                    </div>
-                                    <div className="iconAnimation">
-                                        <FaSass className="skillIcons sassIcon bgIcon" />
-                                        <div className="tooltip">Sass</div>
-                                    </div>
-                                </div>
-                                <div>
-
-                                    <div className="iconAnimation">
-                                        <FaBootstrap className="skillIcons bsIcon bgIcon" />
-                                        <div className="tooltip">Bootstrap</div>
-                                    </div>
-                                    <div className="iconAnimation">
-                                        <FaWordpress className="skillIcons wpIcon bgIcon" />
-                                        <div className="tooltip">WordPress</div>
-                                    </div>
-                                    <div className="iconAnimation">
-                                        <FaNetworkWired className="apiIcon wpIcon bgIcon" />
-                                        <div className="tooltip">API</div>
-                                    </div>
-                                </div>
+                                <Carousel vertical autoplay>
+                                    <div><h3>1</h3></div>
+                                    <div><h3>2</h3></div>
+                                    <div><h3>3</h3></div>
+                                    <div><h3>4</h3></div>
+                                </Carousel>
                             </div>
                         </div>
+
                     </section>
                 </div>
 
