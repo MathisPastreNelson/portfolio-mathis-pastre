@@ -7,7 +7,12 @@ import { FloatButton } from 'antd';
 import { FaJs, FaPhp, FaCss3Alt, FaReact, FaSass, FaBootstrap, FaWordpress, FaHtml5, FaNetworkWired } from 'react-icons/fa';
 import { MobileOutlined, RiseOutlined, LoadingOutlined, DropboxOutlined, CodeOutlined, CaretRightOutlined, PauseOutlined } from '@ant-design/icons';
 import bookio from "../assets/bookio.png"
-
+import ohmyfood from "../assets/ohmyfood.png"
+import lapanthere from "../assets/lapanthere.png"
+import kanap from "../assets/Kanap.png"
+import piiiquante from "../assets/piiiquante.png"
+import kasa from "../assets/Kasa.png"
+import omega from "../assets/Omega.png"
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faEnvelope, faWonSign } from '@fortawesome/free-solid-svg-icons'
 
@@ -20,7 +25,7 @@ export default function Main() {
                     <section className="present">
                         <div className="title bgBanner1">
                             <div>
-                                <h2> Mes services ?</h2>
+                                <h2> Mes services</h2>
                                 <h2>Des prestations adaptées à vos besoins</h2>
                             </div>
                         </div>
@@ -109,7 +114,6 @@ export default function Main() {
                                     </div>
                                 </div>
                                 <div>
-
                                     <div className="iconAnimation iconBloc">
                                         <FaBootstrap className="skillIcons bsIcon bgIcon" />
                                         <div className="tooltip">Bootstrap</div>
@@ -136,14 +140,70 @@ export default function Main() {
                                 <h2>Une partie des projets sur lesquels j'ai travaillé</h2>
                             </div>
                         </div>
-                        <div className="article bgBackground3 flexCenter">
-                            <div className="titleArticle">
+                        <div className="book_container bgBackground3 flexCenter">
+                            <div className="carousel_portfolio">
 
-                                <Carousel vertical autoplay>
-                                    <div><h3>1</h3></div>
-                                    <div><h3>2</h3></div>
-                                    <div><h3>3</h3></div>
-                                    <div><h3>4</h3></div>
+                                <Carousel effect="fade">
+
+                                    <div className='portefolio_article'>
+                                        <img className='imgPortFolio' src={bookio} alt="" />
+                                        <h3>Bookio</h3>
+                                        <p>Création d'un site web d'hébergement pour vacance.</p>
+
+
+                                        <a href="https://mathispastrenelson.github.io/Projet-2-OCR/"
+                                            className='visitButton'>Visiter</a>
+
+                                        <br />     <br />
+                                    </div>
+                                    <div className='portefolio_article'>
+                                        <img className='imgPortFolio' src={ohmyfood} alt="" />
+                                        <h3>Ohmyfood</h3>
+                                        <p>Création d'un site web de réservation de menu.</p>
+                                        <a href="https://mathispastrenelson.github.io/Projet-3-OCR/"
+                                            className='visitButton'>Visiter</a>
+                                        <br />     <br />
+                                    </div>
+                                    <div className='portefolio_article'>
+                                        <img className='imgPortFolio' src={lapanthere} alt="" />
+                                        <h3>La panthère</h3>
+                                        <p>Création d'un site d'agence de développeur/designer web.</p>
+                                        <a href="https://mathispastrenelson.github.io/Projet-4-OCR/"
+                                            className='visitButton'>Visiter</a>
+                                        <br />     <br />
+                                    </div>
+                                    <div className='portefolio_article'>
+                                        <img className='imgPortFolio' src={kanap} alt="" />
+                                        <h3>Kanap</h3>
+                                        <p>Intégration Front des données en JavaScript.</p>
+                                        <a href="https://mathispastrenelson.github.io/Projet-5-OCR/front/html/index.html"
+                                            className='visitButton'>Visiter</a>
+                                        <br />     <br />
+                                    </div>
+                                    <div className='portefolio_article'>
+                                        <img className='imgPortFolio' src={piiiquante} alt="" />
+                                        <h3>Piiiquante</h3>
+                                        <p>Création d'une API rest.</p>
+                                        <a href="https://github.com/MathisPastreNelson/Projet-6-OCR"
+                                            className='visitButton'>Visiter</a>
+                                        <br />     <br />
+                                    </div>
+                                    <div className='portefolio_article'>
+                                        <img className='imgPortFolio' src={kasa} alt="" />
+                                        <h3>Kasa</h3>
+                                        <p>Création d'un front avec React.</p>
+                                        <a href="https://mathispastrenelson.github.io/projet-7-ocr/"
+                                            className='visitButton'>Visiter</a>
+                                        <br />     <br />
+                                    </div>
+                                    <div className='portefolio_article'>
+                                        <img className='imgPortFolio' src={omega} alt="" />
+                                        <h3>Omega</h3>
+                                        <p>Création d'un RPG avec React.</p>
+                                        <a href="https://role-playing-groubi.netlify.app/"
+                                            className='visitButton'>Visiter</a>
+                                        <br />     <br />
+                                    </div>
                                 </Carousel>
                             </div>
                         </div>
