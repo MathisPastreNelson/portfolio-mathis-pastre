@@ -31,34 +31,34 @@ export default function Main() {
                         </div>
 
                         <div className="article services_bg flexCenter">
-                            <div className="titleArticle">
+                            <div className="titleArticle anim1">
                                 <h3>
                                     <DropboxOutlined /> Intégration web
                                 </h3>
                                 <p>Des intégrations HTML / CSS / JAVASCRIPT
                                     respectueuses des standards du Web.</p>
                             </div>
-                            <div className="titleArticle">
+                            <div className="titleArticle anim2">
                                 <h3>
                                     <CodeOutlined /> Développement sur mesure </h3>
                                 <p>
                                     Des sites web développés sur mesure pour répondre aux besoins spécifiques de chaque client.
                                 </p>
                             </div>
-                            <div className="titleArticle">
+                            <div className="titleArticle anim3">
                                 <h3>
                                     <LoadingOutlined /> Dynamisme des pages
                                 </h3>
                                 <p>Des animations de contenu non intrusives pour embellir votre projet.</p>
                             </div>
-                            <div className="titleArticle">
+                            <div className="titleArticle anim4">
                                 <h3>
                                     <RiseOutlined /> Référencement naturel
                                 </h3>
                                 <p>Affichage sémantique des informations,
                                     des pages propres pour un référencement optimal.</p>
                             </div>
-                            <div className="titleArticle">
+                            <div className="titleArticle anim5">
                                 <h3>
                                     <MobileOutlined /> Responsive design
                                 </h3>
@@ -134,7 +134,7 @@ export default function Main() {
                 {/* Slide 3 */}
                 <div>
                     <section className="present">
-                        <div className="title bgBanner2">
+                        <div className="title bgBanner1">
                             <div>
                                 <h2>Mes projets</h2>
                                 <h2>Une partie des projets sur lesquels j'ai travaillé</h2>
@@ -147,7 +147,7 @@ export default function Main() {
 
                                     <div className='portefolio_article'>
                                         <img className='imgPortFolio' src={bookio} alt="" />
-                                        <h3>Bookio</h3>
+                                        <h2>Bookio</h2>
                                         <p>Création d'un site web d'hébergement pour vacance.</p>
 
 
@@ -158,7 +158,7 @@ export default function Main() {
                                     </div>
                                     <div className='portefolio_article'>
                                         <img className='imgPortFolio' src={ohmyfood} alt="" />
-                                        <h3>Ohmyfood</h3>
+                                        <h2>Ohmyfood</h2>
                                         <p>Création d'un site web de réservation de menu.</p>
                                         <a href="https://mathispastrenelson.github.io/Projet-3-OCR/"
                                             className='visitButton'>Visiter</a>
@@ -166,7 +166,7 @@ export default function Main() {
                                     </div>
                                     <div className='portefolio_article'>
                                         <img className='imgPortFolio' src={lapanthere} alt="" />
-                                        <h3>La panthère</h3>
+                                        <h2>La panthère</h2>
                                         <p>Création d'un site d'agence de développeur/designer web.</p>
                                         <a href="https://mathispastrenelson.github.io/Projet-4-OCR/"
                                             className='visitButton'>Visiter</a>
@@ -174,7 +174,7 @@ export default function Main() {
                                     </div>
                                     <div className='portefolio_article'>
                                         <img className='imgPortFolio' src={kanap} alt="" />
-                                        <h3>Kanap</h3>
+                                        <h2>Kanap</h2>
                                         <p>Intégration Front des données en JavaScript.</p>
                                         <a href="https://mathispastrenelson.github.io/Projet-5-OCR/front/html/index.html"
                                             className='visitButton'>Visiter</a>
@@ -182,7 +182,7 @@ export default function Main() {
                                     </div>
                                     <div className='portefolio_article'>
                                         <img className='imgPortFolio' src={piiiquante} alt="" />
-                                        <h3>Piiiquante</h3>
+                                        <h2>Piiiquante</h2>
                                         <p>Création d'une API rest.</p>
                                         <a href="https://github.com/MathisPastreNelson/Projet-6-OCR"
                                             className='visitButton'>Visiter</a>
@@ -190,7 +190,7 @@ export default function Main() {
                                     </div>
                                     <div className='portefolio_article'>
                                         <img className='imgPortFolio' src={kasa} alt="" />
-                                        <h3>Kasa</h3>
+                                        <h2>Kasa</h2>
                                         <p>Création d'un front avec React.</p>
                                         <a href="https://mathispastrenelson.github.io/projet-7-ocr/"
                                             className='visitButton'>Visiter</a>
@@ -198,7 +198,7 @@ export default function Main() {
                                     </div>
                                     <div className='portefolio_article'>
                                         <img className='imgPortFolio' src={omega} alt="" />
-                                        <h3>Omega</h3>
+                                        <h2>Omega</h2>
                                         <p>Création d'un RPG avec React.</p>
                                         <a href="https://role-playing-groubi.netlify.app/"
                                             className='visitButton'>Visiter</a>

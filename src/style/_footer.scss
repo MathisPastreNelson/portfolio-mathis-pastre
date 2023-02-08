@@ -5,7 +5,6 @@ footer {
     align-items: center;
     width: 100%;
     flex-direction: column;
-    background: rgb(9, 0, 15);
-    background: linear-gradient(90deg, rgba(9, 0, 15, 1) 0%, rgba(0, 0, 0, 0.7903536414565826) 100%);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0.7903536414565826) 100%);
     color: white;
 }
