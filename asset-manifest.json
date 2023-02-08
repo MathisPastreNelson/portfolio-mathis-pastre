@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portefolio-mathis-pastre/static/css/main.bb3ba9cf.css",
-    "main.js": "/portefolio-mathis-pastre/static/js/main.ade1fbce.js",
+    "main.css": "/portefolio-mathis-pastre/static/css/main.a3f81542.css",
+    "main.js": "/portefolio-mathis-pastre/static/js/main.3b4de54a.js",
     "static/js/787.8f6cd68f.chunk.js": "/portefolio-mathis-pastre/static/js/787.8f6cd68f.chunk.js",
     "static/media/Omega.png": "/portefolio-mathis-pastre/static/media/Omega.d8ca3c7ced11e223dc35.png",
     "static/media/lapanthere.png": "/portefolio-mathis-pastre/static/media/lapanthere.1eec64813804b4118c47.png",
@@ -19,12 +19,12 @@
     "static/media/slick.ttf": "/portefolio-mathis-pastre/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portefolio-mathis-pastre/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portefolio-mathis-pastre/index.html",
-    "main.bb3ba9cf.css.map": "/portefolio-mathis-pastre/static/css/main.bb3ba9cf.css.map",
-    "main.ade1fbce.js.map": "/portefolio-mathis-pastre/static/js/main.ade1fbce.js.map",
+    "main.a3f81542.css.map": "/portefolio-mathis-pastre/static/css/main.a3f81542.css.map",
+    "main.3b4de54a.js.map": "/portefolio-mathis-pastre/static/js/main.3b4de54a.js.map",
     "787.8f6cd68f.chunk.js.map": "/portefolio-mathis-pastre/static/js/787.8f6cd68f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb3ba9cf.css",
-    "static/js/main.ade1fbce.js"
+    "static/css/main.a3f81542.css",
+    "static/js/main.3b4de54a.js"
   ]
 }
