@@ -21,8 +21,7 @@ header {
 }
 
 .bg {
-  -webkit-animation: slide 3s ease-in-out infinite alternate;
-          animation: slide 3s ease-in-out infinite alternate;
+  animation: slide 3s ease-in-out infinite alternate;
   background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
   bottom: 0;
   left: -50%;
@@ -35,22 +34,11 @@ header {
 
 .bg2 {
   animation-direction: alternate-reverse;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
+  animation-duration: 4s;
 }
 
 .bg3 {
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
-}
-
-@-webkit-keyframes slide {
-  0% {
-    transform: translateX(-25%);
-  }
-  100% {
-    transform: translateX(25%);
-  }
+  animation-duration: 5s;
 }
 
 @keyframes slide {
@@ -387,6 +375,25 @@ div > p {
     width: 90%;
   }
 }
+.present > div > a {
+  background-color: rgba(37, 25, 25, 0.418);
+  margin: 0.2rem;
+  padding: 0.8rem;
+  width: 25%;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: 400ms;
+  color: white;
+  font-size: 30px;
+}
+
+.present > div > a:hover {
+  transform: scale(1.05);
+  width: 30%;
+  color: rgb(117, 243, 86);
+  background-color: rgba(87, 67, 67, 0.178);
+}
+
 footer {
   height: 8vh;
   display: flex;
