@@ -1,13 +1,17 @@
 header {
     height: 8vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 2%;
     align-items: center;
     background: rgb(9, 0, 15);
-    background: linear-gradient(90deg, rgba(9, 0, 15, 1) 0%, rgba(0, 0, 0, 0.7903536414565826) 100%);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.7903536414565826) 100%);
     color: white;
 }
 
+.imgLogo {
+    height: 8vh;
+}
 
 .bg {
     animation: slide 3s ease-in-out infinite alternate;
