@@ -83,7 +83,6 @@ export default function Main() {
                             <div className='icons_container'>
 
                                 <div>
-
                                     <div className="iconAnimation iconBloc">
                                         <FaHtml5 className="skillIcons htmlIcon bgIcon" />
                                         <div className="tooltip">HTML</div>
