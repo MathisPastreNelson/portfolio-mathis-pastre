@@ -1,3 +1,4 @@
+/* SCSS du body*/
 body {
     overflow: hidden;
     height: 100vh;
@@ -7,19 +8,6 @@ body {
         background-size:auto;
         background-repeat: no-repeat;
         background-position: top;
-}
-
-
-@keyframes bgMove {
-    0% {
-        background-position: top;
-    }
-    50% {
-        background-position: bottom;
-    }
-    100% {
-        background-position: top;
-    }
 }
 
 

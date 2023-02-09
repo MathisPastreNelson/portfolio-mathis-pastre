@@ -216,7 +216,7 @@ export default function Main() {
                                 <h2>Un projet de création web ?</h2>
                             </div>
                         </div>
-                        <div className="book_container bgBackground3 flexCenter">
+                        <div className="book_container bgBackground4 flexCenter">
                             <a href="mailto:mathis.pastre@outlook.com" >
                                 <MailOutlined />
                                 <h3>Email</h3>

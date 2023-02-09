@@ -1,4 +1,17 @@
+/* Animation du background body */
+@keyframes bgMove {
+    0% {
+        background-position: top;
+    }
+    50% {
+        background-position: bottom;
+    }
+    100% {
+        background-position: top;
+    }
+}
 
+/* Animations des div de mes services */
 
 .anim1 {
 
@@ -204,7 +217,7 @@
         opacity: 1;
     }
 }
-
+ 
 @media (max-width: 576px) {
     .present:hover {
         border-radius: 0% 0% 15% 15% / 0% 0% 1% 1%;

@@ -1,3 +1,4 @@
+/* SCSS de la rubrique Contact*/
 .present>div>a {
     background-color: rgba(37, 25, 25, 0.418);
     margin: 0.2rem;
@@ -10,10 +11,9 @@
     font-size: 30px;
 }
 
-
 .present>div>a:hover {
     transform: scale(1.05);
-    width: 30%;
+    width: 35%;
     color: rgb(117, 243, 86);
-    background-color: rgba(87, 67, 67, 0.178);
+    background-color: rgba(126, 123, 123, 0.178);
 }
