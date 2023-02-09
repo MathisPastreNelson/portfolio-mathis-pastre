@@ -25,16 +25,31 @@
 .bgBanner1 {
     background: linear-gradient(rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.329)),
         url("../assets/bg-computer2.png");
-
+        background-position: 100% 0%;
     background-size: cover;
 }
 
 .bgBanner2 {
     background: linear-gradient(rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.329)),
         url("../assets/bg_computer.png");
-
+        background-position: 100% 0%;
     background-size: cover;
 }
+
+.bgBanner3 {
+    background: linear-gradient(rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.329)),
+        url("../assets/bg-computer2.png");
+    background-size: cover;
+    background-position: 0% 100%;
+}
+
+.bgBanner4 {
+    background: linear-gradient(rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.329)),
+        url("../assets/bg_computer.png");
+    background-size: cover;
+    background-position: 0% 100%;
+}
+
 
 .bgBackground2 {
     background: linear-gradient(rgba(71, 71, 71, 0.74), rgba(255, 255, 255, 0.329)),

@@ -84,12 +84,26 @@ header {
 
 .bgBanner1 {
   background: linear-gradient(rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.329)), url("../assets/bg-computer2.png");
+  background-position: 100% 0%;
   background-size: cover;
 }
 
 .bgBanner2 {
   background: linear-gradient(rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.329)), url("../assets/bg_computer.png");
+  background-position: 100% 0%;
   background-size: cover;
+}
+
+.bgBanner3 {
+  background: linear-gradient(rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.329)), url("../assets/bg-computer2.png");
+  background-size: cover;
+  background-position: 0% 100%;
+}
+
+.bgBanner4 {
+  background: linear-gradient(rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.329)), url("../assets/bg_computer.png");
+  background-size: cover;
+  background-position: 0% 100%;
 }
 
 .bgBackground2 {
@@ -429,8 +443,8 @@ div > p {
   height: 30vh;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 0% 0%;
-     object-position: 0% 0%;
+  -o-object-position: 50% 0%;
+     object-position: 50% 0%;
   border: 1px solid rgba(3, 3, 1, 0.637);
   border-radius: 10px;
 }

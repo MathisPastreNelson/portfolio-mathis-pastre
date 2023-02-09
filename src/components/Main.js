@@ -133,7 +133,7 @@ export default function Main() {
                 {/* Slide 3 */}
                 <div>
                     <section className="present">
-                        <div className="title bgBanner1">
+                        <div className="title bgBanner3">
                             <div>
                                 <h2>Mes projets</h2>
                                 <h2>Une partie des projets sur lesquels j'ai travaillé</h2>
@@ -212,7 +212,7 @@ export default function Main() {
                 {/* Slide 4 */}
                 <div>
                     <section className="present">
-                        <div className="title bgBanner2">
+                        <div className="title bgBanner4">
                             <div>
                                 <h2>Me contacter</h2>
                                 <h2>Un projet de création web ?</h2>
