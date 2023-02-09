@@ -91,7 +91,7 @@ export default function Main() {
                                     </div>
                                     <div className="iconAnimation iconBloc">
                                         <FaJs className="skillIcons jsIcon bgIcon" />
-                                        <div className="tooltip">JS</div>
+                                        <div className="tooltip">Javascript</div>
                                     </div>
                                 </div>
                                 <div>

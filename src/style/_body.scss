@@ -1,10 +1,12 @@
 body {
     overflow: hidden;
     height: 100vh;
-    background: linear-gradient(rgba(75, 75, 75, 0.425), rgba(34, 34, 34, 0.473)),
-        url("../assets/bg1.jpg");
+    background: linear-gradient(rgba(207, 207, 207, 0), rgba(0, 0, 0, 0.418)),
+        url("../assets/bg-planet.jpeg");
         animation: bgMove 100000ms linear infinite;
-        object-fit:cover;
+        background-size:auto;
+        background-repeat: no-repeat;
+        background-position: top;
 }
 
 
