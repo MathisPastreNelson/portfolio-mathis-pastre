@@ -13,8 +13,6 @@ import kanap from "../assets/Kanap.png"
 import piiiquante from "../assets/piiiquante.png"
 import kasa from "../assets/Kasa.png"
 import omega from "../assets/Omega.png"
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faEnvelope, faWonSign } from '@fortawesome/free-solid-svg-icons'
 
 export default function Main() {
     const [autoplay, setAutoplay] = useState(true);

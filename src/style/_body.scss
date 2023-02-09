@@ -1,8 +1,25 @@
 body {
     overflow: hidden;
     height: 100vh;
-    background: #1f1f1f;
+    background: linear-gradient(rgba(75, 75, 75, 0.425), rgba(34, 34, 34, 0.473)),
+        url("../assets/bg1.jpg");
+        animation: bgMove 100000ms linear infinite;
+        object-fit:cover;
 }
+
+
+@keyframes bgMove {
+    0% {
+        background-position: top;
+    }
+    50% {
+        background-position: bottom;
+    }
+    100% {
+        background-position: top;
+    }
+}
+
 
 * {
     text-align: center;

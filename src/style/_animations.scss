@@ -1,21 +1,4 @@
-.present {
-    position: relative;
-    background: rgba(15, 3, 3, 0.774);
-    border-radius: 0% 0% 25% 25% / 0% 0% 5% 5%;
-    color: rgb(0, 0, 0);
-    box-shadow: 15px 15px rgba(0, 0, 0, 0.267);
-    transition: all .4s ease;
 
-}
-
-.present:hover {
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 10px 10px rgba(0, 0, 0, .25);
-}
-
-.present>div {
-    padding: 0.4rem;
-}
 
 .anim1 {
 
