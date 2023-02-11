@@ -1,226 +1,221 @@
 /* Animation du background body */
 @keyframes bgMove {
-    0% {
-        background-position: top;
-    }
-    50% {
-        background-position: bottom;
-    }
-    100% {
-        background-position: top;
-    }
+  0% {
+    background-position: top;
+  }
+  50% {
+    background-position: bottom;
+  }
+  100% {
+    background-position: top;
+  }
 }
 
 /* Animations des div de mes services */
 
 .anim1 {
-
-    animation: swing-in-bottom-fwd 400ms;
+  animation: swing-in-bottom-fwd 400ms;
 }
 
 @-webkit-keyframes swing-in-bottom-fwd {
-    0% {
-        -webkit-transform: rotateX(100deg);
-        transform: rotateX(100deg);
-        -webkit-transform-origin: bottom;
-        transform-origin: bottom;
-        opacity: 0;
-    }
+  0% {
+    -webkit-transform: rotateX(100deg);
+    transform: rotateX(100deg);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    opacity: 0;
+  }
 
-    100% {
-        -webkit-transform: rotateX(0);
-        transform: rotateX(0);
-        -webkit-transform-origin: bottom;
-        transform-origin: bottom;
-        opacity: 1;
-    }
+  100% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    opacity: 1;
+  }
 }
 
 @keyframes swing-in-bottom-fwd {
-    0% {
-        -webkit-transform: rotateX(100deg);
-        transform: rotateX(100deg);
-        -webkit-transform-origin: bottom;
-        transform-origin: bottom;
-        opacity: 0;
-    }
+  0% {
+    -webkit-transform: rotateX(100deg);
+    transform: rotateX(100deg);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    opacity: 0;
+  }
 
-    100% {
-        -webkit-transform: rotateX(0);
-        transform: rotateX(0);
-        -webkit-transform-origin: bottom;
-        transform-origin: bottom;
-        opacity: 1;
-    }
+  100% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    opacity: 1;
+  }
 }
 
 .anim2 {
-
-    animation: swing-in-bottom-fwd 800ms;
+  animation: swing-in-bottom-fwd 800ms;
 }
 
 @-webkit-keyframes swing-in-bottom-fwd {
-    0% {
-        -webkit-transform: rotateX(100deg);
-        transform: rotateX(100deg);
-        -webkit-transform-origin: bottom;
-        transform-origin: bottom;
-        opacity: 0;
-    }
+  0% {
+    -webkit-transform: rotateX(100deg);
+    transform: rotateX(100deg);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    opacity: 0;
+  }
 
-    100% {
-        -webkit-transform: rotateX(0);
-        transform: rotateX(0);
-        -webkit-transform-origin: bottom;
-        transform-origin: bottom;
-        opacity: 1;
-    }
+  100% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    opacity: 1;
+  }
 }
 
 @keyframes swing-in-bottom-fwd {
-    0% {
-        -webkit-transform: rotateX(100deg);
-        transform: rotateX(100deg);
-        -webkit-transform-origin: bottom;
-        transform-origin: bottom;
-        opacity: 0;
-    }
+  0% {
+    -webkit-transform: rotateX(100deg);
+    transform: rotateX(100deg);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    opacity: 0;
+  }
 
-    100% {
-        -webkit-transform: rotateX(0);
-        transform: rotateX(0);
-        -webkit-transform-origin: bottom;
-        transform-origin: bottom;
-        opacity: 1;
-    }
+  100% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    opacity: 1;
+  }
 }
 
 .anim3 {
-
-    animation: swing-in-bottom-fwd 1200ms;
+  animation: swing-in-bottom-fwd 1200ms;
 }
 
 @-webkit-keyframes swing-in-bottom-fwd {
-    0% {
-        -webkit-transform: rotateX(100deg);
-        transform: rotateX(100deg);
-        -webkit-transform-origin: bottom;
-        transform-origin: bottom;
-        opacity: 0;
-    }
+  0% {
+    -webkit-transform: rotateX(100deg);
+    transform: rotateX(100deg);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    opacity: 0;
+  }
 
-    100% {
-        -webkit-transform: rotateX(0);
-        transform: rotateX(0);
-        -webkit-transform-origin: bottom;
-        transform-origin: bottom;
-        opacity: 1;
-    }
+  100% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    opacity: 1;
+  }
 }
 
 @keyframes swing-in-bottom-fwd {
-    0% {
-        -webkit-transform: rotateX(100deg);
-        transform: rotateX(100deg);
-        -webkit-transform-origin: bottom;
-        transform-origin: bottom;
-        opacity: 0;
-    }
+  0% {
+    -webkit-transform: rotateX(100deg);
+    transform: rotateX(100deg);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    opacity: 0;
+  }
 
-    100% {
-        -webkit-transform: rotateX(0);
-        transform: rotateX(0);
-        -webkit-transform-origin: bottom;
-        transform-origin: bottom;
-        opacity: 1;
-    }
+  100% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    opacity: 1;
+  }
 }
 
 .anim4 {
-
-    animation: swing-in-bottom-fwd 1600ms;
+  animation: swing-in-bottom-fwd 1600ms;
 }
 
 @-webkit-keyframes swing-in-bottom-fwd {
-    0% {
-        -webkit-transform: rotateX(100deg);
-        transform: rotateX(100deg);
-        -webkit-transform-origin: bottom;
-        transform-origin: bottom;
-        opacity: 0;
-    }
+  0% {
+    -webkit-transform: rotateX(100deg);
+    transform: rotateX(100deg);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    opacity: 0;
+  }
 
-    100% {
-        -webkit-transform: rotateX(0);
-        transform: rotateX(0);
-        -webkit-transform-origin: bottom;
-        transform-origin: bottom;
-        opacity: 1;
-    }
+  100% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    opacity: 1;
+  }
 }
 
 @keyframes swing-in-bottom-fwd {
-    0% {
-        -webkit-transform: rotateX(100deg);
-        transform: rotateX(100deg);
-        -webkit-transform-origin: bottom;
-        transform-origin: bottom;
-        opacity: 0;
-    }
+  0% {
+    -webkit-transform: rotateX(100deg);
+    transform: rotateX(100deg);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    opacity: 0;
+  }
 
-    100% {
-        -webkit-transform: rotateX(0);
-        transform: rotateX(0);
-        -webkit-transform-origin: bottom;
-        transform-origin: bottom;
-        opacity: 1;
-    }
+  100% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    opacity: 1;
+  }
 }
 
 .anim5 {
-
-    animation: swing-in-bottom-fwd 2000ms;
+  animation: swing-in-bottom-fwd 2000ms;
 }
 
 @-webkit-keyframes swing-in-bottom-fwd {
-    0% {
-        -webkit-transform: rotateX(100deg);
-        transform: rotateX(100deg);
-        -webkit-transform-origin: bottom;
-        transform-origin: bottom;
-        opacity: 0;
-    }
+  0% {
+    -webkit-transform: rotateX(100deg);
+    transform: rotateX(100deg);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    opacity: 0;
+  }
 
-    100% {
-        -webkit-transform: rotateX(0);
-        transform: rotateX(0);
-        -webkit-transform-origin: bottom;
-        transform-origin: bottom;
-        opacity: 1;
-    }
+  100% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    opacity: 1;
+  }
 }
 
 @keyframes swing-in-bottom-fwd {
-    0% {
-        -webkit-transform: rotateX(100deg);
-        transform: rotateX(100deg);
-        -webkit-transform-origin: bottom;
-        transform-origin: bottom;
-        opacity: 0;
-    }
+  0% {
+    -webkit-transform: rotateX(100deg);
+    transform: rotateX(100deg);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    opacity: 0;
+  }
 
-    100% {
-        -webkit-transform: rotateX(0);
-        transform: rotateX(0);
-        -webkit-transform-origin: bottom;
-        transform-origin: bottom;
-        opacity: 1;
-    }
+  100% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    opacity: 1;
+  }
 }
- 
+
 @media (max-width: 576px) {
-    .present:hover {
-        border-radius: 0% 0% 15% 15% / 0% 0% 1% 1%;
-        box-shadow: 5px 5px rgba(0, 0, 0, .25);
-    }
+  .present:hover {
+    border-radius: 0% 0% 15% 15% / 0% 0% 1% 1%;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+  }
 }

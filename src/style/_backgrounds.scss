@@ -1,54 +1,74 @@
 .services_bg {
-    background: linear-gradient(rgba(255, 255, 255, 0.418), rgba(255, 255, 255, 0.329)),
-        url("../assets/bg-general.jpg");
-    background-size: cover;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.418),
+      rgba(255, 255, 255, 0.329)
+    ),
+    url("../assets/bg-general.jpg");
+  background-size: cover;
 }
 
 .bgBanner1 {
-    background: linear-gradient(rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.329)),
-        url("../assets/bg-computer2.png");
-        background-position: 100% 0%;
-    background-size: cover;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.192),
+      rgba(255, 255, 255, 0.329)
+    ),
+    url("../assets/bg-computer2.png");
+  background-position: 100% 0%;
+  background-size: cover;
 }
 
 .bgBanner2 {
-    background: linear-gradient(rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.329)),
-        url("../assets/bg_computer.png");
-        background-position: 100% 0%;
-    background-size: cover;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.192),
+      rgba(255, 255, 255, 0.329)
+    ),
+    url("../assets/bg_computer.png");
+  background-position: 100% 0%;
+  background-size: cover;
 }
 
 .bgBanner3 {
-    background: linear-gradient(rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.329)),
-        url("../assets/bg-computer2.png");
-    background-size: cover;
-    background-position: 0% 100%;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.192),
+      rgba(255, 255, 255, 0.329)
+    ),
+    url("../assets/bg-computer2.png");
+  background-size: cover;
+  background-position: 0% 100%;
 }
 
 .bgBanner4 {
-    background: linear-gradient(rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.329)),
-        url("../assets/bg_computer.png");
-    background-size: cover;
-    background-position: 0% 100%;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.192),
+      rgba(255, 255, 255, 0.329)
+    ),
+    url("../assets/bg_computer.png");
+  background-size: cover;
+  background-position: 0% 100%;
 }
 
-
 .bgBackground2 {
-    background: linear-gradient(rgba(71, 71, 71, 0.74), rgba(255, 255, 255, 0.329)),
-        url("../assets/portefolio-background.jpg");
+  background: linear-gradient(
+      rgba(71, 71, 71, 0.74),
+      rgba(255, 255, 255, 0.329)
+    ),
+    url("../assets/portefolio-background.jpg");
 
-    background-size: cover;
+  background-size: cover;
 }
 
 .bgBackground3 {
-    background: linear-gradient(rgba(44, 44, 44, 0.473), rgba(70, 52, 52, 0.938)),
-        url("../assets/contact-background.jpg");
+  background: linear-gradient(rgba(44, 44, 44, 0.473), rgba(70, 52, 52, 0.938)),
+    url("../assets/contact-background.jpg");
 
-    background-size: cover;
+  background-size: cover;
 }
 
 .bgBackground4 {
-    background: linear-gradient(rgba(199, 199, 199, 0.13), rgba(255, 255, 255, 0.185)),
-        url("../assets/bg_grey.jpg");
-    background-size: cover;
+  background: linear-gradient(
+      rgba(199, 199, 199, 0.13),
+      rgba(255, 255, 255, 0.185)
+    ),
+    url("../assets/bg_grey.jpg");
+  background-size: cover;
 }

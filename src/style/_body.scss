@@ -1,18 +1,17 @@
 /* SCSS du body*/
 body {
-    overflow: hidden;
-    height: 100vh;
-    background: linear-gradient(rgba(207, 207, 207, 0), rgba(0, 0, 0, 0.418)),
-        url("../assets/bg-planet.jpeg");
-        animation: bgMove 100000ms linear infinite;
-        background-size:auto;
-        background-repeat: no-repeat;
-        background-position: top;
+  overflow: hidden;
+  height: 100vh;
+  background: linear-gradient(rgba(207, 207, 207, 0), rgba(0, 0, 0, 0.418)),
+    url("../assets/bg-planet.jpeg");
+  animation: bgMove 100000ms linear infinite;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
-
 * {
-    text-align: center;
-    margin: 0;
-    font-family: 'Days One', sans-serif;
+  text-align: center;
+  margin: 0;
+  font-family: "Days One", sans-serif;
 }

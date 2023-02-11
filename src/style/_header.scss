@@ -1,19 +1,24 @@
+// SCC du Header
 header {
-    height: 8vh;
-    display: flex;
-    justify-content: center;
-    padding: 0 2%;
-    align-items: center;
-    background: linear-gradient(90deg, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0.7903536414565826) 100%);
-    color: white;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  padding: 0 2%;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgb(0, 0, 0) 50%,
+    rgba(0, 0, 0, 0.7903536414565826) 100%
+  );
+  color: white;
 }
 
 .imgLogo {
-    height: 8vh;
+  height: 8vh;
 }
 
 @media (max-width: 576px) {
-    h1 {
-        font-size: 20px;
-    }
+  h1 {
+    font-size: 20px;
+  }
 }

@@ -1,19 +1,19 @@
 /* SCSS de la rubrique Contact*/
-.present>div>a {
-    background-color: rgba(37, 25, 25, 0.418);
-    margin: 0.2rem;
-    padding: 0.8rem;
-    width: 25%;
-    border: 1px solid black;
-    border-radius: 10px;
-    transition: 400ms;
-    color: white;
-    font-size: 30px;
+.present > div > a {
+  background-color: rgba(37, 25, 25, 0.418);
+  margin: 0.2rem;
+  padding: 0.8rem;
+  width: 25%;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: 400ms;
+  color: white;
+  font-size: 30px;
 }
 
-.present>div>a:hover {
-    transform: scale(1.05);
-    width: 35%;
-    color: rgb(117, 243, 86);
-    background-color: rgba(126, 123, 123, 0.178);
+.present > div > a:hover {
+  transform: scale(1.05);
+  width: 35%;
+  color: rgb(117, 243, 86);
+  background-color: rgba(126, 123, 123, 0.178);
 }
