@@ -39,7 +39,7 @@ export default function Main() {
   const [autoplay, setAutoplay] = useState(true);
   return (
     <div className="main_container">
-      <Carousel autoplay={autoplay}>
+      <Carousel autoplay={autoplay} speed="800" autoplaySpeed="120">
         <div>
           <section className="present">
             <div className="title bgBanner1">
@@ -165,7 +165,11 @@ export default function Main() {
             </div>
             <div className="book_container bgBackground3 flexCenter">
               <div className="carousel_portfolio">
-                <Carousel effect="fade">
+                <Carousel
+                  effect="fade"
+                  autoplay={autoplay}
+                  speed="800"
+                  autoplaySpeed="30">
                   <div className="portefolio_article">
                     <img className="imgPortFolio" src={bookio} alt="" />
                     <h2>Bookio</h2>
