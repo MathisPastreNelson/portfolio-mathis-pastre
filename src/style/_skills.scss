@@ -85,10 +85,41 @@
   color: rgb(197, 196, 196);
 }
 
+.mongodbIcon {
+  color: rgb(32, 92, 14);
+}
+
+.nodejsIcon {
+  color: rgb(64, 179, 29);
+}
+
 .icons_container > div > div:hover div.tooltip {
   display: block;
 }
 
 .tooltip {
   display: none;
+}
+
+.figmaIcon {
+  width: 48px;
+}
+
+@media (max-width: 576px) {
+  .iconBloc {
+    width: 48px;
+    border: solid rgba(255, 255, 255, 0.575) 2px;
+  }
+
+  .bgIcon {
+    font-size: 35px;
+  }
+
+  .tooltip {
+    font-size: 8px;
+  }
+
+  .figmaIcon {
+    width: 35px;
+  }
 }
