@@ -27,7 +27,6 @@ import {
   LinkedinOutlined,
   GithubOutlined,
   MailOutlined,
-  DatabaseOutlined,
 } from "@ant-design/icons";
 
 import figmaIcon from "../assets/icons/figma.png";
