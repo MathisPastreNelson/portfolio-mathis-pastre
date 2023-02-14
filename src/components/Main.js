@@ -204,7 +204,7 @@ export default function Main() {
                     <a
                       href="https://mathispastrenelson.github.io/Projet-2-OCR/"
                       className="visitButton">
-                      Visiter
+                      Visiter le site
                     </a>
                     <br /> <br />
                   </div>
@@ -215,7 +215,7 @@ export default function Main() {
                     <a
                       href="https://mathispastrenelson.github.io/Projet-3-OCR/"
                       className="visitButton">
-                      Visiter
+                      Visiter le site
                     </a>
                     <br /> <br />
                   </div>
@@ -228,7 +228,7 @@ export default function Main() {
                     <a
                       href="https://mathispastrenelson.github.io/Projet-4-OCR/"
                       className="visitButton">
-                      Visiter
+                      Visiter le site
                     </a>
                     <br /> <br />
                   </div>
@@ -239,7 +239,7 @@ export default function Main() {
                     <a
                       href="https://mathispastrenelson.github.io/Projet-5-OCR/front/html/index.html"
                       className="visitButton">
-                      Visiter
+                      Visiter le site
                     </a>
                     <br /> <br />
                   </div>
@@ -250,7 +250,7 @@ export default function Main() {
                     <a
                       href="https://github.com/MathisPastreNelson/Projet-6-OCR"
                       className="visitButton">
-                      Visiter
+                      Visiter le repository
                     </a>
                     <br /> <br />
                   </div>
@@ -261,7 +261,7 @@ export default function Main() {
                     <a
                       href="https://mathispastrenelson.github.io/projet-7-ocr/"
                       className="visitButton">
-                      Visiter
+                      Visiter le site
                     </a>
                     <br /> <br />
                   </div>
@@ -272,7 +272,7 @@ export default function Main() {
                     <a
                       href="https://role-playing-groubi.netlify.app/"
                       className="visitButton">
-                      Visiter
+                      Visiter le site
                     </a>
                     <br /> <br />
                   </div>
