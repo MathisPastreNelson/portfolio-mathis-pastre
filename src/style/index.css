@@ -346,13 +346,14 @@ div > p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 1px solid rgba(0, 0, 0, 0.651);
+  border: 1px solid rgba(0, 0, 0, 0.377);
   border-radius: 10px;
 }
 
 .iconAnimation:hover {
-  transform: scale(1.5);
-  background-color: rgba(255, 255, 255, 0.541);
+  transform: scale(1.25);
+  background-color: rgba(255, 255, 255, 0.432);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.342);
 }
 
 .htmlIcon {
