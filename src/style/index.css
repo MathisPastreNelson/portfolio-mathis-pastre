@@ -47,10 +47,10 @@
 body {
   overflow: hidden;
   height: 100vh;
-  background: linear-gradient(rgba(207, 207, 207, 0), rgba(0, 0, 0, 0.418)), url("../assets/bg-planet.jpg");
+  background: linear-gradient(rgb(2, 2, 2), rgba(0, 0, 0, 0)), url("../assets/bg-planet.jpg");
   animation: bgMove 100000ms linear infinite;
-  background-size: auto;
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: top;
 }
 
