@@ -44,7 +44,11 @@ export default function Main() {
   const [autoplay, setAutoplay] = useState(true);
   return (
     <div className="main_container">
-      <Carousel autoplay={autoplay} speed="800" autoplaySpeed="120">
+      <Carousel
+        autoplay={autoplay}
+        speed="800"
+        autoplaySpeed="120"
+        keyBoardControl={true}>
         <div>
           <section className="present">
             <div className="title bgBanner1">
