@@ -1,10 +1,8 @@
 .services_bg {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.418),
-      rgba(255, 255, 255, 0.329)
-    ),
+  background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.514)),
     url("../assets/bg-general.png");
   background-size: cover;
+  background-position: 50% 75%;
 }
 
 .bgBanner1 {
