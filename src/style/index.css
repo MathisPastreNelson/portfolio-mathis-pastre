@@ -47,7 +47,7 @@
 body {
   overflow: hidden;
   height: 100vh;
-  background: linear-gradient(rgb(2, 2, 2), rgba(0, 0, 0, 0)), url("../assets/bg-planet.jpg");
+  background: linear-gradient(rgb(2, 2, 2), rgba(7, 7, 7, 0.336)), url("../assets/bg-planet.jpg");
   animation: bgMove 100000ms linear infinite;
   background-repeat: no-repeat;
   background-size: cover;
@@ -60,6 +60,11 @@ body {
   font-family: "Days One", sans-serif;
 }
 
+@media (max-width: 576px) {
+  body {
+    background-size: auto;
+  }
+}
 header {
   height: 8vh;
   display: flex;
