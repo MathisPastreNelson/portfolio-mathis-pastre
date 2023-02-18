@@ -250,7 +250,7 @@ export default function Main() {
                   <div className="portefolio_article">
                     <img className="imgPortFolio" src={piiiquante} alt="" />
                     <h2>Piiiquante</h2>
-                    <p>Création d'une API rest.</p>
+                    <p>Création d'une API rest avec nodeJS.</p>
                     <a
                       href="https://github.com/MathisPastreNelson/Projet-6-OCR"
                       className="visitButton">
