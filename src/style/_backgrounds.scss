@@ -1,8 +1,23 @@
 .services_bg {
-  background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.514)),
+  background: linear-gradient(rgba(201, 255, 4, 0), rgba(201, 255, 4, 0)),
     url("../assets/bg-general.png");
   background-size: cover;
+
   background-position: 50% 75%;
+}
+
+.bgSpace {
+  background: linear-gradient(rgba(0, 0, 0, 0.137), rgba(0, 0, 0, 0.699)),
+    url("../assets/spaceBackground.jpg");
+  opacity: 0.75;
+  background-size: cover;
+}
+
+.bgBanner0 {
+  background: linear-gradient(rgba(201, 255, 4, 0), rgba(201, 255, 4, 0)),
+    url("../assets/bg-planet1.jpg");
+  background-size: cover;
+  opacity: 0.75;
 }
 
 .bgBanner1 {

@@ -1,0 +1,74 @@
+.who_container {
+  border-radius: 10px;
+  box-shadow: 0px 10px rgba(0, 0, 0, 0.15);
+  width: 80%;
+}
+
+.photoOfMeImg {
+  width: 15rem;
+  z-index: 1;
+  border-radius: 20px;
+  transition: all 1s;
+  filter: blur(5px);
+}
+
+.describe_box {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../assets/liquid1.jpg");
+  background-size: cover;
+  width: 30%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  opacity: 0;
+  min-height: 25vh;
+  border-radius: 20px;
+}
+
+.who_container:hover > .photoOfMeImg {
+  filter: blur(0px);
+}
+
+.who_container:hover .describe_box:last-child {
+  opacity: 1;
+  visibility: visible;
+  animation: roll-in-blurred-left 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+.who_container:hover .describe_box:first-child {
+  opacity: 1;
+  visibility: visible;
+  animation: roll-in-blurred-right 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+.who_container:hover .describe_box:first-child > p {
+  animation: wobble-hor-bottom 900ms ease-out;
+}
+
+.who_container:hover .describe_box:last-child > p {
+  animation: wobble-hor-bottom2 900ms ease-out;
+}
+
+@media (max-width: 576px) {
+  .who_container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .describe_box {
+    width: 85%;
+  }
+
+  .describe_box > p {
+    font-size: 10px;
+  }
+
+  .photoOfMeImg {
+    width: 8rem;
+  }
+  .describe_box {
+    flex-direction: column;
+  }
+}
