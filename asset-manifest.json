@@ -1,21 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio-mathis-pastre/static/css/main.cd2abc0b.css",
-    "main.js": "/portfolio-mathis-pastre/static/js/main.ca1881a5.js",
+    "main.css": "/portfolio-mathis-pastre/static/css/main.ce09e22d.css",
+    "main.js": "/portfolio-mathis-pastre/static/js/main.743f8ca3.js",
     "static/js/787.8f6cd68f.chunk.js": "/portfolio-mathis-pastre/static/js/787.8f6cd68f.chunk.js",
-    "static/media/bg-general.png": "/portfolio-mathis-pastre/static/media/bg-general.2f58444417818407b50d.png",
     "static/media/Omega.png": "/portfolio-mathis-pastre/static/media/Omega.9c2cce40b0277180db92.png",
+    "static/media/articles.jpeg": "/portfolio-mathis-pastre/static/media/articles.4009034c70056b15f34b.jpeg",
+    "static/media/bg-general.png": "/portfolio-mathis-pastre/static/media/bg-general.af5e9c20e9f6bd93bdf2.png",
     "static/media/bookio.png": "/portfolio-mathis-pastre/static/media/bookio.74970cd7f5824f899d03.png",
+    "static/media/portefolio-background.jpg": "/portfolio-mathis-pastre/static/media/portefolio-background.d44203b5c11b726b3bc6.jpg",
     "static/media/ohmyfood.png": "/portfolio-mathis-pastre/static/media/ohmyfood.30ccfb3c212fade19d28.png",
     "static/media/lapanthere.png": "/portfolio-mathis-pastre/static/media/lapanthere.a74105c70b15f5b96fc4.png",
-    "static/media/bg-planet.jpg": "/portfolio-mathis-pastre/static/media/bg-planet.25883fcd6cb14f5e3c5f.jpg",
-    "static/media/bg_grey.jpg": "/portfolio-mathis-pastre/static/media/bg_grey.c72de86817709fd461d6.jpg",
+    "static/media/articlesTop.jpg": "/portfolio-mathis-pastre/static/media/articlesTop.378e6ed24b43edf8e4c0.jpg",
+    "static/media/bg_computer.png": "/portfolio-mathis-pastre/static/media/bg_computer.fe800628684305622776.png",
+    "static/media/bg-computer2.png": "/portfolio-mathis-pastre/static/media/bg-computer2.8639091c0460ada1c35d.png",
+    "static/media/contact-background.jpg": "/portfolio-mathis-pastre/static/media/contact-background.25d5ceff68703698b6d2.jpg",
+    "static/media/moisansfond2.png": "/portfolio-mathis-pastre/static/media/moisansfond2.82e2c79b0cc973db0153.png",
     "static/media/Kanap.png": "/portfolio-mathis-pastre/static/media/Kanap.61b8ba3495e2f7d80753.png",
-    "static/media/bg_computer.png": "/portfolio-mathis-pastre/static/media/bg_computer.16841f529d1ad6e85ca9.png",
+    "static/media/bg_grey.jpg": "/portfolio-mathis-pastre/static/media/bg_grey.8c1d86fab25ef430c3a1.jpg",
     "static/media/Kasa.png": "/portfolio-mathis-pastre/static/media/Kasa.42f3ff9700c2036f1436.png",
+    "static/media/portefolio-backgroundTop.jpg": "/portfolio-mathis-pastre/static/media/portefolio-backgroundTop.e81da0887e1b045d4d89.jpg",
+    "static/media/contactTop.jpg": "/portfolio-mathis-pastre/static/media/contactTop.663f8f9d9f4a2ba80b32.jpg",
     "static/media/piiiquante.png": "/portfolio-mathis-pastre/static/media/piiiquante.633af120b03f350e6bc0.png",
-    "static/media/portefolio-background.jpg": "/portfolio-mathis-pastre/static/media/portefolio-background.327c175fe4cb3efe0243.jpg",
-    "static/media/bg-computer2.png": "/portfolio-mathis-pastre/static/media/bg-computer2.ccc78a15814050ddc2e7.png",
+    "static/media/bg-planet.jpg": "/portfolio-mathis-pastre/static/media/bg-planet.7193ea905d70363bec7a.jpg",
     "static/media/figma.png": "/portfolio-mathis-pastre/static/media/figma.257be656edf0ba88404e.png",
     "static/media/logo.png": "/portfolio-mathis-pastre/static/media/logo.45f8d9961ad104ac3e6e.png",
     "static/media/mongoDB.png": "/portfolio-mathis-pastre/static/media/mongoDB.4d1763a20af23f3dbc1d.png",
@@ -24,12 +30,12 @@
     "static/media/slick.ttf": "/portfolio-mathis-pastre/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portfolio-mathis-pastre/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio-mathis-pastre/index.html",
-    "main.cd2abc0b.css.map": "/portfolio-mathis-pastre/static/css/main.cd2abc0b.css.map",
-    "main.ca1881a5.js.map": "/portfolio-mathis-pastre/static/js/main.ca1881a5.js.map",
+    "main.ce09e22d.css.map": "/portfolio-mathis-pastre/static/css/main.ce09e22d.css.map",
+    "main.743f8ca3.js.map": "/portfolio-mathis-pastre/static/js/main.743f8ca3.js.map",
     "787.8f6cd68f.chunk.js.map": "/portfolio-mathis-pastre/static/js/787.8f6cd68f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd2abc0b.css",
-    "static/js/main.ca1881a5.js"
+    "static/css/main.ce09e22d.css",
+    "static/js/main.743f8ca3.js"
   ]
 }
