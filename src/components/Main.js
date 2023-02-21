@@ -39,16 +39,53 @@ import kanap from "../assets/Kanap.png";
 import piiiquante from "../assets/piiiquante.png";
 import kasa from "../assets/Kasa.png";
 import omega from "../assets/Omega.png";
+import moiPeinture from "../assets/moisansfond2.png";
 
 export default function Main() {
   const [autoplay, setAutoplay] = useState(true);
+
   return (
     <div className="main_container">
       <Carousel
         autoplay={autoplay}
         speed="800"
         autoplaySpeed="120"
-        keyBoardControl={true}>
+        keyBoardControl={true}
+        dotsClass="button__bar">
+        <div>
+          <section className="present">
+            <div className="title bgBanner0">
+              <div>
+                <h2>Qui suis-je ?</h2>
+                <h2>Voici un résumé de mon parcours</h2>
+              </div>
+            </div>
+            <div className="who_container flexCenterNoColumn bgSpace">
+              <div className="describe_box animText">
+                <p>
+                  Développeur web passionné et motivé, je cherche à intégrer une
+                  entreprise et contribuer à des projets innovants. Dans le
+                  cadre de ma formation, j'ai réalisé de nombreux projets
+                  professionnels pour développer mes "hard skills" et renforcer
+                  mes connaissances dans le domaine de la création web.
+                </p>
+              </div>
+              <p className="helpUser">Touchez ici</p>
+              <img className="photoOfMeImg" src={moiPeinture} alt="Moi" />
+              <p className="helpUser">Pour dévoiler</p>
+              <div className="describe_box animText">
+                <p>
+                  Cette expérience m'a permis d'acquérir une solide expertise et
+                  de mettre en pratique les concepts et les méthodologies que
+                  j'ai appris au cours de ma formation. Je continue de
+                  progresser dans ce domaine en travaillant sur des projets
+                  personnels qui me permettent de mettre en pratique mes
+                  compétences et d'acquérir de nouvelles connaissances.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
         <div>
           <section className="present">
             <div className="title bgBanner1">
@@ -57,7 +94,6 @@ export default function Main() {
                 <h2>Des prestations adaptées à vos besoins</h2>
               </div>
             </div>
-
             <div className="article services_bg flexCenter">
               <div className="titleArticle anim1">
                 <h3>
@@ -188,13 +224,13 @@ export default function Main() {
         {/* Slide 3 */}
         <div>
           <section className="present">
-            <div className="title bgBanner3">
+            <div className="title bgBanner4">
               <div>
                 <h2>Mes projets</h2>
                 <h2>Une partie des projets sur lesquels j'ai travaillé</h2>
               </div>
             </div>
-            <div className="book_container bgBackground3 flexCenter">
+            <div className="book_container bgBackground4 flexCenter">
               <div className="carousel_portfolio">
                 <Carousel
                   effect="fade"
@@ -288,13 +324,13 @@ export default function Main() {
         {/* Slide 4 */}
         <div>
           <section className="present">
-            <div className="title bgBanner4">
+            <div className="title bgBanner3">
               <div>
                 <h2>Me contacter</h2>
                 <h2>Un projet de création web ?</h2>
               </div>
             </div>
-            <div className="book_container bgBackground4 flexCenter">
+            <div className="book_container bgBackground3 flexCenter">
               <a href="mailto:mathis.pastre@outlook.com">
                 <MailOutlined />
                 <h3>Email</h3>

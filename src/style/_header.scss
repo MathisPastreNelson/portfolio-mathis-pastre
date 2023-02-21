@@ -5,18 +5,14 @@ header {
   justify-content: center;
   padding: 0 2%;
   align-items: center;
-  background: linear-gradient(
-    90deg,
-    rgb(0, 0, 0) 40%,
-    rgba(0, 0, 0, 0.082) 100%
-  );
+  background: linear-gradient(90deg, rgb(0, 0, 0) 40%, rgba(0, 0, 0, 0) 80%);
   color: white;
 }
 .imgLogo {
   height: 8vh;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 776px) {
   h1 {
     font-size: 20px;
   }

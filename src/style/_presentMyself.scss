@@ -1,0 +1,127 @@
+.who_container {
+  border-radius: 10px;
+  box-shadow: 0px 10px rgba(0, 0, 0, 0.15);
+  width: 80%;
+  transition-property: all;
+  transition-property: transform;
+}
+
+.helpUser {
+  color: white;
+  font-size: 20px;
+  z-index: 2;
+}
+
+.who_container:hover > .helpUser {
+  display: none;
+}
+
+.photoOfMeImg {
+  width: 15rem;
+  z-index: 1;
+  border-radius: 20px;
+  transition: all 1s;
+  filter: blur(5px);
+}
+
+.describe_box {
+  background-color: white;
+  background-size: cover;
+  width: 30%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  opacity: 0;
+  border-radius: 20px;
+  border: black 1px solid;
+  position: absolute;
+}
+
+.who_container:hover > .photoOfMeImg {
+  filter: blur(0px);
+}
+.who_container:hover .describe_box:first-child {
+  opacity: 1;
+  visibility: visible;
+  animation: roll-in-blurred-right 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
+  position: relative;
+}
+
+.who_container:hover .describe_box:first-child:after {
+  content: "";
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 40px solid #ffffff;
+  position: absolute;
+  right: -2.5rem;
+  rotate: 270deg;
+}
+
+.who_container:hover .describe_box:last-child {
+  opacity: 1;
+  visibility: visible;
+  animation: roll-in-blurred-left 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
+  position: relative;
+}
+
+.who_container:hover .describe_box:last-child:after {
+  content: "";
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 40px solid #ffffff;
+  position: absolute;
+  left: -2.5rem;
+  rotate: 90deg;
+}
+
+.who_container:hover .describe_box:first-child > p {
+  animation: wobble-hor-bottom 900ms ease-out;
+}
+
+.who_container:hover .describe_box:last-child > p {
+  animation: wobble-hor-bottom2 900ms ease-out;
+}
+
+@media (max-width: 776px) {
+  .who_container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .describe_box {
+    width: 85%;
+  }
+
+  .describe_box > p {
+    font-size: 11px;
+  }
+
+  .photoOfMeImg {
+    width: 6rem;
+  }
+  .describe_box {
+    flex-direction: column;
+  }
+
+  .who_container:hover .describe_box:first-child:after {
+    right: 56%;
+    bottom: -2rem;
+    rotate: 340deg;
+    z-index: -1;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 70px solid #ffffff;
+  }
+
+  .who_container:hover .describe_box:last-child:after {
+    left: 66%;
+    top: -2rem;
+    rotate: 150deg;
+    z-index: -1;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 70px solid #ffffff;
+  }
+}

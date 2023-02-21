@@ -15,8 +15,8 @@
 .portefolio_article {
   background-color: rgba(0, 0, 0, 0.15);
   border: solid 1px rgba(2, 2, 2, 0.979);
-  color: white;
   border-radius: 5px;
+  color: black;
 }
 
 .carousel_portfolio {
@@ -57,7 +57,7 @@
   padding: 0 6vw;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 776px) {
   .book_container {
     width: 90%;
   }

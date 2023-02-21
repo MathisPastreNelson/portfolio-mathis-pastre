@@ -1,10 +1,13 @@
 import React from "react";
+import { ArrowUpOutlined } from "@ant-design/icons";
 
 export default function Footer() {
   return (
     <footer className="footer">
-      <h4>Copyright</h4>
-      <p>Mathis Pastre 2023</p>
+      <p>
+        <ArrowUpOutlined className="arrowFooter" />
+      </p>
+      <h4>Change de section ici</h4>
     </footer>
   );
 }

@@ -1,8 +1,22 @@
 .services_bg {
-  background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.514)),
+  background: linear-gradient(rgba(201, 255, 4, 0), rgba(201, 255, 4, 0)),
     url("../assets/bg-general.png");
   background-size: cover;
   background-position: 50% 75%;
+}
+
+.bgSpace {
+  background: linear-gradient(rgba(0, 0, 0, 0.137), rgba(0, 0, 0, 0.699)),
+    url("../assets/articles.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bgBanner0 {
+  background: linear-gradient(rgba(201, 255, 4, 0), rgba(201, 255, 4, 0)),
+    url("../assets/articlesTop.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .bgBanner1 {
@@ -11,7 +25,7 @@
       rgba(255, 255, 255, 0.329)
     ),
     url("../assets/bg-computer2.png");
-  background-position: 100% 0%;
+  background-position: center;
   background-size: cover;
 }
 
@@ -26,23 +40,15 @@
 }
 
 .bgBanner3 {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.192),
-      rgba(255, 255, 255, 0.329)
-    ),
-    url("../assets/bg-computer2.png");
+  background: url("../assets/portefolio-backgroundTop.jpg");
   background-size: cover;
-  background-position: 0% 100%;
+  background-position: center;
 }
 
 .bgBanner4 {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.192),
-      rgba(255, 255, 255, 0.329)
-    ),
-    url("../assets/bg_computer.png");
+  background: url("../assets/contactTop.jpg");
   background-size: cover;
-  background-position: 0% 100%;
+  background-position: center;
 }
 
 .bgBackground2 {
@@ -51,14 +57,13 @@
       rgba(255, 255, 255, 0.329)
     ),
     url("../assets/portefolio-background.jpg");
-
+  background-position: center;
   background-size: cover;
 }
 
 .bgBackground3 {
-  background: linear-gradient(rgba(44, 44, 44, 0.473), rgba(70, 52, 52, 0.938)),
-    url("../assets/contact-background.jpg");
-
+  background: url("../assets/contact-background.jpg");
+  background-position: center;
   background-size: cover;
 }
 
@@ -68,5 +73,6 @@
       rgba(255, 255, 255, 0.185)
     ),
     url("../assets/bg_grey.jpg");
+  background-position: center;
   background-size: cover;
 }
