@@ -70,16 +70,17 @@ export default function Main() {
                   mes connaissances dans le domaine de la création web.
                 </p>
               </div>
-              <img className="photoOfMeImg" src={moiPeinture} />
+              <p className="helpUser">Touchez ici</p>
+              <img className="photoOfMeImg" src={moiPeinture} alt="Moi" />
+              <p className="helpUser">Pour dévoiler</p>
               <div className="describe_box animText">
                 <p>
-                  Cette expérience m'a permis d'acquérir une solide expertise
-                  technique et de mettre en pratique les concepts et les
-                  méthodologies que j'ai appris au cours de ma formation. Je
-                  continue de me former et de progresser dans ce domaine en
-                  travaillant sur des projets personnels qui me permettent de
-                  mettre en pratique mes compétences et d'acquérir de nouvelles
-                  connaissances.
+                  Cette expérience m'a permis d'acquérir une solide expertise et
+                  de mettre en pratique les concepts et les méthodologies que
+                  j'ai appris au cours de ma formation. Je continue de
+                  progresser dans ce domaine en travaillant sur des projets
+                  personnels qui me permettent de mettre en pratique mes
+                  compétences et d'acquérir de nouvelles connaissances.
                 </p>
               </div>
             </div>
@@ -223,13 +224,13 @@ export default function Main() {
         {/* Slide 3 */}
         <div>
           <section className="present">
-            <div className="title bgBanner3">
+            <div className="title bgBanner4">
               <div>
                 <h2>Mes projets</h2>
                 <h2>Une partie des projets sur lesquels j'ai travaillé</h2>
               </div>
             </div>
-            <div className="book_container bgBackground3 flexCenter">
+            <div className="book_container bgBackground4 flexCenter">
               <div className="carousel_portfolio">
                 <Carousel
                   effect="fade"
@@ -323,13 +324,13 @@ export default function Main() {
         {/* Slide 4 */}
         <div>
           <section className="present">
-            <div className="title bgBanner4">
+            <div className="title bgBanner3">
               <div>
                 <h2>Me contacter</h2>
                 <h2>Un projet de création web ?</h2>
               </div>
             </div>
-            <div className="book_container bgBackground4 flexCenter">
+            <div className="book_container bgBackground3 flexCenter">
               <a href="mailto:mathis.pastre@outlook.com">
                 <MailOutlined />
                 <h3>Email</h3>

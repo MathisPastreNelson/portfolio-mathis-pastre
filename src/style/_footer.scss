@@ -1,6 +1,6 @@
 // CSS du footer
 footer {
-  height: 8vh;
+  height: 6vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,8 +8,17 @@ footer {
   flex-direction: column;
   background: linear-gradient(
     90deg,
-    rgb(0, 0, 0) 40%,
-    rgba(0, 0, 0, 0.082) 100%
+    rgba(0, 0, 0, 0.603) 30%,
+    rgba(0, 0, 0, 0.027) 100%
   );
   color: white;
+}
+
+.arrowFooter {
+  position: absolute;
+  font-size: 20px;
+  animation: scale-up-top 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) infinite
+    alternate-reverse both;
+  bottom: 5vh;
+  color: rgb(255, 232, 104);
 }
