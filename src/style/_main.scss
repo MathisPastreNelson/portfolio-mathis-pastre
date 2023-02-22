@@ -52,6 +52,7 @@
   flex-direction: column;
   transition: ease-in-out 300ms;
   overflow: hidden;
+  border: 1px solid black;
 }
 
 .title > div {
@@ -60,6 +61,7 @@
   padding: 1rem;
   border-radius: 10px;
   transition: 300ms ease-in-out;
+  border: 1px solid black;
 }
 
 .title:hover > div {
@@ -88,6 +90,7 @@ div > p {
   border-radius: 10px;
   box-shadow: 0px 10px rgba(0, 0, 0, 0.15);
   width: 80%;
+  border: 1px solid black;
 }
 
 .flexCenter {

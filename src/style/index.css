@@ -90,7 +90,7 @@ header {
 
 .imgLogo {
   height: 8vh;
-  background-color: rgba(0, 0, 0, 0.336);
+  background-color: rgba(255, 255, 255, 0.466);
   border-radius: 10px;
 }
 
@@ -154,6 +154,7 @@ header {
   flex-direction: column;
   transition: ease-in-out 300ms;
   overflow: hidden;
+  border: 1px solid black;
 }
 
 .title > div {
@@ -162,6 +163,7 @@ header {
   padding: 1rem;
   border-radius: 10px;
   transition: 300ms ease-in-out;
+  border: 1px solid black;
 }
 
 .title:hover > div {
@@ -189,6 +191,7 @@ div > p {
   border-radius: 10px;
   box-shadow: 0px 10px rgba(0, 0, 0, 0.15);
   width: 80%;
+  border: 1px solid black;
 }
 
 .flexCenter {
@@ -254,6 +257,7 @@ div > p {
   width: 80%;
   transition-property: all;
   transition-property: transform;
+  border: 1px solid black;
   animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
@@ -276,7 +280,7 @@ div > p {
 }
 
 .describe_box {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   background-size: cover;
   width: 30%;
   display: flex;
@@ -303,12 +307,13 @@ div > p {
 
 .who_container:hover .describe_box:first-child:after {
   content: "";
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 40px solid #ffffff;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 40px solid rgb(255, 255, 255);
   position: absolute;
-  right: -2.5rem;
+  right: -1.5rem;
   rotate: 270deg;
+  z-index: -1;
 }
 
 .who_container:hover .describe_box:last-child {
@@ -320,12 +325,13 @@ div > p {
 
 .who_container:hover .describe_box:last-child:after {
   content: "";
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 40px solid #ffffff;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 40px solid rgb(255, 255, 255);
   position: absolute;
-  left: -2.5rem;
+  left: -1.5rem;
   rotate: 90deg;
+  z-index: -1;
 }
 
 .who_container:hover .describe_box:first-child > p {
@@ -354,22 +360,18 @@ div > p {
     flex-direction: column;
   }
   .who_container:hover .describe_box:first-child:after {
-    right: 56%;
+    right: 60%;
     bottom: -2rem;
     rotate: 340deg;
-    z-index: -1;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 70px solid #ffffff;
+    border-top: 70px solid rgb(255, 255, 255);
   }
   .who_container:hover .describe_box:last-child:after {
-    left: 66%;
-    top: -2rem;
-    rotate: 140deg;
-    z-index: -1;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 70px solid #ffffff;
+    left: 60%;
+    top: 0rem;
+    rotate: 40deg;
+    border-left: 40px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 20px solid rgb(255, 255, 255);
   }
 }
 /* Animation du background body */
