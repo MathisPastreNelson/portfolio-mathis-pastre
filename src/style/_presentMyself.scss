@@ -4,6 +4,7 @@
   width: 80%;
   transition-property: all;
   transition-property: transform;
+  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .helpUser {
@@ -105,6 +106,7 @@
     flex-direction: column;
   }
 
+  // Flèche de l'infobulle
   .who_container:hover .describe_box:first-child:after {
     right: 56%;
     bottom: -2rem;
@@ -118,7 +120,7 @@
   .who_container:hover .describe_box:last-child:after {
     left: 66%;
     top: -2rem;
-    rotate: 150deg;
+    rotate: 140deg;
     z-index: -1;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;

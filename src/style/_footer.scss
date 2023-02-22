@@ -12,6 +12,7 @@ footer {
     rgba(0, 0, 0, 0.027) 100%
   );
   color: white;
+  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .arrowFooter {

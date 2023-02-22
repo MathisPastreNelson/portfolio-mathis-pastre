@@ -2,18 +2,27 @@
 header {
   height: 8vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding: 0 2%;
   align-items: center;
-  background: linear-gradient(90deg, rgb(0, 0, 0) 40%, rgba(0, 0, 0, 0) 80%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.274) 40%,
+    rgba(0, 0, 0, 0) 80%
+  );
   color: white;
+  -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 .imgLogo {
   height: 8vh;
+  background-color: rgba(0, 0, 0, 0.336);
+  border-radius: 10px;
 }
 
 @media (max-width: 776px) {
   h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
