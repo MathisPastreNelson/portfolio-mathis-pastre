@@ -5,13 +5,13 @@
 }
 
 .bgSpace {
-  background: linear-gradient(rgba(0, 0, 0, 0.137), rgba(0, 0, 0, 0.699)), url("../assets/articles.jpeg");
+  background: linear-gradient(rgba(255, 0, 0, 0.514), rgba(0, 0, 0, 0.699)), url("../assets/articles.jpeg");
   background-size: cover;
   background-position: center;
 }
 
 .bgBanner0 {
-  background: linear-gradient(rgba(201, 255, 4, 0), rgba(201, 255, 4, 0)), url("../assets/articlesTop.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.466), rgba(255, 0, 0, 0.514)), url("../assets/articlesTop.jpg");
   background-size: cover;
   background-position: center;
   animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
