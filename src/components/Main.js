@@ -39,6 +39,8 @@ import kanap from "../assets/Kanap.png";
 import piiiquante from "../assets/piiiquante.png";
 import kasa from "../assets/Kasa.png";
 import omega from "../assets/Omega.png";
+import mairie from "../assets/Mairie.png";
+
 import moiPeinture from "../assets/moisansfond2.png";
 
 export default function Main() {
@@ -311,6 +313,17 @@ export default function Main() {
                     <p>Création d'un RPG avec React.</p>
                     <a
                       href="https://role-playing-groubi.netlify.app/"
+                      className="visitButton">
+                      Visiter le site
+                    </a>
+                    <br /> <br />
+                  </div>
+                  <div className="portefolio_article">
+                    <img className="imgPortFolio" src={mairie} alt="" />
+                    <h2>Mairie Neuilly-le-Brignon</h2>
+                    <p>Refonte d'un site de mairie avec WordPress/Elementor.</p>
+                    <a
+                      href="https://mathispastrenelson.github.io/site-mairie/"
                       className="visitButton">
                       Visiter le site
                     </a>
