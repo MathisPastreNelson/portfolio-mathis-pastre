@@ -240,22 +240,44 @@ export default function Main() {
                   speed="800"
                   autoplaySpeed="30">
                   <div className="portefolio_article">
-                    <img className="imgPortFolio" src={bookio} alt="" />
-                    <h2>Bookio</h2>
-                    <p>Création d'un site web d'hébergement pour vacance.</p>
+                    <img className="imgPortFolio" src={mairie} alt="" />
+                    <h2>Mairie Neuilly-le-Brignon</h2>
+                    <p>Refonte d'un site de mairie avec WordPress/Elementor.</p>
                     <a
-                      href="https://mathispastrenelson.github.io/Projet-2-OCR/"
+                      href="https://mathispastrenelson.github.io/site-mairie/"
                       className="visitButton">
                       Visiter le site
                     </a>
                     <br /> <br />
                   </div>
                   <div className="portefolio_article">
-                    <img className="imgPortFolio" src={ohmyfood} alt="" />
-                    <h2>Ohmyfood</h2>
-                    <p>Création d'un site web de réservation de menu.</p>
+                    <img className="imgPortFolio" src={kasa} alt="" />
+                    <h2>Kasa</h2>
+                    <p>Création d'un front avec React.</p>
                     <a
-                      href="https://mathispastrenelson.github.io/Projet-3-OCR/"
+                      href="https://mathispastrenelson.github.io/projet-7-ocr/"
+                      className="visitButton">
+                      Visiter le site
+                    </a>
+                    <br /> <br />
+                  </div>
+                  <div className="portefolio_article">
+                    <img className="imgPortFolio" src={piiiquante} alt="" />
+                    <h2>Piiiquante</h2>
+                    <p>Création d'une API rest avec nodeJS.</p>
+                    <a
+                      href="https://github.com/MathisPastreNelson/Projet-6-OCR"
+                      className="visitButton">
+                      Visiter le repository
+                    </a>
+                    <br /> <br />
+                  </div>
+                  <div className="portefolio_article">
+                    <img className="imgPortFolio" src={kanap} alt="" />
+                    <h2>Kanap</h2>
+                    <p>Intégration Front des données en JavaScript.</p>
+                    <a
+                      href="https://mathispastrenelson.github.io/Projet-5-OCR/front/html/index.html"
                       className="visitButton">
                       Visiter le site
                     </a>
@@ -275,33 +297,22 @@ export default function Main() {
                     <br /> <br />
                   </div>
                   <div className="portefolio_article">
-                    <img className="imgPortFolio" src={kanap} alt="" />
-                    <h2>Kanap</h2>
-                    <p>Intégration Front des données en JavaScript.</p>
+                    <img className="imgPortFolio" src={ohmyfood} alt="" />
+                    <h2>Ohmyfood</h2>
+                    <p>Création d'un site web de réservation de menu.</p>
                     <a
-                      href="https://mathispastrenelson.github.io/Projet-5-OCR/front/html/index.html"
+                      href="https://mathispastrenelson.github.io/Projet-3-OCR/"
                       className="visitButton">
                       Visiter le site
                     </a>
                     <br /> <br />
                   </div>
                   <div className="portefolio_article">
-                    <img className="imgPortFolio" src={piiiquante} alt="" />
-                    <h2>Piiiquante</h2>
-                    <p>Création d'une API rest avec nodeJS.</p>
+                    <img className="imgPortFolio" src={bookio} alt="" />
+                    <h2>Bookio</h2>
+                    <p>Création d'un site web d'hébergement pour vacance.</p>
                     <a
-                      href="https://github.com/MathisPastreNelson/Projet-6-OCR"
-                      className="visitButton">
-                      Visiter le repository
-                    </a>
-                    <br /> <br />
-                  </div>
-                  <div className="portefolio_article">
-                    <img className="imgPortFolio" src={kasa} alt="" />
-                    <h2>Kasa</h2>
-                    <p>Création d'un front avec React.</p>
-                    <a
-                      href="https://mathispastrenelson.github.io/projet-7-ocr/"
+                      href="https://mathispastrenelson.github.io/Projet-2-OCR/"
                       className="visitButton">
                       Visiter le site
                     </a>
@@ -313,17 +324,6 @@ export default function Main() {
                     <p>Création d'un RPG avec React.</p>
                     <a
                       href="https://role-playing-groubi.netlify.app/"
-                      className="visitButton">
-                      Visiter le site
-                    </a>
-                    <br /> <br />
-                  </div>
-                  <div className="portefolio_article">
-                    <img className="imgPortFolio" src={mairie} alt="" />
-                    <h2>Mairie Neuilly-le-Brignon</h2>
-                    <p>Refonte d'un site de mairie avec WordPress/Elementor.</p>
-                    <a
-                      href="https://mathispastrenelson.github.io/site-mairie/"
                       className="visitButton">
                       Visiter le site
                     </a>
