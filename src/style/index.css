@@ -60,8 +60,6 @@
 
 /* SCSS du body*/
 body {
-  overflow: hidden;
-  height: 100vh;
   background: linear-gradient(rgba(2, 2, 2, 0.678), rgba(7, 7, 7, 0.336)), url("../assets/bg-planet.jpg");
   animation: bgMove 50000ms linear infinite;
   background-repeat: no-repeat;
