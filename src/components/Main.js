@@ -40,6 +40,7 @@ import piiiquante from "../assets/piiiquante.png";
 import kasa from "../assets/Kasa.png";
 import omega from "../assets/Omega.png";
 import mairie from "../assets/Mairie.png";
+import Cinemathis from "../assets/Cinemathis.png";
 
 import moiPeinture from "../assets/moisansfond2.png";
 
@@ -239,6 +240,17 @@ export default function Main() {
                   autoplay={autoplay}
                   speed="800"
                   autoplaySpeed="30">
+                  <div className="portefolio_article">
+                    <img className="imgPortFolio" src={Cinemathis} alt="" />
+                    <h2>CinéMathis</h2>
+                    <p>Site de recherche de films en react avec l'API TMDB.</p>
+                    <a
+                      href="https://mathispastrenelson.github.io/my-api-project/"
+                      className="visitButton">
+                      Visiter le site
+                    </a>
+                    <br /> <br />
+                  </div>
                   <div className="portefolio_article">
                     <img className="imgPortFolio" src={mairie} alt="" />
                     <h2>Mairie Neuilly-le-Brignon</h2>
