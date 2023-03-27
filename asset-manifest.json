@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-mathis-pastre/static/css/main.c4fd3813.css",
-    "main.js": "/portfolio-mathis-pastre/static/js/main.8d924800.js",
+    "main.js": "/portfolio-mathis-pastre/static/js/main.cb5a2999.js",
     "static/js/787.8f6cd68f.chunk.js": "/portfolio-mathis-pastre/static/js/787.8f6cd68f.chunk.js",
     "static/media/Omega.png": "/portfolio-mathis-pastre/static/media/Omega.9c2cce40b0277180db92.png",
     "static/media/articles.jpeg": "/portfolio-mathis-pastre/static/media/articles.4009034c70056b15f34b.jpeg",
@@ -20,6 +20,7 @@
     "static/media/bg_grey.jpg": "/portfolio-mathis-pastre/static/media/bg_grey.8c1d86fab25ef430c3a1.jpg",
     "static/media/Kasa.png": "/portfolio-mathis-pastre/static/media/Kasa.42f3ff9700c2036f1436.png",
     "static/media/portefolio-backgroundTop.jpg": "/portfolio-mathis-pastre/static/media/portefolio-backgroundTop.e81da0887e1b045d4d89.jpg",
+    "static/media/Cinemathis.png": "/portfolio-mathis-pastre/static/media/Cinemathis.71e3cfe36942c15b79fd.png",
     "static/media/contactTop.jpg": "/portfolio-mathis-pastre/static/media/contactTop.663f8f9d9f4a2ba80b32.jpg",
     "static/media/piiiquante.png": "/portfolio-mathis-pastre/static/media/piiiquante.633af120b03f350e6bc0.png",
     "static/media/bg-planet.jpg": "/portfolio-mathis-pastre/static/media/bg-planet.7193ea905d70363bec7a.jpg",
@@ -32,11 +33,11 @@
     "static/media/slick.woff": "/portfolio-mathis-pastre/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio-mathis-pastre/index.html",
     "main.c4fd3813.css.map": "/portfolio-mathis-pastre/static/css/main.c4fd3813.css.map",
-    "main.8d924800.js.map": "/portfolio-mathis-pastre/static/js/main.8d924800.js.map",
+    "main.cb5a2999.js.map": "/portfolio-mathis-pastre/static/js/main.cb5a2999.js.map",
     "787.8f6cd68f.chunk.js.map": "/portfolio-mathis-pastre/static/js/787.8f6cd68f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4fd3813.css",
-    "static/js/main.8d924800.js"
+    "static/js/main.cb5a2999.js"
   ]
 }
