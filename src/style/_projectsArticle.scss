@@ -10,11 +10,10 @@
   border-radius: 10px;
   box-shadow: 0px 10px rgba(0, 0, 0, 0.15);
   width: 80%;
+  padding: 1rem 0;
 }
 
 .portefolio_article {
-  background-color: rgba(0, 0, 0, 0.15);
-  border: solid 1px rgba(2, 2, 2, 0.979);
   border-radius: 5px;
   color: black;
 }
@@ -25,12 +24,43 @@
 
 .imgPortFolio {
   width: 95%;
-  margin: 1vh auto;
   height: 30vh;
   object-fit: cover;
   object-position: 50% 0%;
-  border: 1px solid rgba(3, 3, 1, 0.637);
   border-radius: 10px;
+}
+
+.describeBox {
+  margin: 0.5rem auto 0;
+  width: 95%;
+  padding: 1rem 0;
+  border-radius: 10px;
+  background-color: rgba(240, 255, 255, 0.555);
+}
+
+.DescribeOfProject {
+  font-size: 25px;
+  margin: 0 0 0.5rem 0;
+}
+
+.DescribeOfProject_text {
+  font-size: 18px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.listTechnology_box {
+  width: 200px;
+  margin: 1rem auto;
+  width: 95%;
+  padding: 1rem 0;
+  border-radius: 10px;
+  background-color: rgba(240, 255, 255, 0.555);
+}
+
+.listTechnology {
+  list-style: none;
 }
 
 .visitButton {
@@ -40,11 +70,18 @@
     rgba(23, 255, 43, 0.658) 100%
   );
   color: black;
-  padding: 0 5vw;
+  padding: 0.2rem 1rem;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
   transition: 500ms;
   font-size: 18px;
+  height: 30px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  text-decoration: none;
 }
 
 .visitButton:hover {
@@ -54,7 +91,32 @@
     rgba(115, 255, 127, 0.79) 100%
   );
   color: rgba(0, 0, 0, 0.897);
-  padding: 0 6vw;
+  width: 140px;
+}
+
+.projectOrderInfo {
+  margin: 0.5rem auto;
+  font-size: 18px;
+}
+
+.projectButton_BeforeNext {
+  height: 40px;
+  width: 140px;
+  margin: 0.5rem 0.5rem 0rem 0.5rem;
+  transition: all 400ms;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(189, 221, 219, 0.685);
+  font-size: 18px;
+}
+
+.projectButton_BeforeNext:hover {
+  background: linear-gradient(
+    90deg,
+    rgb(72, 223, 102) 50%,
+    rgba(115, 255, 127, 0.79) 100%
+  );
+  color: rgb(39, 39, 39);
 }
 
 @media (max-width: 776px) {
