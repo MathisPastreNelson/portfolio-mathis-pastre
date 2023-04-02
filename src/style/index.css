@@ -573,6 +573,7 @@ div > p {
 }
 
 .buttonSwitchComponent {
+  border: 0px;
   height: 40px;
   width: 140px;
   margin: 0.5rem;
@@ -758,9 +759,9 @@ div > p {
 
 .DescribeOfProject_text {
   font-size: 18px;
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
-  text-align: justify;
+  text-align: center;
 }
 
 .listTechnology_box {
@@ -811,7 +812,7 @@ div > p {
   transition: all 400ms;
   border-radius: 5px;
   cursor: pointer;
-  background-color: rgba(189, 221, 219, 0.685);
+  background-color: rgba(204, 204, 204, 0.952);
   font-size: 18px;
 }
 
@@ -826,23 +827,44 @@ div > p {
   }
 }
 /* SCSS de la rubrique Contact*/
-.present > div > a {
-  background-color: rgba(37, 25, 25, 0.418);
-  margin: 0.2rem;
-  padding: 0.8rem;
-  width: 25%;
-  border: 1px solid black;
+.formBox {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(235, 235, 235, 0.603);
+  width: 300px;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
-  transition: 400ms;
-  color: white;
-  font-size: 30px;
+  padding: 1rem 0;
 }
 
-.present > div > a:hover {
-  transform: scale(1.05);
-  width: 35%;
-  color: rgb(117, 243, 86);
-  background-color: rgba(126, 123, 123, 0.178);
+.inputForm {
+  width: 80%;
+  border-radius: 5px;
+  border: 0px;
+  margin: 0.2rem 0;
+}
+
+.messageForm {
+  height: 100px;
+  resize: none;
+  margin: 0 0 1rem 0;
+}
+
+.sendEmail {
+  background: linear-gradient(90deg, rgb(255, 159, 159) 0%, rgba(255, 182, 23, 0.658) 100%);
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  transition: all 200ms;
+  border: 0px;
+  cursor: pointer;
+}
+
+.sendEmail:hover {
+  border: solid rgba(0, 0, 0, 0.589) 1px;
+  background: linear-gradient(90deg, rgba(23, 255, 43, 0.658) 0%, rgb(159, 255, 180) 100%);
+  transform: scale(1.2, 1);
 }
 
 footer {
