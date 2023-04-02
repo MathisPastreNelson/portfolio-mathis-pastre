@@ -1,13 +1,26 @@
 import React from "react";
-import { ArrowUpOutlined } from "@ant-design/icons";
+
+import {
+  LinkedinOutlined,
+  GithubOutlined,
+  MailOutlined,
+} from "@ant-design/icons";
 
 export default function Footer() {
   return (
     <footer className="footer">
-      <p>
-        <ArrowUpOutlined className="arrowFooter" />
-      </p>
-      <h4>Change de section ici</h4>
+      <a href="mailto:mathis.pastre@outlook.com">
+        <MailOutlined />
+        <h3>Email</h3>
+      </a>
+      <a href="https://www.linkedin.com/in/mathis-pastre/">
+        <LinkedinOutlined />
+        <h3>Linkdin</h3>
+      </a>
+      <a href="https://github.com/MathisPastreNelson">
+        <GithubOutlined />
+        <h3>Github</h3>
+      </a>
     </footer>
   );
 }

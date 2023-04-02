@@ -2,6 +2,7 @@
   background: linear-gradient(rgba(201, 255, 4, 0), rgba(201, 255, 4, 0)),
     url("../assets/bg-general.png");
   background-size: cover;
+  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
   background-position: 50% 75%;
 }
 
@@ -17,46 +18,53 @@
     url("../assets/articlesTop.jpg");
   background-size: cover;
   background-position: center;
-  animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .bgBanner1 {
   background: url("../assets/bg-computer2.png");
   background-position: center;
   background-size: cover;
+  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .bgBanner2 {
   background: url("../assets/bg_computer.png");
   background-size: cover;
+  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .bgBanner3 {
   background: url("../assets/portefolio-backgroundTop.jpg");
   background-size: cover;
   background-position: center;
+  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .bgBanner4 {
   background: url("../assets/contactTop.jpg");
   background-size: cover;
   background-position: center;
+  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .bgBackground2 {
   background: url("../assets/portefolio-background.jpg");
   background-position: center;
   background-size: cover;
+  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .bgBackground3 {
   background: url("../assets/contact-background.jpg");
   background-position: center;
   background-size: cover;
+  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .bgBackground4 {
   background: url("../assets/bg_grey.jpg");
   background-position: center;
   background-size: cover;
+  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }

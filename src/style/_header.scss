@@ -1,6 +1,5 @@
 // SCC du Header
 header {
-  height: 8vh;
   display: flex;
   justify-content: space-around;
   padding: 0 2%;
@@ -16,7 +15,8 @@ header {
   animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 .imgLogo {
-  height: 6vh;
+  height: 10vh;
+  margin: 1rem 0;
   background-color: rgba(255, 255, 255, 0.466);
   border-radius: 10px;
 }

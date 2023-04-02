@@ -1,6 +1,7 @@
 .services_bg {
   background: linear-gradient(rgba(201, 255, 4, 0), rgba(201, 255, 4, 0)), url("../assets/bg-general.png");
   background-size: cover;
+  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
   background-position: 50% 75%;
 }
 
@@ -14,48 +15,55 @@
   background: linear-gradient(rgba(0, 0, 0, 0.466), rgba(255, 0, 0, 0.514)), url("../assets/articlesTop.jpg");
   background-size: cover;
   background-position: center;
-  animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .bgBanner1 {
   background: url("../assets/bg-computer2.png");
   background-position: center;
   background-size: cover;
+  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .bgBanner2 {
   background: url("../assets/bg_computer.png");
   background-size: cover;
+  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .bgBanner3 {
   background: url("../assets/portefolio-backgroundTop.jpg");
   background-size: cover;
   background-position: center;
+  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .bgBanner4 {
   background: url("../assets/contactTop.jpg");
   background-size: cover;
   background-position: center;
+  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .bgBackground2 {
   background: url("../assets/portefolio-background.jpg");
   background-position: center;
   background-size: cover;
+  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .bgBackground3 {
   background: url("../assets/contact-background.jpg");
   background-position: center;
   background-size: cover;
+  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .bgBackground4 {
   background: url("../assets/bg_grey.jpg");
   background-position: center;
   background-size: cover;
+  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 /* SCSS du body*/
@@ -76,7 +84,6 @@ body {
 }
 
 header {
-  height: 8vh;
   display: flex;
   justify-content: space-around;
   padding: 0 2%;
@@ -87,7 +94,8 @@ header {
 }
 
 .imgLogo {
-  height: 6vh;
+  height: 10vh;
+  margin: 1rem 0;
   background-color: rgba(255, 255, 255, 0.466);
   border-radius: 10px;
 }
@@ -101,13 +109,7 @@ header {
   background-color: rgb(113, 214, 18);
 }
 
-.main_container {
-  height: 86vh;
-  overflow: hidden;
-}
-
 .card_container {
-  height: 90vh;
   vertical-align: middle;
   display: flex;
   justify-content: center;
@@ -115,9 +117,9 @@ header {
 }
 
 .present {
-  width: 95vw;
-  margin: 1.5vh auto;
-  height: 82vh;
+  width: 100%;
+  margin: 0 auto;
+  height: 90vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -125,16 +127,9 @@ header {
   transition: all 0.4s ease;
   position: relative;
   background: rgba(0, 0, 0, 0.459);
-  border-radius: 0% 0% 25% 25%/0% 0% 5% 5%;
   color: rgb(0, 0, 0);
-  box-shadow: 15px 15px rgba(0, 0, 0, 0.267);
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
-}
-
-.present:hover {
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 .present > div {
@@ -221,25 +216,11 @@ div > p {
 }
 
 @media (max-width: 776px) {
-  .present {
-    height: 81.5vh;
-  }
-  h2 {
-    font-size: 16px;
-  }
-  h3 {
-    font-size: 13px;
-  }
-  div > p {
-    font-size: 11px;
-  }
   .article {
     width: 90%;
-    height: auto;
   }
   .title {
     width: 90%;
-    height: 15vh;
   }
   .title > div {
     width: 85%;
@@ -582,6 +563,29 @@ div > p {
     box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
   }
 }
+.navButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.buttonSwitchComponent {
+  height: 40px;
+  width: 140px;
+  margin: 0.5rem;
+  transition: all 200ms;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(189, 221, 219, 0.685);
+  font-size: 18px;
+}
+
+.buttonSwitchComponent:hover {
+  background-color: rgba(5, 255, 47, 0.637);
+  color: white;
+}
+
 .icons_container {
   height: 40vh;
   width: 100%;
@@ -696,7 +700,7 @@ div > p {
     font-size: 35px;
   }
   .tooltip {
-    font-size: 8px;
+    font-size: 12px;
   }
   .figmaIcon {
     width: 35px;
@@ -782,21 +786,29 @@ div > p {
 }
 
 footer {
-  height: 6vh;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  flex-direction: column;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.603) 30%, rgba(0, 0, 0, 0.027) 100%);
   color: white;
   animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  margin: 2rem 0 0 0;
 }
 
-.arrowFooter {
-  position: absolute;
-  font-size: 20px;
-  animation: scale-up-top 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) infinite alternate-reverse both;
-  bottom: 5vh;
-  color: rgb(255, 232, 104);
+footer > a {
+  margin: 0.7rem;
+  color: rgba(255, 255, 255, 0.884);
+  font-size: 50px;
+  transition: 400ms;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: rgba(231, 231, 231, 0.199);
+  text-decoration: none;
+}
+
+footer > a:hover {
+  transform: scale(1.05);
+  color: rgb(99, 212, 70);
+  background-color: rgba(248, 248, 248, 0.37);
 }/*# sourceMappingURL=index.css.map */
