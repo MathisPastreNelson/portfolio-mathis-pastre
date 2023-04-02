@@ -10,7 +10,7 @@ import {
 
 export default function MesServices() {
   return (
-    <section className="present">
+    <section className="present ">
       <div className="title bgBanner1">
         <div>
           <h2> Mes services</h2>
