@@ -63,7 +63,7 @@ J'ai également fourni le plan de test d’acceptation qui répertorie l’inté
   },
   {
     id: 8,
-    name: "Bookio",
+    name: "Booki",
     image: require("../assets/bookio.png"),
     description: `J'ai été chargé de créer un prototype en intégrant une maquette en HTML/CSS.
  
@@ -73,10 +73,10 @@ Le site permet à l'utilisateur de trouver des hébergements et des activités d
   },
   {
     id: 9,
-    name: "Omega",
+    name: "Role-Playing-Groubi",
     image: require("../assets/Omega.png"),
     description: `Ce projet m'a permis de mettre mes compétences en logique à l'épreuve, notamment pour la conception d'un système de combat et de progression du personnage tout au long de l'aventure. J'ai également utilisé une intelligence artificielle pour générer une grande partie de l'histoire, que j'ai simplement dirigée dans certaines directions.`,
-    link: "https://mathispastrenelson.github.io/Projet-1-OCR/",
+    link: "https://role-playing-groubi.netlify.app/",
     technologies: ["ReactJS", "ChatGPT"],
   },
 ];

@@ -39,6 +39,7 @@
   border-radius: 20px;
   border: black 1px solid;
   position: absolute;
+  cursor: default;
 }
 
 .who_container:hover > .photoOfMeImg {
@@ -99,7 +100,7 @@
   }
 
   .describe_box > p {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .photoOfMeImg {

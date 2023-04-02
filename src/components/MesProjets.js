@@ -22,8 +22,20 @@ export default function MesProjets() {
         </div>
       </div>
       <div className="book_container bgBackground4 flexCenter">
+        <div>
+          <button className="projectButton_BeforeNext" onClick={handlePrev}>
+            Précédent
+          </button>
+          <button className="projectButton_BeforeNext" onClick={handleNext}>
+            Suivant
+          </button>
+          <p className="projectOrderInfo">
+            Projet : {index + 1} sur {projects.length}
+          </p>
+        </div>
         <div className="carousel_portfolio">
           <div className="portefolio_article">
+            <h2 className="projectTitle">{project.name}</h2>
             <img className="imgPortFolio" src={project.image} alt="" />
             <div className="describeBox">
               <h2>{project.title}</h2>
@@ -41,17 +53,6 @@ export default function MesProjets() {
             <a href={project.link} className="visitButton">
               Visiter le projet
             </a>
-          </div>
-          <div>
-            <p className="projectOrderInfo">
-              Projet : {index + 1} sur {projects.length}
-            </p>
-            <button className="projectButton_BeforeNext" onClick={handlePrev}>
-              Précédent
-            </button>
-            <button className="projectButton_BeforeNext" onClick={handleNext}>
-              Suivant
-            </button>
           </div>
         </div>
       </div>
