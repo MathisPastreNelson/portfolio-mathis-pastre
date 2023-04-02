@@ -2,6 +2,14 @@ import React from "react";
 import moiPeinture from "../assets/moisansfond2.png";
 
 export default function QuiSuisJe() {
+  const scrollHandler = () => {
+    const element = document.querySelector(".who_container");
+    const { top, height } = element.getBoundingClientRect();
+    const offset = window.pageYOffset || document.documentElement.scrollTop;
+    const y = top + offset + height / 2;
+    window.scrollTo({ top: y, behavior: "smooth" });
+  };
+
   return (
     <section className="present">
       <div className="title bgBanner0">
@@ -10,7 +18,10 @@ export default function QuiSuisJe() {
           <h2>Voici un résumé de mon parcours</h2>
         </div>
       </div>
-      <div className="who_container flexCenterNoColumn bgSpace">
+      <div
+        className="who_container flexCenterNoColumn bgSpace"
+        onMouseOver={scrollHandler}
+        onClick={scrollHandler}>
         <div className="describe_box animText">
           <p>
             Développeur web passionné et motivé, je cherche à intégrer une
