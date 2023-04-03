@@ -40,6 +40,7 @@
   border: black 1px solid;
   position: absolute;
   cursor: default;
+  margin: 0.5rem 0;
 }
 
 .who_container:hover > .photoOfMeImg {
@@ -119,7 +120,7 @@
   }
 
   .who_container:hover .describe_box:last-child:after {
-    left: 60%;
+    left: 62%;
     top: -0rem;
     rotate: 40deg;
     border-left: 40px solid transparent;

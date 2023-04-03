@@ -78,6 +78,7 @@ div > p {
   width: 80%;
   border: 1px solid black;
   cursor: default;
+  padding: 0.25rem 0;
 }
 
 .flexCenter {
@@ -95,11 +96,12 @@ div > p {
 
 .article > .titleArticle {
   background-color: rgba(255, 255, 255, 0.788);
-  width: 95%;
+  width: 80%;
   border-radius: 10px;
   transition: 300ms;
-  margin: 0.5rem 0;
-  border: 1px solid rgba(0, 0, 0, 0.521);
+  margin: 0.25rem 0;
+  padding: 0.5rem 0;
+  border: 1px solid rgba(0, 0, 0, 0.719);
 }
 
 .article > .titleArticle:hover {
@@ -119,10 +121,13 @@ div > p {
 
   .title > div {
     width: 85%;
-    padding: 0;
+  }
+
+  .titleArticle {
+    width: 95%;
   }
 
   .article > .titleArticle {
-    margin: 0;
+    width: 95%;
   }
 }
