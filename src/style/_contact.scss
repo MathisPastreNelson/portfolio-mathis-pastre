@@ -46,3 +46,9 @@
   );
   transform: scale(1.2, 1);
 }
+
+@media (max-width: 776px) {
+  .formBox {
+    width: 250px;
+  }
+}

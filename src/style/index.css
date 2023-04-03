@@ -134,10 +134,6 @@ header {
   min-height: 500px;
 }
 
-.present > div {
-  padding: 0.4rem;
-}
-
 .title {
   background-size: cover;
   border-radius: 10px;
@@ -151,6 +147,7 @@ header {
   overflow: hidden;
   border: 1px solid black;
   margin: 0 0 1rem 0;
+  padding: 1rem 0;
 }
 
 .title > div {
@@ -886,6 +883,11 @@ div > p {
   transform: scale(1.2, 1);
 }
 
+@media (max-width: 776px) {
+  .formBox {
+    width: 250px;
+  }
+}
 footer {
   display: flex;
   justify-content: center;

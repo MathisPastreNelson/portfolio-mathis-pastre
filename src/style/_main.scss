@@ -25,10 +25,6 @@
   min-height: 500px;
 }
 
-.present > div {
-  padding: 0.4rem;
-}
-
 .title {
   background-size: cover;
   border-radius: 10px;
@@ -42,6 +38,7 @@
   overflow: hidden;
   border: 1px solid black;
   margin: 0 0 1rem 0;
+  padding: 1rem 0;
 }
 
 .title > div {
