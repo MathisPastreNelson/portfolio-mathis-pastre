@@ -4,13 +4,24 @@ import { projects } from "../assets/projects"; // importer une liste de projets
 export default function MesProjets() {
   const [index, setIndex] = useState(0); // initialiser l'index à 0
   const project = projects[index]; // récupérer le projet correspondant à l'index actuel
+  const [hideProject, setHideProject] = useState(false); // initialiser l'état pour cacher le projet sortant
 
   function handlePrev() {
-    setIndex((index - 1 + projects.length) % projects.length); // passer au projet précédent
+    setHideProject(true); // cacher le projet sortant
+    setTimeout(() => {
+      setIndex((index - 1 + projects.length) % projects.length); // passer au projet précédent
+      setHideProject(false); // afficher le nouveau projet
+      document.querySelector(".carousel_portfolio").classList.add("reverse"); // ajouter la classe reverse pour l'animation de translation inverse
+    }, 500); // délai de 500ms pour laisser le temps à l'animation de se terminer
   }
 
   function handleNext() {
-    setIndex((index + 1) % projects.length); // passer au projet suivant
+    setHideProject(true); // cacher le projet sortant
+    setTimeout(() => {
+      setIndex((index + 1) % projects.length); // passer au projet suivant
+      setHideProject(false); // afficher le nouveau projet
+      document.querySelector(".carousel_portfolio").classList.remove("reverse"); // supprimer la classe reverse pour l'animation de translation normale
+    }, 500); // délai de 500ms pour laisser le temps à l'animation de se terminer
   }
 
   return (
@@ -33,7 +44,7 @@ export default function MesProjets() {
             Projet : {index + 1} sur {projects.length}
           </p>
         </div>
-        <div className="carousel_portfolio">
+        <div className={`carousel_portfolio ${hideProject ? "hide" : ""}`}>
           <div className="portefolio_article">
             <h2 className="projectTitle">{project.name}</h2>
             <img className="imgPortFolio" src={project.image} alt="" />

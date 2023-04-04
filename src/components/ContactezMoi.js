@@ -41,7 +41,9 @@ export default function ContactezMoi() {
         className="book_container bgBackground3 flexCenter"
         onSubmit={handleSubmit}>
         <div className="formBox">
-          <label htmlFor="nom">Nom*</label>
+          <label className="informationForForm" htmlFor="nom">
+            Nom*
+          </label>
           <input
             id="nom"
             className="inputForm"
@@ -51,7 +53,9 @@ export default function ContactezMoi() {
             onChange={(e) => setNom(e.target.value)}
             required
           />
-          <label htmlFor="prenom">Prénom*</label>
+          <label className="informationForForm" htmlFor="prenom">
+            Prénom*
+          </label>
           <input
             id="prenom"
             className="inputForm"
@@ -61,7 +65,9 @@ export default function ContactezMoi() {
             onChange={(e) => setPrenom(e.target.value)}
             required
           />
-          <label htmlFor="email">Email*</label>
+          <label className="informationForForm" htmlFor="email">
+            Email*
+          </label>
           <input
             id="email"
             className="inputForm"
@@ -71,7 +77,9 @@ export default function ContactezMoi() {
             onChange={(e) => setEmail(e.target.value)}
             required
           />
-          <label htmlFor="message">Message*</label>
+          <label className="informationForForm" htmlFor="message">
+            Message*
+          </label>
           <textarea
             id="message"
             className="inputForm messageForm"
