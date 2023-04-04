@@ -15,6 +15,7 @@
   border-radius: 5px;
   border: 0px;
   margin: 0.2rem 0;
+  cursor: none;
 }
 
 .messageForm {
@@ -34,11 +35,10 @@
   border-radius: 10px;
   transition: all 200ms;
   border: 0px;
-  cursor: pointer;
+  cursor: none;
 }
 
 .sendEmail:hover {
-  border: solid rgba(0, 0, 0, 0.589) 1px;
   background: linear-gradient(
     90deg,
     rgba(23, 255, 43, 0.658) 0%,
