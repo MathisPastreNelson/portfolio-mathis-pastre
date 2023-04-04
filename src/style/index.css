@@ -616,19 +616,25 @@ div > p {
 }
 
 .icons_container {
-  height: 40vh;
   width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
 }
 
 .icons_container > div {
-  height: 40vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+}
+
+.icons_container_lineDisplay {
+  display: flex;
+}
+
+.titleOfSkills {
+  background-color: rgba(255, 255, 255, 0.651);
+  padding: 0.2rem 0;
+  width: 100%;
+  margin: 0.3rem 0;
 }
 
 /* Icone individuel */
@@ -644,7 +650,6 @@ div > p {
 }
 
 .iconAnimation {
-  transition: all 400ms;
   background-color: rgba(255, 255, 255, 0);
   display: flex;
   justify-content: center;
@@ -652,12 +657,15 @@ div > p {
   flex-direction: column;
   border: 1px solid rgba(0, 0, 0, 0.377);
   border-radius: 10px;
+  margin: 0.5rem;
+  padding: 1rem 0;
 }
 
 .iconAnimation:hover {
-  transform: scale(1.25);
+  transform: scale(1.15, 1.1);
   background-color: rgba(255, 255, 255, 0.432);
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.342);
+  padding: 0;
 }
 
 .htmlIcon {
@@ -708,7 +716,7 @@ div > p {
   color: rgb(64, 179, 29);
 }
 
-.icons_container > div > div:hover div.tooltip {
+.icons_container > div > div > div:hover div.tooltip {
   display: block;
 }
 
@@ -723,7 +731,6 @@ div > p {
 @media (max-width: 776px) {
   .iconBloc {
     width: 48px;
-    border: solid rgba(255, 255, 255, 0.575) 2px;
   }
   .bgIcon {
     font-size: 35px;
