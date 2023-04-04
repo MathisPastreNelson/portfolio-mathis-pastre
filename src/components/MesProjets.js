@@ -46,6 +46,9 @@ export default function MesProjets() {
         </div>
         <div className={`carousel_portfolio ${hideProject ? "hide" : ""}`}>
           <div className="portefolio_article">
+            <p className="projectDateInfo">
+              Finalisation du projet le : {project.date}
+            </p>
             <h2 className="projectTitle">{project.name}</h2>
             <img className="imgPortFolio" src={project.image} alt="" />
             <div className="describeBox">

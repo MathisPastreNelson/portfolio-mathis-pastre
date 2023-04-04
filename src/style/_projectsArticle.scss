@@ -156,8 +156,12 @@
 }
 
 .projectOrderInfo {
-  margin: 0.5rem auto;
+  margin: 0.5rem auto 0;
   font-size: 18px;
+}
+
+.projectDateInfo {
+  margin: 0rem auto 0.5rem;
 }
 
 .projectButton_BeforeNext {
