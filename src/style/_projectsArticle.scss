@@ -22,6 +22,57 @@
   width: 100%;
 }
 
+/*Cette partie concerne l'animation du slider*/
+.carousel_portfolio {
+  position: relative;
+  overflow: hidden; /* Empêche le débordement et par conséquent évite que l'animation affecte le scroll */
+}
+
+.hide {
+  top: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  z-index: -1; /* Placez l'élément sortant sous l'élément entrant */
+}
+
+.carousel_portfolio:not(.hide) {
+  position: relative;
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+  z-index: 0; /* Placez l'élément entrant au-dessus de l'élément sortant */
+}
+
+.carousel_portfolio.hide .portefolio_article {
+  animation: fadeOut 0.5s forwards;
+}
+
+.carousel_portfolio .portefolio_article {
+  animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/*****************************************/
+
 .projectTitle {
   margin: 0 auto 1rem auto;
   background-color: rgba(240, 255, 255, 0.555);
