@@ -12,18 +12,18 @@ export default function QuiSuisJe() {
 
   return (
     <section className="present">
-      <div className="title bgBanner0">
+      <div className="title bg1">
         <div>
           <h2>Qui suis-je ?</h2>
           <h2>Voici un résumé de mon parcours</h2>
         </div>
       </div>
       <div
-        className="who_container flexCenterNoColumn bgSpace"
+        className="who_container flexCenterNoColumn bg1"
         onMouseOver={scrollHandler}
         onClick={scrollHandler}>
         <div className="describe_box animText">
-          <p>
+          <p className="bdInfo">
             Développeur web passionné et motivé, je cherche à intégrer une
             entreprise et contribuer à des projets innovants. Dans le cadre de
             ma formation, j'ai réalisé de nombreux projets professionnels pour
@@ -35,7 +35,7 @@ export default function QuiSuisJe() {
         <img className="photoOfMeImg" src={moiPeinture} alt="Moi" />
         <p className="helpUser">Pour dévoiler</p>
         <div className="describe_box animText">
-          <p>
+          <p className="bdInfo">
             Cette expérience m'a permis d'acquérir une solide expertise et de
             mettre en pratique les concepts et les méthodologies que j'ai appris
             au cours de ma formation. Je continue de progresser dans ce domaine

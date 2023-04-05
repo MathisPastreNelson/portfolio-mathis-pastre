@@ -1,11 +1,6 @@
 /* SCSS du body*/
 body {
-  background: linear-gradient(rgba(2, 2, 2, 0.678), rgba(7, 7, 7, 0.336)),
-    url("../assets/bg-planet.jpg");
-  animation: bgMove 50000ms linear infinite;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
+  background-color: #38355a;
   backdrop-filter: blur(5px);
   cursor: none;
 }
@@ -13,5 +8,5 @@ body {
 * {
   text-align: center;
   margin: 0;
-  font-family: "Chewy", cursive;
+  font-family: "PT Sans Narrow", sans-serif;
 }

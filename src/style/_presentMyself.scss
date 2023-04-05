@@ -10,7 +10,7 @@
 
 .helpUser {
   color: white;
-  font-size: 20px;
+  font-size: 24px;
   z-index: 2;
 }
 
@@ -89,6 +89,10 @@
   animation: wobble-hor-bottom2 900ms ease-out;
 }
 
+.bdInfo {
+  font-family: "Chewy", cursive;
+}
+
 @media (max-width: 776px) {
   .who_container {
     flex-direction: column;
@@ -97,10 +101,6 @@
 
   .describe_box {
     width: 85%;
-  }
-
-  .describe_box > p {
-    font-size: 15px;
   }
 
   .photoOfMeImg {

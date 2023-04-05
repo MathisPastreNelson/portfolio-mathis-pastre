@@ -31,15 +31,13 @@ export default function ContactezMoi() {
 
   return (
     <section className="present">
-      <div className="title bgBanner3">
+      <div className="title bg1">
         <div>
           <h2>Me contacter</h2>
           <h2>Un projet de création web ?</h2>
         </div>
       </div>
-      <form
-        className="book_container bgBackground3 flexCenter"
-        onSubmit={handleSubmit}>
+      <form className="book_container bg1 flexCenter" onSubmit={handleSubmit}>
         <div className="formBox">
           <label className="informationForForm" htmlFor="nom">
             Nom*

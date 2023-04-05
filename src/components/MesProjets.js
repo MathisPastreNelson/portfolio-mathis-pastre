@@ -26,13 +26,13 @@ export default function MesProjets() {
 
   return (
     <section className="present">
-      <div className="title bgBanner4">
+      <div className="title bg2">
         <div>
           <h2>Mes projets</h2>
           <h2>Une partie des projets sur lesquels j'ai travaillé</h2>
         </div>
       </div>
-      <div className="book_container bgBackground4 flexCenter">
+      <div className="book_container bg2 flexCenter">
         <div>
           <button className="projectButton_BeforeNext" onClick={handlePrev}>
             Précédent
@@ -40,17 +40,17 @@ export default function MesProjets() {
           <button className="projectButton_BeforeNext" onClick={handleNext}>
             Suivant
           </button>
-          <p className="projectOrderInfo">
-            Projet : {index + 1} sur {projects.length}
-          </p>
         </div>
         <div className={`carousel_portfolio ${hideProject ? "hide" : ""}`}>
           <div className="portefolio_article">
+            <p className="projectOrderInfo">
+              Projet : {index + 1} sur {projects.length}
+            </p>
             <p className="projectDateInfo">
               Finalisation du projet le : {project.date}
             </p>
-            <h2 className="projectTitle">{project.name}</h2>
             <img className="imgPortFolio" src={project.image} alt="" />
+            <h2 className="projectTitle">{project.name}</h2>
             <div className="describeBox">
               <h2>{project.title}</h2>
               <p className="DescribeOfProject">Description : </p>

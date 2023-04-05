@@ -11,13 +11,13 @@ import {
 export default function MesServices() {
   return (
     <section className="present ">
-      <div className="title bgBanner1">
+      <div className="title bg2">
         <div>
           <h2> Mes services</h2>
           <h2>Des prestations adaptées à vos besoins</h2>
         </div>
       </div>
-      <div className="article services_bg flexCenter">
+      <div className="article bg2 flexCenter">
         <div className="titleArticle anim1">
           <h3>
             <DropboxOutlined /> Intégration web

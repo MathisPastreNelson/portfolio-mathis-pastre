@@ -1,86 +1,22 @@
 /*Qui Suis-je ?*/
-.bgSpace {
-  background: linear-gradient(rgba(78, 180, 10, 0.87), rgb(8, 8, 5)),
-    url("../assets/articles.jpeg");
-  background-size: cover;
-  background-position: center;
-}
-
-.bgBanner0 {
-  background: linear-gradient(rgba(0, 0, 0, 0.973), (rgba(78, 180, 10, 0.87))),
-    url("../assets/articlesTop.jpg");
-  background-size: cover;
-  background-position: center;
+.bg1 {
+  background: rgb(15, 0, 103);
+  background: radial-gradient(
+    circle,
+    rgba(182, 169, 255, 0.479) 0%,
+    rgba(5, 0, 0, 0.411) 95%,
+    rgba(5, 0, 0, 0.411) 100%
+  );
   animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
-/*Services*/
-
-.bgBanner1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.973), (rgba(39, 42, 226, 0.705))),
-    url("../assets/articlesTop.jpg");
-  background-position: center;
-  background-size: cover;
-  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
-}
-
-.services_bg {
-  background: linear-gradient(rgba(39, 42, 226, 0.705), rgba(0, 0, 0, 0.973)),
-    url("../assets/articles.jpeg");
-  background-size: cover;
-  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  background-position: 50% 75%;
-}
-
-/*Skills*/
-.bgBanner2 {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.973),
-      (rgba(160, 176, 247, 0.705))
-    ),
-    url("../assets/articlesTop.jpg");
-  background-size: cover;
-  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
-}
-
-.bgBackground2 {
-  background: linear-gradient(rgba(160, 176, 247, 0.705), rgba(0, 0, 0, 0.973)),
-    url("../assets/articles.jpeg");
-  background-position: center;
-  background-size: cover;
-  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
-}
-
-/*Mes projets*/
-.bgBanner4 {
-  background: linear-gradient(rgba(0, 0, 0, 0.973), (rgba(231, 101, 214, 0.89))),
-    url("../assets/articlesTop.jpg");
-  background-position: center;
-  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
-}
-
-.bgBackground4 {
-  background: linear-gradient(rgba(231, 101, 214, 0.89), rgba(0, 0, 0, 0.973)),
-    url("../assets/articles.jpeg");
-  background-position: center;
-  background-size: cover;
-  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
-}
-
-/*Contactez moi*/
-
-.bgBanner3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.973), (rgba(255, 1, 1, 0.726))),
-    url("../assets/articlesTop.jpg");
-  background-size: cover;
-  background-position: center;
-  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
-}
-
-.bgBackground3 {
-  background: linear-gradient(rgba(255, 1, 1, 0.726), rgba(0, 0, 0, 0.973)),
-    url("../assets/articles.jpeg");
-  background-position: center;
-  background-size: cover;
+.bg2 {
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.2777485994397759) 0%,
+    rgba(24, 153, 149, 0.5718662464985995) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
   animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }

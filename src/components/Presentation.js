@@ -19,14 +19,14 @@ import mongodbIcon from "../assets/icons/mongoDB.png";
 export default function Presentation() {
   return (
     <section className="present">
-      <div className="title bgBanner2">
+      <div className="title bg1">
         <div>
           <h2>Mes compétences</h2>
           <h2>Mes connaissances et acquis professionnels</h2>
         </div>
       </div>
 
-      <div className="article bgBackground2">
+      <div className="article bg1">
         <div className="icons_container">
           <div>
             <h3 className="titleOfSkills">Languages</h3>

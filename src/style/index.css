@@ -1,83 +1,20 @@
 @charset "UTF-8";
 /*Qui Suis-je ?*/
-.bgSpace {
-  background: linear-gradient(rgba(78, 180, 10, 0.87), rgb(8, 8, 5)), url("../assets/articles.jpeg");
-  background-size: cover;
-  background-position: center;
-}
-
-.bgBanner0 {
-  background: linear-gradient(rgba(0, 0, 0, 0.973), rgba(78, 180, 10, 0.87)), url("../assets/articlesTop.jpg");
-  background-size: cover;
-  background-position: center;
+.bg1 {
+  background: rgb(15, 0, 103);
+  background: radial-gradient(circle, rgba(182, 169, 255, 0.479) 0%, rgba(5, 0, 0, 0.411) 95%, rgba(5, 0, 0, 0.411) 100%);
   animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
-/*Services*/
-.bgBanner1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.973), rgba(39, 42, 226, 0.705)), url("../assets/articlesTop.jpg");
-  background-position: center;
-  background-size: cover;
-  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
-}
-
-.services_bg {
-  background: linear-gradient(rgba(39, 42, 226, 0.705), rgba(0, 0, 0, 0.973)), url("../assets/articles.jpeg");
-  background-size: cover;
-  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  background-position: 50% 75%;
-}
-
-/*Skills*/
-.bgBanner2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.973), rgba(160, 176, 247, 0.705)), url("../assets/articlesTop.jpg");
-  background-size: cover;
-  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
-}
-
-.bgBackground2 {
-  background: linear-gradient(rgba(160, 176, 247, 0.705), rgba(0, 0, 0, 0.973)), url("../assets/articles.jpeg");
-  background-position: center;
-  background-size: cover;
-  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
-}
-
-/*Mes projets*/
-.bgBanner4 {
-  background: linear-gradient(rgba(0, 0, 0, 0.973), rgba(231, 101, 214, 0.89)), url("../assets/articlesTop.jpg");
-  background-position: center;
-  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
-}
-
-.bgBackground4 {
-  background: linear-gradient(rgba(231, 101, 214, 0.89), rgba(0, 0, 0, 0.973)), url("../assets/articles.jpeg");
-  background-position: center;
-  background-size: cover;
-  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
-}
-
-/*Contactez moi*/
-.bgBanner3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.973), rgba(255, 1, 1, 0.726)), url("../assets/articlesTop.jpg");
-  background-size: cover;
-  background-position: center;
-  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
-}
-
-.bgBackground3 {
-  background: linear-gradient(rgba(255, 1, 1, 0.726), rgba(0, 0, 0, 0.973)), url("../assets/articles.jpeg");
-  background-position: center;
-  background-size: cover;
+.bg2 {
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.2777485994) 0%, rgba(24, 153, 149, 0.5718662465) 0%, rgb(0, 0, 0) 100%);
   animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 /* SCSS du body*/
 body {
-  background: linear-gradient(rgba(2, 2, 2, 0.678), rgba(7, 7, 7, 0.336)), url("../assets/bg-planet.jpg");
-  animation: bgMove 50000ms linear infinite;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
+  background-color: #38355a;
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
   cursor: none;
@@ -86,7 +23,7 @@ body {
 * {
   text-align: center;
   margin: 0;
-  font-family: "Chewy", cursive;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 header {
@@ -94,27 +31,27 @@ header {
   justify-content: space-around;
   padding: 0 2%;
   align-items: center;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.274) 40%, rgba(0, 0, 0, 0) 80%);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.603) 30%, rgba(0, 0, 0, 0.027) 100%);
   color: white;
   animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .imgLogo {
-  height: 10vh;
-  margin: 1rem 0;
+  height: 12vh;
+  margin: 0.5rem 0;
   background-color: rgba(255, 255, 255, 0.466);
   border-radius: 10px;
 }
 
 @media (max-width: 776px) {
   h1 {
-    font-size: 18px;
+    font-size: 26px;
   }
 }
 .cursor {
   width: 52px;
   height: 52px;
-  border: 1px solid rgba(0, 0, 0, 0.781);
+  border: 1px solid rgba(32, 241, 126, 0.856);
   border-radius: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -145,7 +82,7 @@ header {
 .present {
   width: 100%;
   margin: 0 auto;
-  padding: 3rem 0;
+  padding: 2rem 0;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -236,9 +173,8 @@ div > p {
 }
 
 .article > .titleArticle:hover {
-  background-color: rgba(0, 0, 0, 0.863);
+  background-color: rgba(0, 0, 0, 0.842);
   color: white;
-  box-shadow: 0px 0px rgb(0, 0, 0);
 }
 
 @media (max-width: 776px) {
@@ -270,7 +206,7 @@ div > p {
 
 .helpUser {
   color: white;
-  font-size: 20px;
+  font-size: 24px;
   z-index: 2;
 }
 
@@ -350,6 +286,10 @@ div > p {
   animation: wobble-hor-bottom2 900ms ease-out;
 }
 
+.bdInfo {
+  font-family: "Chewy", cursive;
+}
+
 @media (max-width: 776px) {
   .who_container {
     flex-direction: column;
@@ -357,9 +297,6 @@ div > p {
   }
   .describe_box {
     width: 85%;
-  }
-  .describe_box > p {
-    font-size: 15px;
   }
   .photoOfMeImg {
     width: 8rem;
@@ -816,21 +753,21 @@ div > p {
 }
 /*****************************************/
 .projectTitle {
-  margin: 0 auto 0.5rem auto;
+  margin: 0.25rem auto 0.5rem auto;
   background-color: rgba(240, 255, 255, 0.555);
   width: 95%;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   border-radius: 10px;
+  transition: 300ms ease-in-out;
 }
 
 .imgPortFolio {
   width: 95%;
-  height: 30vh;
+  height: 40vh;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 50% 0%;
-     object-position: 50% 0%;
   border-radius: 10px;
+  border: 1px solid black;
 }
 
 .describeBox {
@@ -839,6 +776,7 @@ div > p {
   padding: 1rem 0;
   border-radius: 10px;
   background-color: rgba(240, 255, 255, 0.555);
+  transition: 300ms ease-in-out;
 }
 
 .DescribeOfProject {
@@ -860,6 +798,7 @@ div > p {
   padding: 1rem 0;
   border-radius: 10px;
   background-color: rgba(240, 255, 255, 0.555);
+  transition: 300ms ease-in-out;
 }
 
 .listTechnology {
@@ -894,10 +833,16 @@ div > p {
 .projectOrderInfo {
   margin: 0.5rem auto 0;
   font-size: 18px;
+  width: 265px;
+  border-radius: 5px 5px 0 0;
+  background-color: rgba(240, 255, 255, 0.555);
 }
 
 .projectDateInfo {
   margin: 0rem auto 0.5rem;
+  width: 265px;
+  border-radius: 0 0 5px 5px;
+  background-color: rgba(240, 255, 255, 0.555);
 }
 
 .projectButton_BeforeNext {
@@ -951,7 +896,7 @@ div > p {
 .messageForm {
   height: 100px;
   resize: none;
-  margin: 0 0 1rem 0;
+  margin: 0.2rem 0 1rem 0;
 }
 
 .sendEmail {

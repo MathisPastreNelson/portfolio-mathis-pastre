@@ -6,8 +6,8 @@ header {
   align-items: center;
   background: linear-gradient(
     90deg,
-    rgba(0, 0, 0, 0.274) 40%,
-    rgba(0, 0, 0, 0) 80%
+    rgba(0, 0, 0, 0.603) 30%,
+    rgba(0, 0, 0, 0.027) 100%
   );
   color: white;
   -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1)
@@ -15,14 +15,14 @@ header {
   animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 .imgLogo {
-  height: 10vh;
-  margin: 1rem 0;
+  height: 12vh;
+  margin: 0.5rem 0;
   background-color: rgba(255, 255, 255, 0.466);
   border-radius: 10px;
 }
 
 @media (max-width: 776px) {
   h1 {
-    font-size: 18px;
+    font-size: 26px;
   }
 }
