@@ -1,31 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio-mathis-pastre/static/css/main.21af500b.css",
-    "main.js": "/portfolio-mathis-pastre/static/js/main.633d66cf.js",
+    "main.css": "/portfolio-mathis-pastre/static/css/main.e0df0d65.css",
+    "main.js": "/portfolio-mathis-pastre/static/js/main.0933acce.js",
     "static/js/787.8f6cd68f.chunk.js": "/portfolio-mathis-pastre/static/js/787.8f6cd68f.chunk.js",
-    "static/media/Omega.png": "/portfolio-mathis-pastre/static/media/Omega.9c2cce40b0277180db92.png",
-    "static/media/articles.jpeg": "/portfolio-mathis-pastre/static/media/articles.4009034c70056b15f34b.jpeg",
-    "static/media/bookio.png": "/portfolio-mathis-pastre/static/media/bookio.74970cd7f5824f899d03.png",
-    "static/media/ohmyfood.png": "/portfolio-mathis-pastre/static/media/ohmyfood.30ccfb3c212fade19d28.png",
-    "static/media/lapanthere.png": "/portfolio-mathis-pastre/static/media/lapanthere.a74105c70b15f5b96fc4.png",
-    "static/media/Mairie.png": "/portfolio-mathis-pastre/static/media/Mairie.3dc0c45cb28980436c31.png",
-    "static/media/articlesTop.jpg": "/portfolio-mathis-pastre/static/media/articlesTop.378e6ed24b43edf8e4c0.jpg",
+    "static/media/Omega.png": "/portfolio-mathis-pastre/static/media/Omega.733376b00aea1109f5a9.png",
+    "static/media/lapanthere.png": "/portfolio-mathis-pastre/static/media/lapanthere.d846027e5eb82e27e472.png",
+    "static/media/Mairie.png": "/portfolio-mathis-pastre/static/media/Mairie.faabc769a037929742ea.png",
+    "static/media/Cinemathis.png": "/portfolio-mathis-pastre/static/media/Cinemathis.a3d5f9d15d5b51d460c8.png",
+    "static/media/Kasa.png": "/portfolio-mathis-pastre/static/media/Kasa.3f7d485129777af57976.png",
+    "static/media/ohmyfood.png": "/portfolio-mathis-pastre/static/media/ohmyfood.058e46de554926578217.png",
+    "static/media/Kanap.png": "/portfolio-mathis-pastre/static/media/Kanap.5efccb053e16b37b9b15.png",
     "static/media/moisansfond2.png": "/portfolio-mathis-pastre/static/media/moisansfond2.82e2c79b0cc973db0153.png",
-    "static/media/Kanap.png": "/portfolio-mathis-pastre/static/media/Kanap.61b8ba3495e2f7d80753.png",
-    "static/media/Kasa.png": "/portfolio-mathis-pastre/static/media/Kasa.42f3ff9700c2036f1436.png",
-    "static/media/Cinemathis.png": "/portfolio-mathis-pastre/static/media/Cinemathis.71e3cfe36942c15b79fd.png",
-    "static/media/piiiquante.png": "/portfolio-mathis-pastre/static/media/piiiquante.633af120b03f350e6bc0.png",
-    "static/media/bg-planet.jpg": "/portfolio-mathis-pastre/static/media/bg-planet.7193ea905d70363bec7a.jpg",
+    "static/media/bookio.png": "/portfolio-mathis-pastre/static/media/bookio.6fadd883887ec8cf725a.png",
+    "static/media/piiiquante.png": "/portfolio-mathis-pastre/static/media/piiiquante.7b0eeba666fcb9cfb71f.png",
     "static/media/figma.png": "/portfolio-mathis-pastre/static/media/figma.257be656edf0ba88404e.png",
     "static/media/logo.png": "/portfolio-mathis-pastre/static/media/logo.03f6ab1507879fee383c.png",
     "static/media/mongoDB.png": "/portfolio-mathis-pastre/static/media/mongoDB.4d1763a20af23f3dbc1d.png",
     "index.html": "/portfolio-mathis-pastre/index.html",
-    "main.21af500b.css.map": "/portfolio-mathis-pastre/static/css/main.21af500b.css.map",
-    "main.633d66cf.js.map": "/portfolio-mathis-pastre/static/js/main.633d66cf.js.map",
+    "main.e0df0d65.css.map": "/portfolio-mathis-pastre/static/css/main.e0df0d65.css.map",
+    "main.0933acce.js.map": "/portfolio-mathis-pastre/static/js/main.0933acce.js.map",
     "787.8f6cd68f.chunk.js.map": "/portfolio-mathis-pastre/static/js/787.8f6cd68f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21af500b.css",
-    "static/js/main.633d66cf.js"
+    "static/css/main.e0df0d65.css",
+    "static/js/main.0933acce.js"
   ]
 }
