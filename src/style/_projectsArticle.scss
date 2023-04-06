@@ -179,7 +179,11 @@
   margin: 0.5rem 0.25rem 0rem 0.25rem;
   transition: all 300ms;
   border-radius: 5px;
-  background-color: rgba(204, 204, 204, 0.712);
+  background: linear-gradient(
+    90deg,
+    rgba(250, 250, 250, 0.699) 50%,
+    rgba(243, 243, 243, 0.603) 100%
+  );
   font-size: 18px;
   border: 1px solid rgba(0, 0, 0, 0.521);
   cursor: none;
