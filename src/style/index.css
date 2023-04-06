@@ -1,15 +1,15 @@
 @charset "UTF-8";
-/*Qui Suis-je ?*/
+/*Colors mixins*/ /*Qui Suis-je ?*/
 .bg1 {
   background: rgb(15, 0, 103);
   background: radial-gradient(circle, rgba(182, 169, 255, 0.479) 0%, rgba(5, 0, 0, 0.411) 95%, rgba(5, 0, 0, 0.411) 100%);
-  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand 400ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .bg2 {
   background: rgb(0, 0, 0);
   background: radial-gradient(circle, rgba(0, 0, 0, 0.2777485994) 0%, rgba(24, 153, 149, 0.5718662465) 0%, rgb(0, 0, 0) 100%);
-  animation: tracking-in-expand 500ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand 400ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 /* SCSS du body*/
@@ -68,10 +68,6 @@ header {
   border-radius: 25%;
 }
 
-.slick-dots > li {
-  background-color: rgb(113, 214, 18);
-}
-
 .card_container {
   vertical-align: middle;
   display: flex;
@@ -113,7 +109,7 @@ header {
 }
 
 .title > div {
-  background-color: rgba(255, 255, 255, 0.438);
+  background-color: rgba(240, 255, 255, 0.555);
   width: 50%;
   padding: 1rem;
   border-radius: 10px;
@@ -163,13 +159,13 @@ div > p {
 }
 
 .article > .titleArticle {
-  background-color: rgba(255, 255, 255, 0.788);
+  background-color: rgba(255, 255, 255, 0.747);
   width: 80%;
   border-radius: 10px;
   transition: 300ms;
   margin: 0.25rem 0;
   padding: 0.5rem 0;
-  border: 1px solid rgba(0, 0, 0, 0.719);
+  border: 1px solid rgba(0, 0, 0, 0.842);
 }
 
 .article > .titleArticle:hover {
@@ -534,18 +530,22 @@ div > p {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin: 0.25rem;
 }
 
 .buttonSwitchComponent {
   border: 0px;
   height: 40px;
-  width: 140px;
-  margin: 0.5rem;
+  width: 135px;
+  margin: 0.25rem;
   transition: all 200ms;
   border-radius: 5px;
   background-color: rgba(189, 221, 219, 0.685);
   font-size: 18px;
   cursor: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .buttonSwitchComponent:hover {
@@ -808,7 +808,7 @@ div > p {
 }
 
 .visitButton {
-  background: linear-gradient(90deg, rgb(159, 255, 180) 0%, rgba(23, 255, 43, 0.658) 100%);
+  background: rgba(5, 255, 47, 0.637);
   color: black;
   padding: 0.2rem 1rem;
   border: 0px solid rgb(0, 0, 0);
@@ -830,6 +830,7 @@ div > p {
   background: linear-gradient(90deg, rgb(201, 255, 213) 0%, rgba(115, 255, 127, 0.79) 100%);
   color: rgba(0, 0, 0, 0.897);
   width: 140px;
+  border: 1px solid rgba(5, 255, 47, 0.637);
 }
 
 .projectOrderInfo {
@@ -860,9 +861,9 @@ div > p {
 }
 
 .projectButton_BeforeNext:hover {
-  background: linear-gradient(90deg, rgb(72, 223, 102) 50%, rgba(115, 255, 127, 0.79) 100%);
-  color: rgb(39, 39, 39);
-  border: 1px solid rgba(8, 165, 8, 0.767);
+  background: rgba(5, 255, 47, 0.637);
+  color: white;
+  border: 1px solid rgba(5, 255, 47, 0.637);
 }
 
 @media (max-width: 776px) {

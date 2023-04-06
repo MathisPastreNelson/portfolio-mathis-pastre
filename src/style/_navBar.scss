@@ -3,21 +3,25 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin: 0.25rem;
 }
 
 .buttonSwitchComponent {
   border: 0px;
   height: 40px;
-  width: 140px;
-  margin: 0.5rem;
+  width: 135px;
+  margin: 0.25rem;
   transition: all 200ms;
   border-radius: 5px;
-  background-color: rgba(189, 221, 219, 0.685);
+  background-color: $buttonColor;
   font-size: 18px;
   cursor: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .buttonSwitchComponent:hover {
-  background-color: rgba(5, 255, 47, 0.637);
+  background-color: $validationColor;
   color: white;
 }
