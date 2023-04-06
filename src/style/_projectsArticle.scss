@@ -83,8 +83,9 @@
 
 .imgPortFolio {
   width: 95%;
-  height: 40vh;
+  height: 35vh;
   object-fit: cover;
+  object-position: 50% 10%;
   border-radius: 10px;
   border: 1px solid black;
 }
@@ -197,5 +198,11 @@
 @media (max-width: 776px) {
   .book_container {
     width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  .imgPortFolio {
+    object-position: 50% 0%;
   }
 }
