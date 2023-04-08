@@ -550,7 +550,12 @@ div > p {
 
 .buttonSwitchComponent:hover {
   background-color: rgba(5, 255, 47, 0.637);
-  color: white;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+
+.buttonSwitchComponent.active {
+  background-color: rgba(210, 255, 180, 0.747);
 }
 
 .icons_container {
@@ -864,6 +869,7 @@ div > p {
   background: rgba(5, 255, 47, 0.637);
   color: white;
   border: 1px solid rgba(5, 255, 47, 0.637);
+  text-shadow: 0px 0px 2px rgb(0, 0, 0);
 }
 
 @media (max-width: 776px) {

@@ -28,19 +28,29 @@ export default function Main() {
   return (
     <div className="main_container">
       <nav className="navButton">
-        <button className="buttonSwitchComponent" onClick={page1}>
+        <button
+          className={`buttonSwitchComponent ${component === 1 ? "active" : ""}`}
+          onClick={page1}>
           Qui suis-je ?
         </button>
-        <button className="buttonSwitchComponent" onClick={page2}>
+        <button
+          className={`buttonSwitchComponent ${component === 2 ? "active" : ""}`}
+          onClick={page2}>
           Mes services
         </button>
-        <button className="buttonSwitchComponent" onClick={page3}>
+        <button
+          className={`buttonSwitchComponent ${component === 3 ? "active" : ""}`}
+          onClick={page3}>
           Compétences
         </button>
-        <button className="buttonSwitchComponent" onClick={page4}>
+        <button
+          className={`buttonSwitchComponent ${component === 4 ? "active" : ""}`}
+          onClick={page4}>
           Mes projets
         </button>
-        <button className="buttonSwitchComponent" onClick={page5}>
+        <button
+          className={`buttonSwitchComponent ${component === 5 ? "active" : ""}`}
+          onClick={page5}>
           Contactez moi
         </button>
       </nav>
