@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*Colors mixins*/ /*Qui Suis-je ?*/
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap");
 .bg1 {
   background: rgb(15, 0, 103);
   background: radial-gradient(circle, rgba(182, 169, 255, 0.479) 0%, rgba(5, 0, 0, 0.411) 95%, rgba(5, 0, 0, 0.411) 100%);
@@ -27,6 +28,7 @@ body {
 }
 
 header {
+  height: 15vh;
   display: flex;
   justify-content: space-around;
   padding: 0 2%;
@@ -43,9 +45,124 @@ header {
   border-radius: 10px;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .box .titleh1 h1 {
+  font-family: "Poppins";
+  color: #fff;
+  font-size: 28px;
+  animation: mainFadeIn 1s forwards;
+  animation-delay: 500ms;
+  opacity: 0;
+  display: flex;
+  align-items: baseline;
+  position: relative;
+}
+.container .box .role {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  margin-top: -10px;
+}
+.container .box .role .block {
+  width: 0%;
+  height: inherit;
+  background-color: rgba(255, 255, 255, 0.466);
+  position: absolute;
+  animation: secBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+  animation-delay: 2s;
+  display: flex;
+}
+.container .box .role p {
+  animation: secFadeIn 2s forwards;
+  animation-delay: 3.2s;
+  opacity: 0;
+  font-weight: 800;
+  font-family: "Lato";
+  color: #ffffff;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+@keyframes secBlock {
+  0% {
+    width: 0%;
+    left: 0;
+  }
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+@keyframes mainFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes popIn {
+  0% {
+    width: 0px;
+    height: 0px;
+    background: #e9d856;
+    border: 0px solid #ddd;
+    opacity: 0;
+  }
+  50% {
+    width: 10px;
+    height: 10px;
+    background: #e9d856;
+    opacity: 1;
+    bottom: 45px;
+  }
+  65% {
+    width: 7px;
+    height: 7px;
+    bottom: 0px;
+    width: 15px;
+  }
+  80% {
+    width: 10px;
+    height: 10px;
+    bottom: 20px;
+  }
+  100% {
+    width: 7px;
+    height: 7px;
+    background: #e9d856;
+    border: 0px solid #222;
+    bottom: 13px;
+  }
+}
+@keyframes secFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}
 @media (max-width: 776px) {
-  h1 {
-    font-size: 26px;
+  .titleh1 {
+    font-size: 16px;
   }
 }
 .cursor {
@@ -78,7 +195,7 @@ header {
 .present {
   width: 100%;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 1vh 0;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -89,7 +206,7 @@ header {
   color: rgb(0, 0, 0);
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
-  min-height: 58vh;
+  min-height: 60vh;
 }
 
 .title {
@@ -935,6 +1052,7 @@ div > p {
   }
 }
 footer {
+  height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
