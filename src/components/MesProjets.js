@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { projects } from "../assets/projects"; // importer une liste de projets
+import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
 
 export default function MesProjets() {
   const [index, setIndex] = useState(0); // initialiser l'index à 0
@@ -33,12 +34,12 @@ export default function MesProjets() {
         </div>
       </div>
       <div className="book_container bg2 flexCenter">
-        <div>
+        <div className="projectButton_BeforeNext_Box">
           <button className="projectButton_BeforeNext" onClick={handlePrev}>
-            Précédent
+            <FaArrowCircleLeft />
           </button>
           <button className="projectButton_BeforeNext" onClick={handleNext}>
-            Suivant
+            <FaArrowCircleRight />
           </button>
         </div>
         <div className={`carousel_portfolio ${hideProject ? "hide" : ""}`}>

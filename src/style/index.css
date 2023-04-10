@@ -970,14 +970,23 @@ div > p {
   background-color: rgba(240, 255, 255, 0.555);
 }
 
+.projectButton_BeforeNext_Box {
+  display: flex;
+}
+
 .projectButton_BeforeNext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
   height: 40px;
   width: 130px;
   margin: 0.5rem 0.25rem 0rem 0.25rem;
   transition: all 300ms;
   border-radius: 5px;
-  background: linear-gradient(90deg, rgba(250, 250, 250, 0.699) 50%, rgba(243, 243, 243, 0.603) 100%);
-  font-size: 18px;
+  background: linear-gradient(90deg, rgba(119, 246, 255, 0.795) 50%, rgba(0, 225, 255, 0.877) 100%);
+  color: rgba(0, 0, 0, 0.863);
+  font-size: 30px;
   border: 1px solid rgba(0, 0, 0, 0.521);
   cursor: none;
 }
@@ -987,6 +996,7 @@ div > p {
   color: white;
   border: 1px solid rgba(5, 255, 47, 0.637);
   text-shadow: 0px 0px 2px rgb(0, 0, 0);
+  font-size: 38px;
 }
 
 @media (max-width: 776px) {
