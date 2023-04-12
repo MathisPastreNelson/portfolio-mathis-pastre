@@ -35,7 +35,7 @@ header {
   align-items: center;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.603) 30%, rgba(0, 0, 0, 0.027) 100%);
   color: white;
-  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 .imgLogo {
@@ -80,13 +80,13 @@ header {
   height: inherit;
   background-color: rgba(255, 255, 255, 0.466);
   position: absolute;
-  animation: secBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
-  animation-delay: 2s;
+  animation: secBlock 1s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+  animation-delay: 1s;
   display: flex;
 }
 .container .box .role p {
-  animation: secFadeIn 2s forwards;
-  animation-delay: 3.2s;
+  animation: secFadeIn 1s forwards;
+  animation-delay: 1.6s;
   opacity: 0;
   font-weight: 800;
   font-family: "Lato";
