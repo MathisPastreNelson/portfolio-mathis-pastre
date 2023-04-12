@@ -355,11 +355,11 @@
  */
 @-webkit-keyframes tracking-in-expand {
   0% {
-    letter-spacing: -0.5em;
+    letter-spacing: -0.2em;
     opacity: 0;
   }
   40% {
-    opacity: 0.6;
+    opacity: 0.4;
   }
   100% {
     opacity: 1;
@@ -367,11 +367,11 @@
 }
 @keyframes tracking-in-expand {
   0% {
-    letter-spacing: -0.5em;
+    letter-spacing: -0.2em;
     opacity: 0;
   }
   40% {
-    opacity: 0.6;
+    opacity: 0.4;
   }
   100% {
     opacity: 1;

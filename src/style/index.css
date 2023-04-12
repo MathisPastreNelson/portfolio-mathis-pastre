@@ -625,11 +625,11 @@ div > p {
  */
 @keyframes tracking-in-expand {
   0% {
-    letter-spacing: -0.5em;
+    letter-spacing: -0.2em;
     opacity: 0;
   }
   40% {
-    opacity: 0.6;
+    opacity: 0.4;
   }
   100% {
     opacity: 1;
@@ -883,15 +883,28 @@ div > p {
   transition: 300ms ease-in-out;
 }
 
-.imgPortFolio {
+.imgPortFolio_Box {
+  border-radius: 10px;
+  height: 34vh;
+  border: 1px solid black;
   width: 95%;
-  height: 35vh;
+  margin: 0 auto 0.5rem;
+  overflow: hidden;
+}
+
+.imgPortFolio {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 50% 10%;
      object-position: 50% 10%;
+  width: 100%;
+  height: 34vh;
   border-radius: 10px;
-  border: 1px solid black;
+  transition: ease-in 0.4s;
+}
+
+.imgPortFolio:hover {
+  transform: scale(1.03);
 }
 
 .describeBox {

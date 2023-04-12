@@ -50,7 +50,9 @@ export default function MesProjets() {
             <p className="projectDateInfo">
               Finalisation du projet le : {project.date}
             </p>
-            <img className="imgPortFolio" src={project.image} alt="" />
+            <div className="imgPortFolio_Box">
+              <img className="imgPortFolio" src={project.image} alt="" />
+            </div>
             <h2 className="projectTitle">{project.name}</h2>
             <div className="describeBox">
               <h2>{project.title}</h2>
