@@ -67,7 +67,7 @@ export default function MesProjets() {
                 </li>
               ))}
             </div>
-            <a href={project.link} className="visitButton">
+            <a href={project.link} target="_blank" className="visitButton">
               Visiter le projet
             </a>
           </div>

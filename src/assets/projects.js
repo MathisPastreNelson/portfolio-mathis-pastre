@@ -1,16 +1,26 @@
 export const projects = [
   {
-    id: 1,
+    id: 10,
+    name: "Disco Groove",
+    image: require("../assets/discoGroove.png"),
+    description: `Un projet que j'ai réalisé avec React, il s'agit d'un site sur la musique francophone. 
+J'ai travaillé avec l'API de Deezer pour importer les données et permettre aux utilisateurs d'écouter des extraits audio.`,
+    link: "https://mathispastrenelson.github.io/disco-groove/",
+    technologies: ["ReactJS", "Bootstrap", "API Deezer", "Axios"],
+    date: `Avril 2023`,
+  },
+  {
+    id: 9,
     name: "CinéMathis",
     image: require("../assets/Cinemathis.png"),
-    description: `Je vous présente un projet que j'ai réalisé avec React, il s'agit d'un site de recherche d'informations sur le cinéma. 
+    description: `Il s'agit d'un site de recherche d'informations sur le cinéma. 
 J'ai travaillé avec l'API de TMDB pour importer les données et permettre aux utilisateurs de rechercher des informations sur un ou plusieurs films.`,
     link: "https://mathispastrenelson.github.io/my-api-project/",
-    technologies: ["ReactJS", "Axios", "API", "Insomnia"],
+    technologies: ["ReactJS", "Axios", "API TMDB", "Insomnia"],
     date: `Mars 2023`,
   },
   {
-    id: 2,
+    id: 8,
     name: "Mairie Neuilly-le-Brignon",
     image: require("../assets/Mairie.png"),
     description: `Je vous présente un projet que j'ai réalisé avec WordPress. 
@@ -21,7 +31,7 @@ J'ai travaillé avec l'API de TMDB pour importer les données et permettre aux u
     date: `Février 2023`,
   },
   {
-    id: 3,
+    id: 7,
     name: "Role-Playing-Groubi",
     image: require("../assets/Omega.png"),
     description: `Ce projet m'a permis de mettre mes compétences en logique à l'épreuve, notamment pour la conception d'un système de combat et de progression du personnage tout au long de l'aventure. J'ai également utilisé une intelligence artificielle pour générer une grande partie de l'histoire, que j'ai simplement dirigée dans certaines directions.`,
@@ -30,7 +40,7 @@ J'ai travaillé avec l'API de TMDB pour importer les données et permettre aux u
     date: `Janvier 2023`,
   },
   {
-    id: 4,
+    id: 6,
     name: "Kasa",
     image: require("../assets/Kasa.png"),
     description: `Je vous présente mon projet Kasa, une application de location de logement que j'ai développée avec React. L'objectif de cette application est de répondre à la demande croissante de trouver facilement un logement adapté à son budget.`,
@@ -48,7 +58,7 @@ J'ai travaillé avec l'API de TMDB pour importer les données et permettre aux u
     date: `Octobre 2022`,
   },
   {
-    id: 6,
+    id: 4,
     name: "Kanap",
     image: require("../assets/Kanap.png"),
     description: `On m'a chargé d'implémenter dynamiquement les données de l’API sur le site qui était déjà créé en HTML et CSS.
@@ -58,7 +68,7 @@ J'ai également fourni le plan de test d’acceptation qui répertorie l’inté
     date: `Septembre 2022`,
   },
   {
-    id: 7,
+    id: 3,
     name: "La Panthère",
     image: require("../assets/lapanthere.png"),
     description: `La consigne que j'ai reçue était de réaliser une analyse de l'état actuel de SEO d'un site web fourni, d'identifier les parties non optimisées pour le SEO et l'accessibilité, et de proposer des recommandations pour améliorer le site.`,
@@ -67,7 +77,7 @@ J'ai également fourni le plan de test d’acceptation qui répertorie l’inté
     date: `Août 2022`,
   },
   {
-    id: 8,
+    id: 2,
     name: "Ohmyfood",
     image: require("../assets/ohmyfood.png"),
     description: `Un site en HTML/CSS, à partir d'une maquette envoyée par le designer.
@@ -78,7 +88,7 @@ J'ai également fourni le plan de test d’acceptation qui répertorie l’inté
     date: `Août 2022`,
   },
   {
-    id: 9,
+    id: 1,
     name: "Booki",
     image: require("../assets/bookio.png"),
     description: `J'ai été chargé de créer un prototype en intégrant une maquette en HTML/CSS.
