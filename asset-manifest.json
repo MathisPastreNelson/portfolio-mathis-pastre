@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio-mathis-pastre/static/css/main.743946eb.css",
-    "main.js": "/portfolio-mathis-pastre/static/js/main.87f2336b.js",
+    "main.css": "/portfolio-mathis-pastre/static/css/main.288692f7.css",
+    "main.js": "/portfolio-mathis-pastre/static/js/main.7c4d0345.js",
     "static/js/787.8f6cd68f.chunk.js": "/portfolio-mathis-pastre/static/js/787.8f6cd68f.chunk.js",
     "static/media/Omega.png": "/portfolio-mathis-pastre/static/media/Omega.733376b00aea1109f5a9.png",
+    "static/media/Mouffette.png": "/portfolio-mathis-pastre/static/media/Mouffette.aa58ae1619e112ca615d.png",
     "static/media/lapanthere.png": "/portfolio-mathis-pastre/static/media/lapanthere.d846027e5eb82e27e472.png",
     "static/media/discoGroove.png": "/portfolio-mathis-pastre/static/media/discoGroove.8d31a512f18b69db1daf.png",
     "static/media/Mairie.png": "/portfolio-mathis-pastre/static/media/Mairie.faabc769a037929742ea.png",
+    "static/media/Tesla-clone.png": "/portfolio-mathis-pastre/static/media/Tesla-clone.1854f6fbb77a87f7dd01.png",
     "static/media/Cinemathis.png": "/portfolio-mathis-pastre/static/media/Cinemathis.a3d5f9d15d5b51d460c8.png",
     "static/media/Kasa.png": "/portfolio-mathis-pastre/static/media/Kasa.3f7d485129777af57976.png",
     "static/media/ohmyfood.png": "/portfolio-mathis-pastre/static/media/ohmyfood.058e46de554926578217.png",
@@ -18,12 +20,12 @@
     "static/media/logo.png": "/portfolio-mathis-pastre/static/media/logo.03f6ab1507879fee383c.png",
     "static/media/mongoDB.png": "/portfolio-mathis-pastre/static/media/mongoDB.4d1763a20af23f3dbc1d.png",
     "index.html": "/portfolio-mathis-pastre/index.html",
-    "main.743946eb.css.map": "/portfolio-mathis-pastre/static/css/main.743946eb.css.map",
-    "main.87f2336b.js.map": "/portfolio-mathis-pastre/static/js/main.87f2336b.js.map",
+    "main.288692f7.css.map": "/portfolio-mathis-pastre/static/css/main.288692f7.css.map",
+    "main.7c4d0345.js.map": "/portfolio-mathis-pastre/static/js/main.7c4d0345.js.map",
     "787.8f6cd68f.chunk.js.map": "/portfolio-mathis-pastre/static/js/787.8f6cd68f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.743946eb.css",
-    "static/js/main.87f2336b.js"
+    "static/css/main.288692f7.css",
+    "static/js/main.7c4d0345.js"
   ]
 }
