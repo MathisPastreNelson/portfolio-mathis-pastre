@@ -1,5 +1,23 @@
 export const projects = [
   {
+    id: 12,
+    name: "Tesla Clone",
+    image: require("../assets/Tesla-clone.png"),
+    description: `Il s'agit d'un clone de la page d'accueil du site de Tesla, avec un accent mis sur le respect du design original ainsi que l'utilisation de différents packages.`,
+    link: "https://mathispastrenelson.github.io/tesla-clone/",
+    technologies: ["ReactJS", "React-awesome-reveal"],
+    date: `Avril 2023`,
+  },
+  {
+    id: 11,
+    name: "Mouffette",
+    image: require("../assets/Mouffette.png"),
+    description: `Voici un projet réalisé pour une dessinatrice de BD. J'ai utilisé différents packages d'intégration pour améliorer l'esthétique et la fluidité du site.`,
+    link: "https://mathispastrenelson.github.io/mouffette/",
+    technologies: ["ReactJS", "LightBox", "AnimationOnScroll"],
+    date: `Avril 2023`,
+  },
+  {
     id: 10,
     name: "Disco Groove",
     image: require("../assets/discoGroove.png"),

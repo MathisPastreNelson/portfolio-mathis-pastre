@@ -18,7 +18,16 @@ const MouseFollower = () => {
         cursor.classList.remove("hovered");
       });
     });
+
+    window.addEventListener("mousedown", () => {
+      cursor.classList.add("active");
+    });
+
+    window.addEventListener("mouseup", () => {
+      cursor.classList.remove("active");
+    });
   }, []);
+
   return <span className="cursor"></span>;
 };
 

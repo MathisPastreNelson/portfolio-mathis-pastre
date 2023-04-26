@@ -1,12 +1,12 @@
 .cursor {
-  width: 52px;
-  height: 52px;
-  border: 1px solid rgba(32, 241, 126, 0.856);
+  width: 47px;
+  height: 47px;
+  border: 1px solid rgba(56, 244, 118, 0.856);
   border-radius: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  transition: 00ms ease-out, border-radius 250ms ease-out;
+  transition: 20ms ease-out, border-radius 250ms ease-out;
   z-index: 2;
   backdrop-filter: brightness(115%);
 }
@@ -15,4 +15,9 @@
   width: 30px;
   height: 30px;
   border-radius: 25%;
+}
+
+.active {
+  width: 41px;
+  height: 41px;
 }
