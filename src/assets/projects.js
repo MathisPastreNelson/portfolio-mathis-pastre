@@ -5,7 +5,11 @@ export const projects = [
     image: require("../assets/Tesla-clone.png"),
     description: `Il s'agit d'un clone de la page d'accueil du site de Tesla, avec un accent mis sur le respect du design original ainsi que l'utilisation de différents packages.`,
     link: "https://mathispastrenelson.github.io/tesla-clone/",
-    technologies: ["ReactJS", "React-awesome-reveal"],
+    technologies: [
+      "ReactJS",
+      "React-awesome-reveal",
+      "React-animation-on-scroll",
+    ],
     date: `Avril 2023`,
   },
   {
