@@ -7,8 +7,10 @@ export const projects = [
     link: "https://mathispastrenelson.github.io/tesla-clone/",
     technologies: [
       "ReactJS",
+      "Vite",
       "React-awesome-reveal",
       "React-animation-on-scroll",
+      "SCSS",
     ],
     date: `Avril 2023`,
   },
@@ -18,7 +20,7 @@ export const projects = [
     image: require("../assets/Mouffette.png"),
     description: `Voici un projet réalisé pour une dessinatrice de BD. J'ai utilisé différents packages d'intégration pour améliorer l'esthétique et la fluidité du site.`,
     link: "https://mathispastrenelson.github.io/mouffette/",
-    technologies: ["ReactJS", "LightBox", "AnimationOnScroll"],
+    technologies: ["ReactJS", "Vite", "LightBox", "AnimationOnScroll", "SCSS"],
     date: `Avril 2023`,
   },
   {
@@ -28,7 +30,7 @@ export const projects = [
     description: `Un projet que j'ai réalisé avec React, il s'agit d'un site sur la musique francophone. 
 J'ai travaillé avec l'API de Deezer pour importer les données et permettre aux utilisateurs d'écouter des extraits audio.`,
     link: "https://mathispastrenelson.github.io/disco-groove/",
-    technologies: ["ReactJS", "Bootstrap", "API Deezer", "Axios"],
+    technologies: ["ReactJS", "Bootstrap", "API Deezer", "Axios", "SCSS"],
     date: `Avril 2023`,
   },
   {
@@ -38,7 +40,7 @@ J'ai travaillé avec l'API de Deezer pour importer les données et permettre aux
     description: `Il s'agit d'un site de recherche d'informations sur le cinéma. 
 J'ai travaillé avec l'API de TMDB pour importer les données et permettre aux utilisateurs de rechercher des informations sur un ou plusieurs films.`,
     link: "https://mathispastrenelson.github.io/my-api-project/",
-    technologies: ["ReactJS", "Axios", "API TMDB", "Insomnia"],
+    technologies: ["ReactJS", "Axios", "API TMDB", "Insomnia", "SCSS"],
     date: `Mars 2023`,
   },
   {
@@ -58,7 +60,7 @@ J'ai travaillé avec l'API de TMDB pour importer les données et permettre aux u
     image: require("../assets/Omega.png"),
     description: `Ce projet m'a permis de mettre mes compétences en logique à l'épreuve, notamment pour la conception d'un système de combat et de progression du personnage tout au long de l'aventure. J'ai également utilisé une intelligence artificielle pour générer une grande partie de l'histoire, que j'ai simplement dirigée dans certaines directions.`,
     link: "https://role-playing-groubi.netlify.app/",
-    technologies: ["ReactJS", "ChatGPT"],
+    technologies: ["ReactJS", "ChatGPT", "SCSS"],
     date: `Janvier 2023`,
   },
   {
