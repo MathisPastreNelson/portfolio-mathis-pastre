@@ -232,18 +232,19 @@ header {
 }
 
 .title > div {
-  background-color: rgba(240, 255, 255, 0.555);
+  background-color: rgba(240, 255, 255, 0.718);
   width: 50%;
   padding: 1rem;
   border-radius: 10px;
   transition: 300ms ease-in-out;
+  color: rgb(29, 29, 29);
 }
 
 .title:hover > div {
   transform: scale(1.05);
   background-color: rgba(0, 0, 0, 0.842);
-  color: white;
   box-shadow: 0px 0px rgb(0, 0, 0);
+  color: white;
 }
 
 h2 {
@@ -283,6 +284,7 @@ div > p {
 
 .article > .titleArticle {
   background-color: rgba(255, 255, 255, 0.747);
+  color: rgb(29, 29, 29);
   width: 80%;
   border-radius: 10px;
   transition: 300ms;
@@ -343,6 +345,7 @@ div > p {
 
 .describe_box {
   background-color: rgb(255, 255, 255);
+  color: rgb(29, 29, 29);
   background-size: cover;
   width: 30%;
   display: flex;
@@ -664,6 +667,7 @@ div > p {
   transition: all 200ms;
   border-radius: 5px;
   background-color: rgba(189, 221, 219, 0.685);
+  color: rgb(29, 29, 29);
   font-size: 18px;
   cursor: none;
   display: flex;
@@ -701,6 +705,7 @@ div > p {
   padding: 0.2rem 0;
   width: 100%;
   margin: 0.3rem 0;
+  color: rgb(29, 29, 29);
 }
 
 /* Icone individuel */
@@ -723,6 +728,7 @@ div > p {
   flex-direction: column;
   border: 1px solid rgba(0, 0, 0, 0.377);
   border-radius: 10px;
+  color: rgb(29, 29, 29);
   margin: 0.5rem;
   padding: 1rem 0;
 }
@@ -825,7 +831,7 @@ div > p {
 
 .portefolio_article {
   border-radius: 5px;
-  color: black;
+  color: rgb(29, 29, 29);
 }
 
 .carousel_portfolio {
@@ -882,7 +888,7 @@ div > p {
 /*****************************************/
 .projectTitle {
   margin: 0.25rem auto 0.5rem auto;
-  background-color: rgba(240, 255, 255, 0.555);
+  background-color: rgba(240, 255, 255, 0.718);
   width: 95%;
   padding: 0.5rem 0;
   border-radius: 10px;
@@ -918,7 +924,7 @@ div > p {
   width: 95%;
   padding: 1rem 0;
   border-radius: 10px;
-  background-color: rgba(240, 255, 255, 0.555);
+  background-color: rgba(240, 255, 255, 0.718);
   transition: 300ms ease-in-out;
 }
 
@@ -940,7 +946,7 @@ div > p {
   width: 95%;
   padding: 1rem 0;
   border-radius: 10px;
-  background-color: rgba(240, 255, 255, 0.555);
+  background-color: rgba(240, 255, 255, 0.718);
   transition: 300ms ease-in-out;
 }
 
@@ -950,7 +956,7 @@ div > p {
 
 .visitButton {
   background: rgba(5, 255, 47, 0.637);
-  color: black;
+  color: rgb(29, 29, 29);
   padding: 0.2rem 1rem;
   border: 0px solid rgb(0, 0, 0);
   border-radius: 5px;
@@ -979,14 +985,14 @@ div > p {
   font-size: 18px;
   width: 265px;
   border-radius: 5px 5px 0 0;
-  background-color: rgba(240, 255, 255, 0.555);
+  background-color: rgba(240, 255, 255, 0.718);
 }
 
 .projectDateInfo {
   margin: 0rem auto 0.5rem;
   width: 265px;
   border-radius: 0 0 5px 5px;
-  background-color: rgba(240, 255, 255, 0.555);
+  background-color: rgba(240, 255, 255, 0.718);
 }
 
 .projectButton_BeforeNext_Box {
@@ -1033,6 +1039,7 @@ div > p {
 .formBox {
   display: flex;
   flex-direction: column;
+  color: rgb(29, 29, 29);
   background-color: rgba(235, 235, 235, 0.603);
   width: 300px;
   justify-content: center;
