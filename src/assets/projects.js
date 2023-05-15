@@ -1,5 +1,21 @@
 export const projects = [
   {
+    id: 13,
+    name: "AI Generation",
+    image: require("../assets/AiGeneration.png"),
+    description: `Bienvenue sur notre site de galerie de photos générées par Stable Diffusion, une intelligence artificielle installé localement ! Ce site offre une démonstration de l'IA à créer des dessins dans tous les styles imaginables, à partir de prompts simples.`,
+    link: "https://mathispastrenelson.github.io/ai-generation/",
+    technologies: [
+      "Stable-Diffusion",
+      "ReactJS",
+      "Vite",
+      "React-awesome-reveal",
+      "Pure-react-carousel",
+      "SCSS",
+    ],
+    date: `Mai 2023`,
+  },
+  {
     id: 12,
     name: "Tesla Clone",
     image: require("../assets/Tesla-clone.png"),
