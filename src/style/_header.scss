@@ -18,8 +18,14 @@ header {
 .imgLogo {
   height: 12vh;
   margin: 0.5rem 0;
-  background-color: rgba(255, 255, 255, 0.466);
+  background-color: rgba(255, 255, 255, 0.692);
   border-radius: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .imgLogo {
+    background-color: rgba(255, 255, 255, 0.692);
+  }
 }
 
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap");
