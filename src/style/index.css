@@ -1078,7 +1078,7 @@ div > p {
   height: 30px;
   border-radius: 10px;
   transition: all 200ms;
-  border: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
   cursor: none;
 }
 
