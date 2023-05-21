@@ -454,7 +454,7 @@ header {
   background-color: rgba(5, 255, 47, 0.637);
   color: rgb(255, 255, 255);
   text-shadow: 0px 0px 2px rgb(0, 0, 0);
-  animation: rotate-hor-center 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: rotate-hor-center 1s cubic-bezier(0.5, 0.01, 0.515, 0.555) both;
 }
 
 .buttonSwitchComponent.active {
