@@ -438,6 +438,19 @@ header {
   animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
+.describe_container {
+  width: 100%;
+  -webkit-backdrop-filter: brightness(40%);
+          backdrop-filter: brightness(40%);
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
 .photoOfMeImg {
   width: 15rem;
   z-index: 1;
@@ -455,6 +468,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  min-height: 100px;
   border-radius: 20px;
   border: black 1px solid;
   margin: 0.5rem 0;
@@ -500,6 +514,20 @@ header {
   font-family: "Chewy", cursive;
 }
 
+/*InterTitle*/
+.interTitle {
+  color: white;
+  width: 80%;
+  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.interTitle > h2 {
+  font-size: 25px;
+  padding: 0.5rem 0;
+}
+
 /*RUBRIQUE 2*/
 .skillsBox {
   display: flex;
@@ -511,13 +539,13 @@ header {
   border-right: 1px solid black;
   border-left: 1px solid black;
   padding: 1rem 0;
+  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 /*Container 1*/
 .skillBox_Container1 {
-  width: 48%;
+  width: 45%;
   min-height: 450px;
-  border-radius: 10px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -530,11 +558,10 @@ header {
   background-color: rgba(255, 255, 255, 0.747);
   color: rgb(29, 29, 29);
   width: 80%;
-  border-radius: 10px;
+  border-radius: 3px;
   transition: 300ms;
   margin: 0.25rem 0;
   padding: 0.5rem 0;
-  border: 1px solid rgba(0, 0, 0, 0.842);
 }
 
 .skillBox_Container1 > .titleArticle:hover {
@@ -544,9 +571,8 @@ header {
 
 /*Container 2*/
 .skillBox_Container2 {
-  width: 48%;
+  width: 45%;
   min-height: 450px;
-  border-radius: 10px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -571,6 +597,12 @@ header {
   .skillsBox {
     width: 90%;
   }
+  .interTitle {
+    width: 90%;
+  }
+  .describe_container {
+    flex-direction: column;
+  }
   .skillBox_Container1 {
     width: 100%;
   }
@@ -585,7 +617,8 @@ header {
     width: 90%;
   }
   .describe_box {
-    width: 85%;
+    width: 75%;
+    min-width: 250px;
   }
   .photoOfMeImg {
     width: 8rem;
@@ -754,15 +787,14 @@ div > p {
   background-color: rgba(240, 255, 255, 0.718);
   padding: 0.2rem 0;
   width: 80%;
-  border-radius: 10px;
-  border: 1px solid black;
+  border-radius: 3px;
   margin: 0.3rem 0;
   color: rgb(29, 29, 29);
 }
 
 /* Icone individuel */
 .iconBloc {
-  width: 90px;
+  width: 80px;
 }
 
 .bgIcon {
@@ -854,7 +886,7 @@ div > p {
 
 @media (max-width: 776px) {
   .iconBloc {
-    width: 48px;
+    width: 60px;
   }
   .bgIcon {
     font-size: 35px;

@@ -35,30 +35,36 @@ export default function QuiSuisJe() {
         </div>
       </div>
       <div className="who_container flexCenterNoColumn bg1">
-        <div className="describe_box animText">
-          <p className="bdInfo">
-            Développeur web passionné et motivé, je cherche à intégrer une
-            entreprise et contribuer à des projets innovants. Dans le cadre de
-            ma formation, j'ai réalisé de nombreux projets professionnels pour
-            développer mes "hard skills" et renforcer mes connaissances dans le
-            domaine de la création web.
-          </p>
-        </div>
+        <div className="describe_container">
+          <div className="describe_box animText">
+            <p className="bdInfo">
+              Développeur web passionné et motivé, je cherche à intégrer une
+              entreprise et contribuer à des projets innovants. Dans le cadre de
+              ma formation, j'ai réalisé de nombreux projets professionnels pour
+              développer mes "hard skills" et renforcer mes connaissances dans
+              le domaine de la création web.
+            </p>
+          </div>
 
-        <img className="photoOfMeImg" src={moiPeinture} alt="Moi" />
+          <img className="photoOfMeImg" src={moiPeinture} alt="Moi" />
 
-        <div className="describe_box animText">
-          <p className="bdInfo">
-            Cette expérience m'a permis d'acquérir une solide expertise et de
-            mettre en pratique les concepts et les méthodologies que j'ai appris
-            au cours de ma formation. Je continue de progresser dans ce domaine
-            en travaillant sur des projets personnels qui me permettent de
-            mettre en pratique mes compétences et d'acquérir de nouvelles
-            connaissances.
-          </p>
+          <div className="describe_box animText">
+            <p className="bdInfo">
+              Cette expérience m'a permis d'acquérir une solide expertise et de
+              mettre en pratique les concepts et les méthodologies que j'ai
+              appris au cours de ma formation. Je continue de progresser dans ce
+              domaine en travaillant sur des projets personnels qui me
+              permettent de mettre en pratique mes compétences et d'acquérir de
+              nouvelles connaissances.
+            </p>
+          </div>
         </div>
       </div>
       {/* test */}
+
+      <div className="interTitle">
+        <h2>Mes services / Mes Compétences</h2>
+      </div>
 
       <div className="skillsBox bg1">
         <div className="skillBox_Container1">

@@ -9,6 +9,18 @@
   animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
+.describe_container {
+  width: 100%;
+  backdrop-filter: brightness(40%);
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
 .photoOfMeImg {
   width: 15rem;
   z-index: 1;
@@ -26,7 +38,7 @@
   justify-content: center;
   align-items: center;
   padding: 1rem;
-
+  min-height: 100px;
   border-radius: 20px;
   border: black 1px solid;
 
@@ -72,6 +84,18 @@
 .bdInfo {
   font-family: "Chewy", cursive;
 }
+/*InterTitle*/
+.interTitle {
+  color: white;
+  width: 80%;
+  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+.interTitle > h2 {
+  font-size: 25px;
+  padding: 0.5rem 0;
+}
 
 /*RUBRIQUE 2*/
 
@@ -85,12 +109,13 @@
   border-right: 1px solid black;
   border-left: 1px solid black;
   padding: 1rem 0;
+  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 /*Container 1*/
 .skillBox_Container1 {
-  width: 48%;
+  width: 45%;
   min-height: 450px;
-  border-radius: 10px;
+
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -102,11 +127,10 @@
   background-color: rgba(255, 255, 255, 0.747);
   color: $text-black;
   width: 80%;
-  border-radius: 10px;
+  border-radius: 3px;
   transition: 300ms;
   margin: 0.25rem 0;
   padding: 0.5rem 0;
-  border: 1px solid $colorBlackHover;
 }
 .skillBox_Container1 > .titleArticle:hover {
   background-color: $colorBlackHover;
@@ -114,9 +138,9 @@
 }
 /*Container 2*/
 .skillBox_Container2 {
-  width: 48%;
+  width: 45%;
   min-height: 450px;
-  border-radius: 10px;
+
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -140,6 +164,12 @@
   .skillsBox {
     width: 90%;
   }
+  .interTitle {
+    width: 90%;
+  }
+  .describe_container {
+    flex-direction: column;
+  }
 
   .skillBox_Container1 {
     width: 100%;
@@ -158,7 +188,8 @@
   }
 
   .describe_box {
-    width: 85%;
+    width: 75%;
+    min-width: 250px;
   }
 
   .photoOfMeImg {

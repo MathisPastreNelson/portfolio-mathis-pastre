@@ -22,8 +22,7 @@
   background-color: $colorbg3;
   padding: 0.2rem 0;
   width: 80%;
-  border-radius: 10px;
-  border: 1px solid black;
+  border-radius: 3px;
   margin: 0.3rem 0;
   color: $text-black;
 }
@@ -31,7 +30,7 @@
 /* Icone individuel */
 
 .iconBloc {
-  width: 90px;
+  width: 80px;
 }
 
 .bgIcon {
@@ -123,7 +122,7 @@
 
 @media (max-width: 776px) {
   .iconBloc {
-    width: 48px;
+    width: 60px;
   }
 
   .bgIcon {
