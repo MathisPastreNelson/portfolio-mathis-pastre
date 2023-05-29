@@ -18,7 +18,7 @@ export default function Footer() {
         rel="noopener noreferrer"
         href="https://www.linkedin.com/in/mathis-pastre/">
         <LinkedinOutlined />
-        <h3>Linkdin</h3>
+        <h3>Linkedin</h3>
       </a>
       <a
         target="_blank"

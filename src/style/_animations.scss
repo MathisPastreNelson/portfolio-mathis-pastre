@@ -1,16 +1,3 @@
-/* Animation du background body */
-@keyframes bgMove {
-  0% {
-    background-position: top;
-  }
-  50% {
-    background-position: bottom;
-  }
-  100% {
-    background-position: top;
-  }
-}
-
 .anim1 {
   animation: swing-in-bottom-fwd 400ms;
 }

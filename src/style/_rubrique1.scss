@@ -1,21 +1,12 @@
 .who_container {
-  border-radius: 10px;
-  box-shadow: 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px 10px 0 0;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
   width: 80%;
   transition-property: all;
   transition-property: transform;
-  border: 1px solid black;
   animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-}
-
-.helpUser {
-  color: white;
-  font-size: 24px;
-  z-index: 2;
-}
-
-.who_container:hover > .helpUser {
-  display: none;
 }
 
 .photoOfMeImg {
@@ -23,7 +14,6 @@
   z-index: 1;
   border-radius: 20px;
   transition: all 1s;
-  filter: blur(5px);
 }
 
 .describe_box {
@@ -36,24 +26,21 @@
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  opacity: 0;
+
   border-radius: 20px;
   border: black 1px solid;
-  position: absolute;
+
   margin: 0.5rem 0;
 }
 
-.who_container:hover > .photoOfMeImg {
-  filter: blur(0px);
-}
-.who_container:hover .describe_box:first-child {
+.who_container .describe_box:first-child {
   opacity: 1;
   visibility: visible;
-  animation: roll-in-blurred-right 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
+  animation: roll-in-blurred-right 1s cubic-bezier(0.23, 1, 0.32, 1) both;
   position: relative;
 }
 
-.who_container:hover .describe_box:first-child:after {
+.who_container .describe_box:first-child:after {
   content: "";
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
@@ -64,14 +51,14 @@
   z-index: -1;
 }
 
-.who_container:hover .describe_box:last-child {
+.who_container .describe_box:last-child {
   opacity: 1;
   visibility: visible;
-  animation: roll-in-blurred-left 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
+  animation: roll-in-blurred-left 1s cubic-bezier(0.23, 1, 0.32, 1) both;
   position: relative;
 }
 
-.who_container:hover .describe_box:last-child:after {
+.who_container .describe_box:last-child:after {
   content: "";
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
@@ -82,19 +69,89 @@
   z-index: -1;
 }
 
-.who_container:hover .describe_box:first-child > p {
-  animation: wobble-hor-bottom 900ms ease-out;
-}
-
-.who_container:hover .describe_box:last-child > p {
-  animation: wobble-hor-bottom2 900ms ease-out;
-}
-
 .bdInfo {
   font-family: "Chewy", cursive;
 }
 
-@media (max-width: 776px) {
+/*RUBRIQUE 2*/
+
+.skillsBox {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  border-radius: 0 0px 10px 10px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  padding: 1rem 0;
+}
+/*Container 1*/
+.skillBox_Container1 {
+  width: 48%;
+  min-height: 450px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+
+  backdrop-filter: brightness(40%);
+}
+.skillBox_Container1 > .titleArticle {
+  background-color: rgba(255, 255, 255, 0.747);
+  color: $text-black;
+  width: 80%;
+  border-radius: 10px;
+  transition: 300ms;
+  margin: 0.25rem 0;
+  padding: 0.5rem 0;
+  border: 1px solid $colorBlackHover;
+}
+.skillBox_Container1 > .titleArticle:hover {
+  background-color: $colorBlackHover;
+  color: white;
+}
+/*Container 2*/
+.skillBox_Container2 {
+  width: 48%;
+  min-height: 450px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  backdrop-filter: brightness(40%);
+}
+
+.skillBox_Container2 > div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.skillBox_Container2 > div > div > div:hover div.tooltip {
+  display: block;
+}
+
+@media (max-width: 1132px) {
+  .skillsBox {
+    width: 90%;
+  }
+
+  .skillBox_Container1 {
+    width: 100%;
+  }
+
+  .skillBox_Container2 {
+    width: 100%;
+  }
+
+  .skillsBox {
+    flex-direction: column;
+  }
   .who_container {
     flex-direction: column;
     width: 90%;
@@ -112,14 +169,14 @@
   }
 
   // Flèche de l'infobulle
-  .who_container:hover .describe_box:first-child:after {
+  .who_container .describe_box:first-child:after {
     right: 60%;
     bottom: -2rem;
     rotate: 340deg;
     border-top: 70px solid rgb(255, 255, 255);
   }
 
-  .who_container:hover .describe_box:last-child:after {
+  .who_container .describe_box:last-child:after {
     left: 62%;
     top: -0rem;
     rotate: 40deg;

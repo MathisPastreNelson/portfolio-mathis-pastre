@@ -1,7 +1,10 @@
 // Mes compétences
 
 .icons_container {
-  width: 100%;
+  width: 45%;
+  min-height: 450px;
+  border: 1px solid black;
+  background-color: green;
 }
 
 .icons_container > div {
@@ -16,9 +19,11 @@
 }
 
 .titleOfSkills {
-  background-color: rgba(255, 255, 255, 0.651);
+  background-color: $colorbg3;
   padding: 0.2rem 0;
-  width: 100%;
+  width: 80%;
+  border-radius: 10px;
+  border: 1px solid black;
   margin: 0.3rem 0;
   color: $text-black;
 }
