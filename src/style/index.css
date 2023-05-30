@@ -395,7 +395,7 @@ header {
 }
 .navButton {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   margin: 0.25rem;
@@ -403,14 +403,14 @@ header {
 
 .buttonSwitchComponent {
   border: 0px;
-  height: 40px;
-  width: 135px;
+  height: 5rem;
+  width: 25%;
   margin: 0.25rem;
   transition: all 200ms;
   border-radius: 5px;
   background-color: rgba(189, 221, 219, 0.685);
   color: rgb(29, 29, 29);
-  font-size: 18px;
+  font-size: 22px;
   cursor: none;
   display: flex;
   align-items: center;
@@ -555,8 +555,8 @@ header {
 }
 
 .skillBox_Container1 > .titleArticle {
-  background-color: rgba(255, 255, 255, 0.747);
-  color: rgb(29, 29, 29);
+  background-color: rgba(0, 0, 0, 0.753);
+  color: white;
   width: 80%;
   border-radius: 3px;
   transition: 300ms;
@@ -565,8 +565,8 @@ header {
 }
 
 .skillBox_Container1 > .titleArticle:hover {
-  background-color: rgba(0, 0, 0, 0.842);
-  color: white;
+  background-color: rgba(240, 255, 255, 0.718);
+  color: rgb(29, 29, 29);
 }
 
 /*Container 2*/
@@ -692,7 +692,7 @@ header {
 
 .title:hover > div {
   transform: scale(1.05);
-  background-color: rgba(0, 0, 0, 0.842);
+  background-color: rgba(0, 0, 0, 0.753);
   box-shadow: 0px 0px rgb(0, 0, 0);
   color: white;
 }
@@ -730,22 +730,6 @@ div > p {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-}
-
-.article > div > .titleArticle {
-  background-color: rgba(255, 255, 255, 0.747);
-  color: rgb(29, 29, 29);
-  width: 80%;
-  border-radius: 10px;
-  transition: 300ms;
-  margin: 0.25rem 0;
-  padding: 0.5rem 0;
-  border: 1px solid rgba(0, 0, 0, 0.842);
-}
-
-.article > .titleArticle:hover {
-  background-color: rgba(0, 0, 0, 0.842);
-  color: white;
 }
 
 @media (max-width: 776px) {

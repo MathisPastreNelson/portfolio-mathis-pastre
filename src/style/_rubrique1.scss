@@ -124,8 +124,8 @@
   backdrop-filter: brightness(40%);
 }
 .skillBox_Container1 > .titleArticle {
-  background-color: rgba(255, 255, 255, 0.747);
-  color: $text-black;
+  background-color: $colorBlackHover;
+  color: white;
   width: 80%;
   border-radius: 3px;
   transition: 300ms;
@@ -133,8 +133,8 @@
   padding: 0.5rem 0;
 }
 .skillBox_Container1 > .titleArticle:hover {
-  background-color: $colorBlackHover;
-  color: white;
+  background-color: $colorbg3;
+  color: $text-black;
 }
 /*Container 2*/
 .skillBox_Container2 {

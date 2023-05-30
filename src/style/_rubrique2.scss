@@ -89,20 +89,6 @@ div > p {
   align-items: center;
 }
 
-.article > div > .titleArticle {
-  background-color: rgba(255, 255, 255, 0.747);
-  color: $text-black;
-  width: 80%;
-  border-radius: 10px;
-  transition: 300ms;
-  margin: 0.25rem 0;
-  padding: 0.5rem 0;
-  border: 1px solid $colorBlackHover;
-}
-.article > .titleArticle:hover {
-  background-color: $colorBlackHover;
-  color: white;
-}
 @media (max-width: 776px) {
   .article {
     width: 90%;
