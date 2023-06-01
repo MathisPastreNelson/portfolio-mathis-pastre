@@ -768,12 +768,12 @@ div > p {
 }
 
 .titleOfSkills {
-  background-color: rgba(240, 255, 255, 0.718);
+  background-color: rgba(0, 0, 0, 0.753);
   padding: 0.2rem 0;
   width: 80%;
   border-radius: 3px;
   margin: 0.3rem 0;
-  color: rgb(29, 29, 29);
+  color: white;
 }
 
 /* Icone individuel */
