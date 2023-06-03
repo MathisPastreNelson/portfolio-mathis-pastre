@@ -31,3 +31,9 @@
 .buttonSwitchComponent.active {
   background-color: rgba(210, 255, 180, 0.747);
 }
+
+@media (max-width: 1132px) {
+  .buttonSwitchComponent {
+    font-size: 18px;
+  }
+}
