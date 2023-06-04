@@ -33,7 +33,7 @@ export default function Main() {
         <button
           className={`buttonSwitchComponent ${component === 5 ? "active" : ""}`}
           onClick={page5}>
-          Contactez moi
+          Contact
         </button>
       </nav>
 
