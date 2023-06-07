@@ -3,7 +3,7 @@ export const projects = [
     id: 13,
     name: "AI Generation",
     image: require("../assets/AiGeneration.png"),
-    description: `Bienvenue sur mon site de galerie de photos générées par Stable Diffusion, une intelligence artificielle spécialisée dans la création d'art visuel. Ce site offre une démonstration de l'IA à créer des dessins dans tous les styles imaginables, à partir de prompts simples.`,
+    description: `Bienvenue sur mon site de galerie de photos générées par Stable Diffusion, une intelligence artificielle spécialisée dans la création d'art visuel. Ce site offre une démonstration de l'IA à créer des dessins dans tous les styles imaginables, à partir de prompts.`,
     link: "https://mathispastrenelson.github.io/ai-generation/",
     technologies: [
       "Stable-Diffusion",
