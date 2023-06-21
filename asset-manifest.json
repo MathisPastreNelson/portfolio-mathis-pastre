@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-mathis-pastre/static/css/main.f47079bd.css",
-    "main.js": "/portfolio-mathis-pastre/static/js/main.4dfb1156.js",
+    "main.css": "/portfolio-mathis-pastre/static/css/main.a67dea7e.css",
+    "main.js": "/portfolio-mathis-pastre/static/js/main.e5c3f331.js",
     "static/js/787.8f6cd68f.chunk.js": "/portfolio-mathis-pastre/static/js/787.8f6cd68f.chunk.js",
     "static/media/Omega.png": "/portfolio-mathis-pastre/static/media/Omega.733376b00aea1109f5a9.png",
     "static/media/Mouffette.png": "/portfolio-mathis-pastre/static/media/Mouffette.aa58ae1619e112ca615d.png",
@@ -19,14 +19,15 @@
     "static/media/moisansfond2.png": "/portfolio-mathis-pastre/static/media/moisansfond2.9cab2e7ddd42acd24e35.png",
     "static/media/figma.png": "/portfolio-mathis-pastre/static/media/figma.257be656edf0ba88404e.png",
     "static/media/logo.png": "/portfolio-mathis-pastre/static/media/logo.03f6ab1507879fee383c.png",
+    "static/media/nuxtIcon.png": "/portfolio-mathis-pastre/static/media/nuxtIcon.149f1fd7f53d1d9ce5c5.png",
     "static/media/mongoDB.png": "/portfolio-mathis-pastre/static/media/mongoDB.4d1763a20af23f3dbc1d.png",
     "index.html": "/portfolio-mathis-pastre/index.html",
-    "main.f47079bd.css.map": "/portfolio-mathis-pastre/static/css/main.f47079bd.css.map",
-    "main.4dfb1156.js.map": "/portfolio-mathis-pastre/static/js/main.4dfb1156.js.map",
+    "main.a67dea7e.css.map": "/portfolio-mathis-pastre/static/css/main.a67dea7e.css.map",
+    "main.e5c3f331.js.map": "/portfolio-mathis-pastre/static/js/main.e5c3f331.js.map",
     "787.8f6cd68f.chunk.js.map": "/portfolio-mathis-pastre/static/js/787.8f6cd68f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f47079bd.css",
-    "static/js/main.4dfb1156.js"
+    "static/css/main.a67dea7e.css",
+    "static/js/main.e5c3f331.js"
   ]
 }
