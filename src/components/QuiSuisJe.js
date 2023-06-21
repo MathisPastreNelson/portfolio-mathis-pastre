@@ -20,10 +20,12 @@ import {
   FaHtml5,
   FaNetworkWired,
   FaNode,
+  FaVuejs,
 } from "react-icons/fa";
 
 import figmaIcon from "../assets/icons/figma.png";
 import mongodbIcon from "../assets/icons/mongoDB.png";
+import nuxtIcon from "../assets/icons/nuxtIcon.png";
 
 export default function QuiSuisJe() {
   return (
@@ -140,6 +142,15 @@ export default function QuiSuisJe() {
               <div className="iconAnimation iconBloc">
                 <FaReact className="skillIcons reactIcon bgIcon" />
                 <div className="tooltip">React</div>
+              </div>
+              <div className="iconAnimation iconBloc">
+                <FaVuejs className="skillIcons vueIcon bgIcon" />
+                <div className="tooltip">Vue</div>
+              </div>
+
+              <div className="iconAnimation iconBloc">
+                <img className="nuxtIcons  bgIcon" src={nuxtIcon} alt="" />
+                <div className="tooltip">Nuxt</div>
               </div>
               <div className="iconAnimation iconBloc">
                 <FaNode className="skillIcons nodejsIcon bgIcon" />

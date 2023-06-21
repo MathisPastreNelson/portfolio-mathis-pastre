@@ -770,6 +770,10 @@ div > p {
 
 .icons_container_lineDisplay {
   display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
 }
 
 .titleOfSkills {
@@ -833,8 +837,12 @@ div > p {
   color: rgb(150, 150, 253);
 }
 
-.angularIcon {
-  color: rgb(255, 64, 64);
+.vueIcon {
+  color: green;
+}
+
+.nuxtIcons {
+  width: 40px;
 }
 
 .sassIcon {
@@ -884,6 +892,9 @@ div > p {
     font-size: 12px;
   }
   .figmaIcon {
+    width: 35px;
+  }
+  .nuxtIcons {
     width: 35px;
   }
 }
