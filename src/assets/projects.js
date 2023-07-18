@@ -1,14 +1,5 @@
 export const projects = [
   {
-    id: 14,
-    name: "Improvize",
-    image: require("../assets/Improvize.png"),
-    description: `Voici mon projet réalisé pour la société Improvize. L'objectif était d'intégrer une maquette créée sur Figma en utilisant Nuxt, un framework basé sur Vue.js. J'ai travaillé sur la création d'un front-end dynamique en reliant ce dernier à un backend qui gère la connexion des utilisateurs et l'affichage des produits.`,
-    link: "https://github.com/MathisPastreNelson/DEVELOPPEUR_FRONT_TEST",
-    technologies: ["VueJS", "NuxtJS", "API"],
-    date: `Juin 2023`,
-  },
-  {
     id: 13,
     name: "AI Generation",
     image: require("../assets/AiGeneration.png"),
